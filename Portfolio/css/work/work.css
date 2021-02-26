@@ -1,0 +1,389 @@
+.bg:hover{
+    transform: scale(1.1);
+}
+.fs-carousel-title1{
+    background-color:rgba(90,144,190,0.85);
+}
+.overlay1{
+    background:rgba(90,144,190,0.3);
+}
+.overlay1:hover{
+    background:rgba(90,144,190,0);
+}
+.fs-carousel-title2{
+    background-color:rgba(98,154,154,0.85);
+}
+.overlay2{
+    background:rgba(98,154,154,0.3);
+}
+.overlay2:hover{
+    background:rgba(98,154,154,0);
+}
+.fs-carousel-title3{
+    background-color:rgba(184,128,140,0.8);
+}
+.overlay3{
+    background:rgba(184,128,140,0.3);
+}
+.overlay3:hover{
+    background:rgba(184,128,140,0);
+}
+.fs-carousel-title4{
+    background-color:rgba(209,161,131,0.85);
+}
+.overlay4{
+    background:rgba(209,161,131,0.3);
+}
+.overlay4:hover{
+    background:rgba(209,161,131,0);
+}
+.fs-carousel-titlecat span{
+    display: inline-block;
+    float: left;
+    border: #ffffff 1px solid;
+    border-radius: 19px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 30%;
+}
+.fs-carousel-titlecat span:nth-of-type(1){
+    margin-right: 5%;
+}
+.fs-carousel-titlecat span:nth-of-type(2){
+    text-align: center;
+}
+.fs-carousel-titlecat span:nth-of-type(3){
+    float: right;
+}
+.fs-carousel-title h5{
+    color: #ffffff;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+.eltdf-st-button{
+    float: left;
+    outline: none;
+    margin-bottom: 22px;
+}
+.eltdf-btn{
+    margin:47px 0 0;
+}
+.eltdf-btn.eltdf-btn-light-style,.eltdf-404-page .eltdf-btn.eltdf-btn-light-style:hover{
+    color:#fff!important;
+}
+.eltdf-btn{
+    white-space:nowrap;
+}
+.eltdf-btn,.eltdf-btn.eltdf-btn-simple .eltdf-btn-text{
+    display:inline-block;
+    vertical-align:middle;
+}
+.eltdf-btn{
+    position:relative;
+    width:auto;
+    margin:0;
+    font-size:14px;
+    line-height:1.5;
+    letter-spacing:.1em;
+    box-sizing:border-box;
+    -webkit-transition:color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    -moz-transition:color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;transition:color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    padding:14px;
+    cursor:pointer;
+}
+.eltdf-btn-default{
+    cursor: default;
+}
+.eltdf-btn,.eltdf-btn:hover,.eltdf-btn:focus,.eltdf-btn:active{
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+.eltdf-btn.eltdf-btn-simple{
+    padding:10px 20px 16px 20px;
+    font-size:14px;
+    background-color:transparent;
+    color: #ffffff;
+    border:0
+}
+.eltdf-btn.eltdf-btn-simple.eltdf-btn-small{
+    padding:7px 13px 8px;
+    font-size:11px;}
+.eltdf-btn.eltdf-btn-simple.eltdf-btn-small .eltdf-btn-cover{
+    width:25px;
+}
+.eltdf-btn.eltdf-btn-simple.eltdf-btn-small:hover .eltdf-btn-cover{
+    width:100%;
+}
+.eltdf-btn.eltdf-btn-simple.eltdf-btn-large{
+    padding:19px 24px 20px;
+    font-size:16px;
+}
+.eltdf-btn.eltdf-btn-simple.eltdf-btn-large .eltdf-btn-cover{
+    width:40px;
+}
+.eltdf-btn.eltdf-btn-simple.eltdf-btn-large:hover .eltdf-btn-cover{
+    width:100%;
+}
+.eltdf-btn.eltdf-btn-simple .eltdf-btn-cover{
+    position:absolute;
+    top:10%;
+    left:0;
+    width:51px;
+    height:80%;
+    margin:0;
+    background-color:#ffd07c;
+}
+.eltdf-btn.eltdf-btn-simple:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+    position:absolute;
+    top:10%;
+    left:64%;
+    width:51px;
+    height:80%;
+    margin:0;
+    background-color:#ffd07c;
+    opacity: 0;
+    transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
+}
+.eltdf-btn.eltdf-btn-simple>:not(.eltdf-btn-cover){
+    position:relative;
+    z-index:1;
+}
+.eltdf-btn.eltdf-btn-simple:not(.eltdf-btn-custom-hover-color):hover{
+    color:#000!important;
+}
+.eltdf-btn.eltdf-btn-simple:not(.eltdf-btn-custom-hover-bg):hover{
+    background-color:transparent!important;
+}
+.eltdf-btn.eltdf-btn-simple:not(.eltdf-btn-custom-border-hover):hover{
+    border-color:transparent!important;
+}
+.eltdf-btn.eltdf-btn-small{
+    padding:9px 14px
+}
+.eltdf-btn.eltdf-btn-large{
+    padding:14px 24px
+}
+.eltdf-btn.eltdf-btn-huge{
+    display:block;
+    text-align:center;
+    padding:14px 24px;
+}
+.eltdf-btn.eltdf-btn-icon>i,.eltdf-btn.eltdf-btn-icon>span:not(.eltdf-btn-text){
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    margin:0 0 0 4px;
+    font-size:1.142857142857143em;
+    line-height:inherit
+}
+.eltdf-btn.eltdf-btn-icon>i:before,.eltdf-btn.eltdf-btn-icon>span:not(.eltdf-btn-text):before{
+    display:block;
+    line-height:inherit;
+}
+.eltdf-btn.eltdf-btn-simple>:not(.eltdf-btn-cover){
+    position:relative;
+    z-index:1;
+}
+.eltdf-btn,.eltdf-btn.eltdf-btn-simple .eltdf-btn-text{
+    display:inline-block;
+    vertical-align:middle;
+    font-size: 14px;
+}
+.ion-ios-arrow-forward{
+    font-size: 18px;
+    top: 3px;
+    padding-left: 12px;
+    color: #ffffff;
+}
+nav .logo > a{
+    display: table-cell;
+}
+.color-bg, .color-btn, .btn:before, .btn:before, .ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y, .follow-twiit-button span, .share-container .share-icon span, .subcribe-form .subscribe-button, .close-twitter:hover, .nav-button span, .scroller, .show-share, .section-title:before, .promo-link, .close-share:hover, .scroll-nav a.act-scrlink:after, .line-item:before, .custom-inner-header:before, .custom-inner-header i, .custom-skillbar, .pr-title:before, .slick-dots li.slick-active button:before, .order-wrap h3:before, .inline-facts-wrap h6:before, .features-box h3:before, .hero-decor-numb:before, .fet_pr-carousel-box-text h3:before, .fet_pr-carousel-counter:before, .fsp-filter .gallery-filters a:after, .hd-box-wrap h2:before, .inline-filter .gallery-filters a:before, .inline-filter .folio-counter:before, .parallax-text h3:before, .show-case-title h3:before, .accordion a.toggle span, .details-wrap h3:before, .small-color-separator, .audiojs .progress, .volume-control span, .volume-control span.allvolumne, .contact-form-footer p:before, .collage-image:before, .best-price .price-head, .price-link, .album-cover-title h3:before, .video-promo-text h3:before, .fw-post h2:before, .about-widget h5:after, .serv-works-item .hidden-works-item-text h3:before, .main-about h2:before{
+    background: #ffd07c;
+}
+.header-contacts li i, .nav-holder nav li a.act-link, #twitts-container .timePosted a:before, .follow-twiit-button, #twitts-container ul li:before, .sliding-menu a i.act-link, .sliding-menu a:hover, .sliding-menu a:hover i, .submen-dec:before, .footer-contacts li i, .footer-contacts li:hover a, .nav-title:before, .sliding-menu a.back:hover:before, .scroll-nav a:hover, .scroll-nav a.act-scrlink, .section-title h2 span, .section-subtitle span, .inline-facts-wrap i, .sp-arr, .text-carousel .slick-center .text-carousel-item:before, .text-carousel .slick-center .text-carousel-item:after, .listing-rating i, .text-carousel-item a.testim-link:hover, .half-hero-wrap h1 span, .hero-decor-let, .fet_pr-carousel-cat a:hover, .fet_pr-carousel-box-media-zoom, .pin:before, .fsp-filter .filter-title i, .fsp-filter .gallery-filters a:hover, .fsp-filter .gallery-filters a.gallery-filter-active, .all-album, .hd-box-wrap p a:hover, .inline-filter .filter-button i, .load-more i, .parallax-header span, .parallax-header a:hover, .content-nav li a.ln, .content-nav li a.rn, .single-page-fixed-row-link i, .sarr-contr, .details-wrap h3 span, .pr-list li a:hover, .cur-page:hover span, .show-info:hover span, .tooltip-info h5, .inline-transparent-filter a:hover, .inline-transparent-filter .folio-counter div.all-album, .inline-transparent-filter a.gallery-filter-active, .show-case-slider-wrap-style2 .sarr-contr:hover, .hero-start-link i, .hero-start-link span:before, .single-slider-wrap .sp-cont, .fullscreen-slider-title h3 span, .hero-start-button i, .audiojs .time strong, .audiojs .play:before, .audiojs .pause:before, .playlist-wrap ol li:before, .playlist-wrap ol li.playing a.downbuy-link, .playlist-wrap ol li a.downbuy-link:hover, .playlist-wrap ol li a.audio-link:hover, .playlist-wrap ol li.playing a.audio-link, .album-download-links li a, .custom-form label i, .custom-form .verify-wrap .selectbox, .selectbox li:hover, .contact-list li i, .recomm-price i, .main-about h2 a, .event-header-item i, .buy-ticket-link, .album-cover-datils li i, .process-wrap li .process-details a:hover, .blog-btn i, .widget-wrap .tagcloud li a, .serv-zoom, .hidden-works-item-text ul li a:hover, .hidden-works-item-media-img a, .hidden-works-item.act-index .hidden-works-item-dec, .hidden-info-pagination i, .team-box .team-photo a:hover, .team-single-social li a:hover, .main-about h2 span, .fullscreen-slider-wrap .sp-cont, .fs-carousel-titlecat a, .fs-carousel-link:hover, .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover{
+    color: #ffd07c;
+}
+
+@media (max-width: 1300px){
+    .bgmr{
+        background-image:url("../../images/totalwork-marryido-1280.svg") !important;
+    }
+}
+
+@media (max-width: 1220px){
+    .bgmr{
+        background-image:url("../../images/totalwork-marryido-1024.svg") !important;
+    }
+    .bgdr{
+        background-image:url("../../images/totalwork-driver-pad.png") !important;
+    }
+}
+
+@media (max-width: 992px){
+    #wrapper{
+        position: relative;
+    }
+    .slick-cloned,.sp-cont,.slider-nav-counter,.half-slider-wrap .slick-dots,.fs-carousel-wrap .slick-dots{
+        display: none !important;
+    }
+    .slick-dotted.slick-slider{
+        margin-bottom: 0;
+    }
+    .slick-track{
+        width: 100% !important;
+        transform:none !important;
+        height: 100vh;
+    }
+    .fs-carousel-item{
+        margin: 0;
+        width: 100% !important;
+        height: 75% !important;
+    }
+    .carousle-item-number{
+        top: 64px;
+    }
+    .fs-carousel-titlecat span{
+        width: 16%;
+    }
+    .fs-carousel-titlecat span:nth-of-type(1){
+        margin-right: 3%;
+    }
+    .fs-carousel-titlecat span:nth-of-type(2){
+        margin-right: 3%;
+    }
+    .fs-carousel-titlecat span:nth-of-type(3){
+        float: left;
+    }
+    nav.navbar.bootsnav.navbar-fixed{
+        height: auto;
+    }
+    .bgms{
+        background-image:url("../../images/totalwork-micshow-pad768.png") !important;
+    }
+    .bgmr{
+        background-image:url("../../images/totalwork-marryido-pad768.svg") !important;
+    }
+    .bgch{
+        background-image:url("../../images/childrenhospital-pad900.jpg") !important;
+    }
+}
+
+@media (max-width: 850px){
+    .bgdr{
+        background-image:url("../../images/totalwork-driver-pad850.png") !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .slick-list{
+        padding: 0 !important;
+    }
+    .fs-carousel-item{
+        width: 100% !important;
+        height: 83.33333333% !important;
+    }
+    .fs-carousel-title{
+        padding: 0 16px;
+    }
+    .fs-carousel-titlecat span{
+        width: 30%;
+        font-size: 12px;
+        padding: 4px 12px;
+    }
+    .fs-carousel-titlecat span:nth-of-type(1){
+        margin-right: 5%;
+    }
+    .fs-carousel-titlecat span:nth-of-type(2){
+        margin-right: 0;
+    }
+    .fs-carousel-titlecat span:nth-of-type(3){
+        float: right;
+    }
+    .eltdf-btn.eltdf-btn-simple{
+        padding: 10px 20px 16px 20px;
+    }
+    .eltdf-btn-text{
+        font-size: 12px !important;
+    }
+    nav.navbar.bootsnav.navbar-fixed{
+        height: auto;
+    }
+    nav.navbar.bootsnav.navbar-fixed>.container{
+        width: 100%;
+    }
+    .logo{
+        float: left;
+    }
+    .bgch{
+        background-image:url("../../images/childrenhospital.jpg") !important;
+        background-position: right center;
+    }
+} 
+
+@media (min-width: 500px) and (max-width: 699px) {
+        .fs-carousel-titlecat span{
+            width: 24%;
+        }
+        .fs-carousel-titlecat span:nth-of-type(1){
+            margin-right: 3%;
+        }
+        .fs-carousel-titlecat span:nth-of-type(2){
+            margin-right: 3%;
+        }
+        .fs-carousel-titlecat span:nth-of-type(3){
+            float: left;
+        }
+}
+
+@media (min-width: 551px) and (max-width: 699px) {
+    .bgmr{
+        background-image:url("../../images/totalwork-marryido-pad603.svg") !important;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 550px) {
+    .bgmr{
+        background-image:url("../../images/totalwork-marryido-pad550.svg") !important;
+    }
+}
+
+@media (max-width: 550px){
+    .bgms{
+        background-image:url("../../images/totalwork-micshow.jpg") !important;
+    }
+}
+
+@media (max-width: 500px){
+    .bgmr{
+        background-image:url("../../images/totalwork-marryido-pad480.svg") !important;
+    }
+    .bgch{
+        background-image:url("../../images/childrenhospital-phone414.jpg") !important;
+    }
+    .bgdr{
+        background-image:url("../../images/totalwork-driver-pad.png") !important;
+    }
+}
+
+@media (max-width: 450px){
+    .bgmr{
+        background-image:url("../../images/totalwork-marryido-pad414.svg") !important;
+    }
+    .bgdr{
+        background-image:url("../../images/totalwork-driver-pad414.png") !important;
+    }
+    
+}
+
+
+
+/*
+　pad和手機版要恢復輪播，只要把從max-width:992px之後的程式全部刪掉即可
+*/

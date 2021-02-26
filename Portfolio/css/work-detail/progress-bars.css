@@ -1,0 +1,75 @@
+.clear {
+	clear: both;
+}
+.visible {
+	visibility: visible;
+}
+.progress-bars {
+	height: auto;
+	padding: 0 32px;
+}
+.progress-bars1{
+	padding-left: 0;
+}
+.progress-bars2{
+	padding-right: 0;
+}
+.main_title {
+	font-size: 18px;
+	color: #222F62;
+	margin: 22px 0 16px 0 ;
+	text-align: left;
+}
+.progress-bar {
+	padding: 6px 8px;
+	text-align: left;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+	width: 0;
+}
+.progress-content {
+	background: rgba(222,236,255,0.8);
+	border:1px solid #D5E3F8;	
+	padding: 40px;
+	border-radius: 8px;
+}
+.progress {
+	background: #DDDDDD;
+	box-shadow: 0 0 0;
+	height: 20px;
+    overflow: hidden;
+	border-radius: 4px;
+	margin-bottom: 0;
+}
+.progress-bar-danger {
+	background: #73e9ff; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #73e9ff 0%, #5888ff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #73e9ff 0%,#5888ff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #73e9ff 0%,#5888ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73e9ff', endColorstr='#5888ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+/* Progress Texts */
+
+.progress-texts span {
+	color: #222F62;
+    display: block;
+    font-size: 16px;
+    padding: 0 0 8px 0;
+}
+.progress-texts .progress-name {
+	float: left;
+	text-transform: uppercase;
+}
+.progress-texts .progress-value {
+	float: right;
+}
+.progress.active .progress-bar, .progress-bar.active{
+	animation: none;
+}
+.bars-item{
+	margin-bottom: 28px;
+}
+.bars-item:nth-last-child(1){
+	margin-bottom: 0;
+}

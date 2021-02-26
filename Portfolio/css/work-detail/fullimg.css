@@ -1,0 +1,67 @@
+/* --------------------------------- */
+/* Css Styles                        */
+/*---------------------------------- */
+
+/**
+    Cenky  - Portfolio Template 
+    Author : Soonlabs
+    Copyright 2019
+
+
+/* Table of Content
+==================================================
+
+    1. Body and Core Css
+    2. Home Page
+    3. About Page
+    4. Portfolio List
+    5. News Page
+    6. Contact Page
+    7. Responsive
+*/ 
+
+@import url("margins.css");
+@import url("reset.css");
+@import url("assets.css");
+
+/*------------------------ 1 Body and Core Css ------------------------*/   
+
+
+.lightbox-gallery .image {
+  margin-top: 32px;
+  display: block;
+  overflow: hidden;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+}
+
+.lightbox-gallery .col.lg-12 .image{
+  margin-bottom: 30px;
+}
+
+.lightbox-gallery .image img {
+  width: 100%;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+}
+
+.lightbox:hover img {
+  transform: scale(1.13);
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+}
+
+.full-image{
+    background: url(../img/works/work-1/04.jpg) center center no-repeat fixed;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+           }

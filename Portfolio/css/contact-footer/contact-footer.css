@@ -1,0 +1,337 @@
+body {
+	color: #515151
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #262626
+}
+img {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+	user-drag: none
+}
+.dark, .dark .btn:hover, .dark a, .dark button, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark input, .dark span {
+	color: #fff
+}
+.btn-black, .btn-gold, .btn-white {
+	border: 2px solid #c59d5f;
+	padding: 6px 25px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	text-transform: uppercase;
+	height: 40px;
+	line-height: 1.7;
+	font-size: 13px;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease
+}
+.btn-gold {
+	background-color: transparent
+}
+.extra_touch .btn {
+	margin-top: 20px
+}
+::selection {
+	background: #c59d5f;
+	color: #fff
+}
+.black {
+	color: #262626
+}
+.padding-50 {
+	padding: 50px 0
+}
+a {
+	color: #262626;
+	text-decoration: none
+}
+#footer {
+	font-size: 13px;
+	padding-bottom: 0;
+	position: relative;
+}
+.footer_logo {
+	margin-top: 50px;
+	padding: 40px 0
+}
+#footer p {
+	color: #7a7a7a
+}
+.footer_logo p {
+	margin-top: 20px;
+	margin-bottom: 0;
+	line-height: 1
+}
+.footer_logo img {
+	margin-bottom: 20px
+}
+.mt0 {
+	margin-top: 0
+}
+#contact{
+	padding: 0;
+	height: 296px;
+}
+#contact>.col-lg-4{
+	background-color: #374C9F;
+}
+#triangle{
+	position: absolute;
+	transform:rotate(-90deg);
+	top: 136px;
+	right: -37px;
+	z-index: 1;
+}
+#triangle img{
+	vertical-align:middle;
+}
+#contact h3{
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.5;
+	font-weight: 700;
+	margin: 0;
+	padding: 112px 32px;
+}
+#contact .col-lg-8{
+	padding: 0;
+}
+#contact .col-lg-8 .col-lg-4{
+	padding: 0;
+	height: 296px;
+}
+#contact .col-lg-8>.col-lg-4:nth-of-type(1){
+	background:url('../../images/mobile-apps.jpg') ;
+	background-size: cover;
+	background-position:center;
+}
+#contact .col-lg-8>.col-lg-4:nth-of-type(2){
+	background:url('../../images/websites.jpg') ;
+	background-size: cover;
+	background-position:center;
+}
+#contact .col-lg-8>.col-lg-4:nth-of-type(3){
+	background:url('../../images/interaction-design.jpg') ;
+	background-size: cover;
+	background-position:center;
+}
+#contact .col-lg-8 .col-lg-4>div{
+	height: 100%;
+	background: linear-gradient(0deg, rgba(34, 47, 98, 0.7) 30%, transparent 80%);
+}
+#contact .col-lg-8 .col-lg-4 a>div{
+	display: flex;
+	justify-content: center;
+	padding-top: 236px;
+}
+#contact h4{
+	color: #ffffff;
+	display: inline-block;
+	margin: 0;
+}
+#contact i{
+	font-size: 22px;
+	top: 0;
+	padding-left: 24px;
+	margin-top: -6px;
+}
+#footer{
+	background-color: #26356F;
+	height: 108px;
+	overflow:hidden
+}
+#footer .col-lg-12{
+	text-align: center;
+	padding: 0 32px;
+	top:calc(50% - 26px);
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+}
+#footer strong{
+	font-weight: 700;
+	color:#FFDC8E;
+	text-align: left;
+	display: inline-block;
+}
+#footer h5{
+	line-height: 1.8;
+	margin: 0 auto;
+}
+#footer h5 span{
+	color: rgba(255, 255, 255, 0.7);
+}
+#footer a{
+	color: rgba(255, 255, 255, 0.7);
+	outline: none;
+}
+#footer a:hover{
+	color: rgba(255, 255, 255, 1);
+}
+#footer .col-lg-4{
+	padding: 0;
+	text-align: left;
+}
+#footer .col-lg-4 strong{
+	display: block;
+}
+#footer .col-lg-4:nth-child(2){
+	display: flex;
+}
+#footer .col-lg-4:nth-child(3){
+	text-align: right;
+}
+#footer .col-lg-4:nth-child(3) strong{
+	text-align: right;
+}
+@media (min-width: 900px) and (max-width: 1100px){
+	#contact{
+		height: auto;
+	}
+	#contact>.col-lg-4,#contact .col-lg-8{
+		width: 100%;
+	}
+	#contact .col-lg-8>.col-lg-4{
+		width: 33.33333333%;
+	}
+	#triangle{
+		transform: rotate(0deg);
+		top: 127px;
+		left: 46%;
+		right: 0;
+	}
+	#contact h3{
+		padding: 32px;
+	}
+	#contact .col-lg-8>.col-lg-4:nth-of-type(1){
+		background-position: left center;
+	}
+	#contact i{
+		margin-top: -5px;
+	}
+	#footer .col-lg-12{
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 767px) and (max-width: 899px){
+	#contact{
+		height: auto;
+	}
+	#contact>.col-lg-4,#contact .col-lg-8{
+		width: 100%;
+	}
+	#contact .col-lg-8>.col-lg-4{
+		width: 33.33333333%;
+	}
+	#triangle{
+		transform: rotate(0deg);
+		top: 127px;
+		left: 46%;
+		right: 0;
+	}
+	#contact h3{
+		padding: 32px;
+	}
+	#contact .col-lg-8>.col-lg-4:nth-of-type(1){
+		background-position: left center;
+	}
+	#contact i{
+		margin-top: -2px;
+	}
+	#footer .col-lg-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 766px){
+	#contact{
+		height: auto;
+	}
+	#triangle{
+		transform: rotate(0deg);
+		left: 46%;
+		right: 0;
+		top: 117px;
+	}
+	#triangle img{
+		width: 40px;
+	}
+	#contact h3{
+		padding: 32px;
+	}
+	#contact .col-lg-8>.col-sm-12{
+		width: 100%;
+	}
+	#contact .col-lg-8 .col-lg-4{
+		height: 192px;
+	}
+	#contact .col-lg-8 .col-lg-4>div{
+		background: linear-gradient(0deg, rgba(34, 47, 98, 0.7) 15%, transparent 70%);
+	}
+	#contact .col-lg-8 .col-lg-4 a>div{
+		padding-top: 80px;
+	}
+	#contact .col-lg-8>.col-lg-4:nth-of-type(1){
+		background:url('../../images/mobile-apps-phone.jpg') ;
+		background-size: cover;
+		background-position:center;
+	}
+	#contact .col-lg-8>.col-lg-4:nth-of-type(2){
+		background:url('../../images/websites-phone.jpg') ;
+		background-size: cover;
+		background-position:center;
+	}
+	#contact .col-lg-8>.col-lg-4:nth-of-type(3){
+		background:url('../../images/interaction-design-phone.jpg') ;
+		background-size: cover;
+		background-position:center;
+	}
+	#contact i{
+		font-size: 20px;
+		margin-top: 2px;
+	}
+	#footer{
+		height: 171px;
+	}
+	#footer .col-lg-12{
+		padding: 0 16px;
+		top:32px;
+	}
+	#footer .col-lg-4{
+		margin-bottom: 16px;
+	}
+	#footer .col-lg-4:nth-child(2){
+		display: inline-block;
+	}
+	#footer .col-lg-4:nth-child(3){
+		text-align: left;
+		margin-bottom: 0;
+	}
+	#footer .col-lg-4 strong{
+		display: inline-block;
+		width: 56px;
+		margin-right: 24px;
+	}
+	#footer .col-lg-4:nth-child(3) strong{
+		text-align: left;
+	}
+}
+
+@media (min-width: 530px) and (max-width: 766px) {
+	#footer{
+		height:124px;
+	}
+	#footer .col-lg-4:nth-of-type(1){
+		width: 60%;
+	}
+	#footer .col-lg-4:nth-of-type(2){
+		width: 40%;
+	}
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+body {
+    font-family: 'Noto Sans TC', 'Raleway', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #222F62;
+    background-color: ;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 28px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+    
+    h6 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+    
+    h6 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .strong{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .lightboxp{
+        font-size: 12px !important;
+    }
+}

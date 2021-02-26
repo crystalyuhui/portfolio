@@ -1,0 +1,4430 @@
+.padr0{
+  padding-right: 0;
+}
+.padr30{
+  padding-right: 30px;
+}
+.padr48{
+  padding-right: 48px;
+}
+.padl0{
+  padding-left: 0;
+}
+.padl24{
+  padding-left: 24px;
+}
+.padl32{
+  padding-left: 32px;
+}
+.padl62{
+  padding-left: 62px;
+  margin-top:16px;
+}
+.padb96{
+  padding-bottom: 96px;
+}
+.marl56{
+  margin-left: 56px;
+}
+.mart72{
+  margin: 72px 0 0 0 !important;
+}
+.martb72{
+  margin: 72px 0 !important;
+}
+.martb32{
+  margin: 32px 0 !important;
+}
+.mart136{
+  margin: 136px 0 0 0 !important;
+}
+.mart200{
+  margin: 200px 0 0 0 !important;
+}
+.strong{
+  background-color:#f0b9bf;
+  font-size:18px;
+  font-weight:700;
+}
+.strong1{
+  background-color:#FFAB89;
+  color: #222F62 !important;
+  font-size:18px;
+  font-weight:700;
+}
+.blod{
+  font-weight: 700;
+}
+.text-l{
+  text-align: left !important;
+}
+p{
+  line-height: 2 !important;
+}
+section{
+  background: none;
+}
+.blue_bg, .v_royal_blue{
+  background-color:#F0F0FA;
+}
+#preloader {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 5000;
+}
+#preloader .logo{
+  margin-bottom: 10px;
+}
+#preloader.loaded .loading-area {
+  opacity: 0;
+}
+#preloader.loaded{
+  visibility: hidden;
+} 
+#preloader .loading-area {
+  opacity: 1;
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #828282;
+} 
+#preloader.loaded .left-side {
+  transform: translateX(-100%);
+}
+#preloader .left-side {
+  left: 0;
+}
+#preloader.loaded .right-side {
+  transform: translateX(100%);
+}
+#preloader .right-side {
+  right: 0;
+}
+#preloader .left-side, #preloader .right-side {
+  background: #111;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#home_section{
+  height: 100vh;
+}
+#home_section>.container{
+  height: 100%;
+  background-image: url(../../images/marry-banner.svg);
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.align-items-center{
+  height: 100%;
+}
+#home_section .align-items-center{
+  width: 76%;
+  margin: 0 auto !important;
+}
+#home_section .col-lg-7{
+  float: none;
+  margin-top: 36px;
+}
+#home_section h4{
+  margin: 24px 0 !important;
+}
+#home_section li{
+  position: relative;
+  margin: 16px 0 !important;
+}
+#home_section i{
+  color: #ffffff;
+  font-size: 28px;
+  position: absolute;
+  top: -8px;
+}
+#home_section ul span{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 36px;
+}
+/*#home_section .align-items-center{
+  background:linear-gradient(130deg, rgba(0, 135, 194, 0.4) 55%, transparent 60%);
+}*/
+.banner_text{
+  padding: 0;
+}
+.h2768{
+  display: none;
+}
+.onespan375{
+  display: none;
+}
+.oneh4768{
+  display: none;
+}
+.fs-carousel-titlecat{
+  height: 31px;;
+}
+.fs-carousel-titlecat span{
+  display: inline-block;
+  float: left;
+  border: #ffffff 1px solid;
+  border-radius: 19px;
+  padding: 4px 12px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  width: 30%;
+  text-align: center;
+}
+.fs-carousel-titlecat span:nth-of-type(1){
+    margin-right: 5%;
+}
+.fs-carousel-titlecat span:nth-of-type(3){
+    float: right;
+}
+.order-lg-first{
+    padding: 0;
+}
+#home_section .order-lg-first{
+  padding-right: 32px;
+  margin-top: 16px;
+}
+.detailimg{
+    padding: 52px 0 0 0;
+}
+.detailimg img{
+    float: right;
+}
+.line{
+    position: absolute;
+    left: 50%;
+    top: 92%;
+}
+.scroll-line::before{
+    background: linear-gradient(180deg,#fff5cd,#ffd07c);
+}
+.v_royal_blue{
+    overflow-x: hidden;
+}
+#introduction{
+  padding: 64px 0;
+  height: auto;
+  background-image: url(../../images/marry-introduction.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#problem{
+  background-image: url(../../images/marry-problem.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#challenge{
+  background-image: url(../../images/marry-challenge.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box_wrap{
+  margin-top: 0;
+}
+#introduction h4{
+  color: #f0b9bf;
+  text-align: left;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+}
+#introduction p{
+  color: #58638E;
+  text-align: left;
+  line-height: 1.5 !important
+}
+#background{
+  padding: 0 !important;
+  background-image: url(../../images/marry-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#problem,#goal,#challenge,#survey,#result,#portfolio{
+  padding: 0 !important;
+}
+#survey,#portfolio,#next{
+    padding: 72px 0 96px 0 !important;
+}
+#survey,#portfolio{
+  padding-bottom: 0px !important;
+}
+#stakeholders{
+  padding-bottom:104px !important;
+}
+#survey{
+  background-image: url(../../images/marry-survey-top.png);
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #F0F0FA;
+}
+#survey>div{
+  background-image: url(../../images/marry-survey-bottom.png);
+  background-position: bottom center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#ia{
+  background-image: url(../../images/marry-iabg.png);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#result{
+  background-image: url(../../images/marry-result.png);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 48px 0 0 0 !important;
+}
+#process{
+  background-image: url(../../images/marry-processbg.png);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding-top: 72px ;
+  padding-bottom: 0px;
+}
+#solve{
+  background-image: url(../../images/marry-solve.png);
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#goal{
+  background-image: url(../../images/marry-goalbg.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#portfolio{
+  background-image: url(../../images/marry-portfolio-top.png);
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #FFFBFB;
+}
+#portfolio>div{
+  background-image: url(../../images/marry-portfolio-bottom.png);
+  background-position: bottom center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#usability{
+  background-image: url(../../images/marry-usability.png);
+  background-position:bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#next{
+  background-image: url(../../images/marry-next.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#background>div{
+  background-color: rgba(231,180,179, 0.7);
+}
+#background .align-items-center,#problem .align-items-center,#goal .align-items-center,#challenge .align-items-center,#survey .align-items-center{
+  margin: 0;
+}
+#goal .container{
+  background-color:rgba(231,180,179, 0.9);
+  margin: 72px 0;
+}
+#goal .align-items-center,#solve .align-items-centerr{
+  padding: 0;
+}
+#goal .col-lg-7,#challenge .col-lg-7{
+  padding: 0 0 0 88px;
+}
+#goal .col-lg-7{
+  bottom: 0px;
+}
+#goal .col-lg-4{
+  width: 28.5%;
+  padding: 0 !important;
+}
+#goal .col-lg-4:nth-of-type(2){
+  margin: 0 7.25%;
+}
+#background .col-lg-12,#problem .col-lg-12,#goal .col-lg-12,#challenge .col-lg-12,#process .col-lg-12,#survey .col-lg-12,#solve .col-lg-12,#result .col-lg-12,#ia .col-lg-12,#portfolio .col-lg-12,#found .col-lg-12,#usability .col-lg-12,#next .col-lg-12,#outcome .col-lg-12{
+  padding: 0;
+  margin: 104px 0;
+}
+#survey .col-lg-12:nth-child(2),#result .col-lg-12:nth-child(2){
+  margin: 72px 0 0 0;
+}
+#solve  .col-lg-12:nth-child(2){
+  margin: 0 0 160px 0;
+}
+#survey .col-lg-12:nth-child(2),#result .col-lg-12:nth-child(2),#solve  .col-lg-12:nth-child(2),#ia .col-lg-12:nth-child(2),#found .col-lg-12:nth-child(2),#usability .col-lg-12:nth-child(2),#next .col-lg-12:nth-child(2),#outcome .col-lg-12:nth-child(2){
+  text-align: center;
+}
+#background h3,#problem h3,#goal h3,#challenge h3,#process h3,#survey h3,#result h3,#solve h3,#ia h3,#portfolio h3,#found h3,#usability h3,#next h3,#outcome h3{
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#problem h3,#challenge h3,#process h3,#survey h3,#result h3,#solve h3,#ia h3,#portfolio h3,#usability h3,#next h3{
+  color:#f0b9bf;
+}
+#process h3, #survey h3, #result h3, #solve h3, #ia h3, #portfolio h3, #found h3, #usability h3, #next h3, #outcome h3{
+  top:120px;
+}
+.order-lg-first h2{
+  font-size: 34px;
+}
+#background h3{
+  top:160px;
+  color: rgba(255,218,227,1);
+}
+#problem h3{
+  top:136px;
+}
+#goal h3{
+  top: 200px;
+  color: rgba(255,218,227,1);
+}
+#challenge h3{
+  top: 190px;
+}
+#solve h3{
+  margin-bottom: 184px !important;
+  margin-top: 24px !important;
+}
+#solve .content{
+  margin-top: 0;
+}
+#background h3::after,#problem h3::after,#goal h3::after,#challenge h3::after,#process h3::after,#survey h3::after,#result h3::after,#solve h3::after,#ia h3::after,#portfolio h3::after,#found h3::after,#usability h3::after,#next h3::after,#outcome h3::after{ 
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 184px;
+  color: rgba(255,218,227,0.15);
+  content: "01";
+  position: absolute;
+  left: 84px;
+  background-image: url(../../images/framelight.png);
+  background-size: cover;
+  padding: 90px 56px;
+  top: -188px;
+}
+#background h3::after{
+  left: 78px;
+  width: 67%;
+
+}
+#problem h3::after{
+  color:rgba(255,218,227,0.35);
+  content: "02";
+  background-image: url(../../images/frame.png);
+}
+#goal h3::after{
+  content: "03";
+  color:rgba(255,218,227,0.2);
+}
+#challenge h3::after{
+  color: rgba(255,218,227,0.35);
+  content: "04";
+  background-image: url(../../images/frame.png);
+}
+#process h3::after{
+  content: "05";
+  left: 36%;
+  color: rgba(255,218,227,0.35);
+  background-image: url(../../images/frame.png);
+}
+#survey h3::after,#result h3::after,#solve h3::after,#ia h3::after,#portfolio h3::after,#usability h3::after,#next h3::after{
+  content: "06";
+  left: 36%;
+  color: rgba(255,218,227,0.35);
+  background-image: url(../../images/frame.png);
+}
+#result h3::after{
+  content: "07";
+  padding: 90px 60px;
+}
+#solve h3::after{
+  content: "08";
+  left: 35.7%;
+  padding: 94px 64px;
+  top: -192px;
+}
+#ia h3::after{
+  content: "09";
+  left: 35.5%;
+  padding: 90px 57px;
+}
+#portfolio h3::after{
+  content: "10";
+  padding: 90px 73px;
+}
+#next h3::after{
+  content: "12";
+  padding: 90px 74px;
+}
+#background p,#problem p,#goal p,#challenge p{
+  padding: 0;
+  text-align: left;
+  line-height: 1.8;
+}
+#background p,#problem p{
+padding-left: 88px;
+}
+#problem p,#challenge p,#survey p,#result p,#solve p,#ia p,#portfolio p,#usability p,#next p,#outcome p, #outcome h2, #outcome h5{
+  color: #58638E;
+}
+
+#survey .box_wrap p{
+  line-height: 1.8;
+}
+#result p{
+  line-height: 1.8;
+}
+#goal p{
+  text-align: center;
+  line-height: 1.5 !important;
+}
+#challenge p,#survey li p{
+  margin-left: 16px;
+  margin-top: -24px;
+  margin-bottom: 0;
+}
+#challenge strong{
+  font-weight: 700;
+  color: #58638E;
+}
+#survey img,#result-important img,#solve img,#usability img{
+  width: 72px;
+}
+#survey .sec-title img{
+  width: 100%;
+  padding-left: 20px;
+}
+#stakeholders img{
+  padding-left: 0;
+}
+#survey .sec-title img:hover,#survey .sec-title a:hover{
+  transform: none;
+  transition: none;
+}
+#survey .sta1024,#survey .sta603,#survey .test533,#survey .stk768,#survey .stk603,#survey .stk414,#result .que414{
+  display: none;
+}
+.mfp-wrap{
+  background-color: #2B3042;
+}
+#goal h4,#survey h4,#solve h4,#usability h4{
+  font-size: 18px;
+  padding-bottom: 16px;
+  margin: 20px 0 28px 0;
+  position: relative;
+}
+#goal h4{
+  padding: 16px 36px;
+  margin-bottom: 44px;
+  line-height: 1.5;
+}
+#goal .title_border h4::before,#solve .title_border h4::before,#solve .title_border h4::before{
+  width: 40px;
+  margin: 0 auto;
+}
+#goal .title_border h4::before{
+  padding: 64px;
+  border-radius: 100%;
+  z-index: -100;
+  background-color: rgba(217,217,241,1);
+  top:-24px;
+  text-align: center;
+}
+#challenge .chart_info_list li,#survey .chart_info_list li{
+  margin: 0 0 24px 0;
+}
+#challenge .chart_info_list li:nth-of-type(2),#survey .chart_info_list li:nth-last-of-type(1){
+  margin-bottom: 0;
+}
+#challenge .chart_bx{
+  margin-top: 6px;
+}
+.chart_bx{
+  background-color:#f0b9bf;
+}
+#survey .chart_bx{
+  background-color:#58638E;
+}
+#process img{
+  margin-top: 32px;
+}
+.process1024,.process768,.process320{
+  display: none;
+}
+#survey .col-lg-12:nth-child(2), #result .col-lg-12:nth-child(2), #portfolio .otherp,#solve .col-lg-12:nth-child(2),#ia .col-lg-12:nth-child(2),#usability .col-lg-12:nth-child(2),#next .col-lg-12:nth-child(2),#outcome .col-lg-12:nth-child(2){
+  line-height: 1.8 !important;
+}
+#solve{
+  padding-top: 136px;
+  padding-bottom: 16px;
+}
+#solve-method{
+  padding: 0 0 24px 0;
+}
+#process .container-fluid{
+  padding: 0;
+  margin-top: 160px;
+}
+#process .roadmap_list{
+  max-width: 1280px;
+  padding: 0 32px;
+  margin: 0px auto 200px auto;
+}
+.single_roadmap{
+  padding: 130px 0 0 0;
+  position: absolute;
+}
+.roadmap_list p{
+  text-align: left;
+}
+.roadmap_list .col-lg-2{
+  margin-left: 21px;
+}
+.roadmap_list .col-lg-2:nth-of-type(1){
+  margin-left: 0;
+}
+.roadmap_list .col-lg-2:nth-of-type(2){
+  margin-left: -24px;
+}
+.roadmap_list .col-lg-2:nth-of-type(3){
+  margin-left: -40px;
+}
+#survey .content h4,#solve .col-lg-5,#usability .col-lg-5{
+  margin: 0;
+  padding: 0 208px 0 0;
+  color:#f0b9bf;
+  line-height: 1.8;
+}
+#solve .col-lg-5{
+  padding: 0 120px 0 0;
+  text-align: center;
+}
+#solve .col-lg-7{
+  padding: 0;
+  text-align: center;
+}
+#solve .content>.col-lg-7 .col-lg-4:nth-child(1){
+  float: left;
+}
+#solve .content>.col-lg-7 .col-lg-4:nth-child(2){
+  margin: 0 12.5%;
+}
+#solve .content>.col-lg-7 .col-lg-4:nth-child(3){
+  float: right;
+}
+#solve .content>.col-lg-7 .col-lg-4:nth-child(3) img{
+  margin-left: 12px;
+}
+#solve .content h4{
+  color: #58638E;
+}
+#result-questionnaire{
+  margin: 88px 0 0 0 !important;
+}
+#result-questionnaire .col-lg-12{
+  margin-top: 0 !important;
+  margin-bottom: 88px !important;
+}
+#result-questionnaire-one .col-lg-6:nth-of-type(1){
+  padding: 0 44px 0 0;
+}
+#result-questionnaire-one .col-lg-6:nth-of-type(2){
+  padding: 0 0 0 44px;
+}
+.main_title{
+  margin: 22px 0 32px 0 !important;
+}
+.progress-content{
+  background: rgba(232,232,247,1) !important;
+  border: 1px solid #D6D6F2 !important;
+}
+.progress-bar-danger{
+  background: #f0b9bf !important; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #FFE6E9 0%, #f0b9bf 100%) !important; /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #FFE6E9 0%,#f0b9bf 100%) !important; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #FFE6E9 0%,#f0b9bf 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE6E9', endColorstr='#f0b9bf',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+}
+#result-questionnaire-two .progress-bars:nth-of-type(1){
+  padding: 0 44px 0 0 !important;
+}
+#result-questionnaire-two .progress-bars:nth-of-type(2){
+  padding: 0 0 0 44px !important;
+}
+#result h4,#portfolio .bigtitle{
+  text-align: center;
+  font-weight: 700;
+  color:#f0b9bf;
+  margin: 120px 0 0 0 !important;
+}
+#result-questionnaire-three .sec-title h4{
+  margin: 24px 0 32px 0 !important;
+  padding: 0;
+  text-align: left;
+}
+.resultline{
+  display: inline-block;
+  width: 64px;
+  height: 2px;
+  margin: 16px 0 14px 0;
+  position: relative;
+  left: 47.5%;
+  background: #FFE6E9; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #FFE6E9 0%, #f0b9bf 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #FFE6E9 0%,#f0b9bf 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #FFE6E9 0%,#f0b9bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE6E9', endColorstr='#f0b9bf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.resultsubtitle{
+  text-align: center;
+  color: #f0b9bf !important;
+  margin-bottom: 64px;
+}
+#result-persona{
+  margin: 0 !important;
+}
+#result-persona .col-lg-4{
+  background-color: rgba(222,236,255,0.8);
+  margin-top: 144px;
+  border: 1px solid #D5E3F8;
+  border-radius: 8px;
+  flex:0 0 30%;
+  max-width: 30%;
+  padding: 0 15px;
+}
+#result-persona .col-lg-4:nth-of-type(2){
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#result-persona .col-lg-4 h4{
+  color: #222F62;
+  text-align: left;
+}
+#result-persona .col-lg-4 h5{
+  color: #222F62;
+  text-align: left;
+  margin: 16px 0;
+}
+#result-persona .col-lg-4 h5 span{
+  padding-left: 8px;
+}
+#result-persona .fs-carousel-titlecat span{
+  color: #222F62;
+  border-color: #222F62;
+  padding: 4px 16px;
+  margin-right: 5%;
+  width: auto;
+  border-radius: 14px;
+}
+#result-persona .fs-carousel-titlecat span:nth-of-type(3){
+  float: left;
+  margin-right: 0;
+}
+#result-persona .col-lg-4 p{
+  text-align: left;
+  margin: 24px 0 40px 0;
+}
+#result-persona .col-lg-4 p a{
+  font-weight: 700;
+  color: #2CABE2;
+  transition:none;
+  padding-left: 8px;
+}
+#result-persona .col-lg-4 p a:hover{
+  border-bottom: 1.5px solid #2CABE2;
+  transition:none;
+}
+.mkdf-testimonial-image{
+  position: absolute;
+  top: -114px;
+  display: block;
+  width: 100%;
+}
+.mkdf-testimonial-image img{
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  width: 176px;
+  height: 176px;
+}
+#survey h4,#usability h4{
+  font-size: 16px;
+}
+#survey .content h4 strong,#solve .content h4 strong,#usability .content h4 strong{
+font-size: 18px;
+font-weight: 700;
+color:#f0b9bf;
+line-height: 2;
+}
+#survey .title strong:nth-child(1){
+  background-color: #58638E;
+  color: #ffffff;
+}
+#survey .titlenumber{
+  padding: 4px 8px;
+}
+#survey .titlenumber span{
+  padding: 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#survey .titlenumber{
+  margin-top: 24px !important;
+}
+#survey .titlenumber strong:nth-child(2){
+  color: #58638E;
+}
+#survey .marl56{
+  margin-top: 24px;
+}
+#survey .marl56 .chart_bx{
+  display: inline-block;
+  position: relative;
+  top: 10px;
+}
+#survey .marl56 p{
+  margin-bottom: 28px;
+}
+#survey .marl56 strong{
+  line-height: 3;
+}
+#survey .stronglist{
+  margin-bottom: 8px !important;
+}
+#survey .surveystrong{
+  line-height: 1.8 !important;
+}
+#solve .content h4 strong{
+  color: #ffffff;
+}
+#survey .list_none{
+  padding: 0;
+}
+#survey h5{
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  color: #222F62
+}
+.app_icon{
+  width: 32px;
+}
+.app_desc_title{
+  line-height: 1.8;
+}
+.app_desc p{
+  font-size: 16px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+#survey ul li{
+  margin-bottom:40px;
+}
+#survey .content:nth-of-type(1){
+  margin:208px 0;
+}
+#survey .content:nth-of-type(2){
+  margin-top:72px;
+  margin-bottom:0;
+}
+#survey .content:nth-of-type(1) li {
+  margin: 0;
+  margin-bottom:32px;
+}
+#survey .content:nth-of-type(1) li:nth-last-of-type(1){
+  margin-bottom: 0;
+}
+#survey .sec-title{
+  margin-bottom: 88px;
+}
+#survey .sec-title h4{
+  margin-bottom: 12px;
+  padding: 0;
+}
+#survey .number-box-11,#survey .number-box-13 {
+  margin-top:4px;
+}
+#survey .number-box-12 {
+  margin-top:18px;
+}
+#survey .content:nth-of-type(1) p{
+  text-align: left;
+  padding-bottom: 32px;
+}
+#survey .sec-title p{
+  padding-bottom: 0 !important;
+}
+#survey .content:nth-of-type(1) ul{
+  text-align: left;
+}
+#survey .content:nth-of-type(1) ul p{
+  padding-bottom: 0;
+  line-height: 1.5 !important;
+}
+#survey .row:nth-of-type(2) .col-lg-12{
+  margin-top:0px;
+  margin-bottom: 32px;
+}
+#survey .row:nth-of-type(1) .box_wrap h4,#result-important .box_wrap h4,#usability .row:nth-of-type(2) .box_wrap h4,#usability .row:nth-of-type(3) .box_wrap h4{
+  color:#58638E;
+  line-height:1.5;
+  font-size: 18px;
+  padding: 0 0 16px 0;
+  margin: 20px 0 28px 0 !important;
+  font-weight:700;
+  position:relative;
+}
+#result-important .col-lg-3:nth-child(4) h4{
+  padding: 10px 0 32px 0;
+}
+.title_border h4::before,#survey .row:nth-of-type(1) .box_wrap h4::before,#result-important .box_wrap h4::before,#solve .box_wrap h4::before,#usability .box_wrap h4::before{
+	background-color: #5957cd;
+	bottom: 0;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	width: 80px;
+}
+#survey .row:nth-of-type(1) .box_wrap h4::before,#result-important .box_wrap h4::before,#solve .box_wrap h4::before,#usability .box_wrap h4::before{
+  width: 40px;
+  margin: 0 auto;
+  background-color:#58638E;
+}
+#solve .box_wrap h4::before{
+  background-color:#ffffff;
+}
+#solve .solvetitle{
+  display: inline-block;
+}
+#solve .content .col-lg-12:nth-of-type(2){
+  text-align: center;
+  margin-bottom: 0;
+}
+#survey .row:nth-of-type(1) .col-lg-6:nth-of-type(1){
+  padding-right:24px;
+  padding-left:0;
+}
+#survey .row:nth-of-type(1) .col-lg-6:nth-of-type(2){
+  padding-left:24px;
+  padding-right:0;
+}
+#survey .lightboxp{
+  margin-top: 16px !important;
+  margin-bottom: 40px !important;
+  text-align: center !important;
+  font-size: 14px !important;
+}
+#survey .surveytestul{
+  margin-left: 20px;
+}
+#survey .surveytestlist{
+  font-size: 14px;
+  font-weight: 500;
+  color: #58638E;
+  margin-bottom: 20px !important;
+}
+#survey .surveytestp{
+  margin-left: 24px;
+  margin-bottom: 0;
+  margin-top: -24px;
+}
+#survey .surveytestpmart{
+  margin-top: -28px;
+}
+.surveytestimg{
+  margin-top: 64px;
+}
+#stakeholders .content:nth-of-type(1),#stakeholders .sec-title:nth-of-type(3),#stakeholders .sec-title:nth-of-type(3) p{
+  margin-bottom: 0;
+}
+#stakeholders .content:nth-of-type(1){
+  margin-top: 112px;
+}
+#stakeholders img{
+  margin: 32px 0;
+  padding-left: 0 !important;
+}
+#stakeholders ul{
+  margin-top: 20px;
+}
+.number-box{
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  float: left;
+  margin-right: 32px;
+  background: #FFE6E9; /* Old browsers */
+  background: -moz-linear-gradient(135deg, #FFE6E9 0%,#f0b9bf 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(135deg, #FFE6E9 0%,#f0b9bf 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #FFE6E9 0%,#f0b9bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE6E9', endColorstr='#f0b9bf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.lightbox-gallery .col-lg-12{
+  margin: 0 !important;
+}
+.lightbox-gallery .image img{
+  cursor: zoom-in;
+}
+.lightbox img{
+  cursor: zoom-in;
+}
+.mfp-bg,.mfp-figure figure{
+  background:#2B3042 !important;
+}
+.mfp-close-btn-in .mfp-close{
+  right: 0;
+}
+.mfp-container{
+  padding: 0;
+  background-color: #2B3042;
+}
+img.mfp-img{
+  max-width: 100%;
+  max-height: 100% !important;
+  padding: 40px;
+  cursor: default;
+}
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close{
+  cursor: pointer;
+}
+.mfp-zoom-out-cur{
+  overflow-y: hidden;
+}
+.mfp-arrow{
+  display: none !important;
+}
+.cf768{
+  display: none;
+}
+#result-important{
+  margin: 112px 0 0 0 !important;
+  padding-bottom: 96px !important;
+}
+#result-important .col-lg-12:nth-child(2){
+  margin-top: 0;
+}
+#result-important p{
+  text-align: center;
+}
+.result-important-img1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.result-important-img2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+#result-important .col-lg-12{
+  margin: 64px 0;
+  margin-bottom: 104px;
+}
+#result-important .col-lg-3{
+  max-width: 20%;
+  padding: 0;
+  margin-top: 24px;
+}
+#result-important .col-lg-3:nth-of-type(1),#result-important .col-lg-3:nth-of-type(2){
+  margin-right: 6.5%;
+}
+#result-important .col-lg-3:nth-of-type(4){
+  float: right;
+}
+#competitive375{
+  display: none;
+}
+#solve .content{
+  margin-bottom: 80px;
+}
+#solve a{
+  text-align: center;
+  border-radius: 8px;
+}
+#solve li{
+  margin-bottom: 24px;
+  width: 100%;
+}
+#solve li:nth-last-of-type(1){
+  margin-right: 0;
+}
+#solve .solvetitle{
+  padding-bottom: 24px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #58638E;
+}
+.faq_content2 .card-header a::after{
+  display: none;
+}
+.faq_content2 .card{
+  border-radius: 8px;
+  height: 272px;
+  text-align: left;
+  border: 1px solid #58638E;
+}
+.faq_content2 .card-header{
+  padding: 24px 40px 18px 40px;
+}
+.faq_content2 .card-header h4{
+  font-weight: 700 !important;
+  font-size: 18px;
+}
+.faq_content2 .card-body{
+  padding: 0 40px;
+  font-size: 16px;
+  line-height: 2;
+  color: #58638E;
+}
+.card-body::before{
+  display: none;
+}
+.v_royal_blue .tab-link{
+  background-color: #58638E;
+}
+.v_light_dark .tab-link.active, .v_light_dark .tab-link.active:hover, .v_light_dark .tab-link:hover, .v_royal_blue .tab-link.active, .v_royal_blue .tab-link.active:hover, .v_royal_blue .tab-link:hover{
+  background-color: #CACAEA;
+}
+.v_royal_blue .tab-link.active,.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+  background-color: #CACAEA;
+}
+.blue_bg, .v_royal_blue{
+  background-color: none;
+}
+.por768{
+  display: none;
+}
+#portfolio,#next{
+  background-color: #FFFBFB;
+}
+#portfolio a,#next a{
+  transition: none !important ;
+  display: inline-block;
+}
+#portfolio .mart72 a:nth-of-type(1){
+  margin-top: 22px;
+  margin-bottom:48px;
+}
+#portfolio .pt-100:nth-of-type(2) .mart72 a,#portfolio .pt-100:nth-of-type(3) .mart72 a{
+  margin-bottom: 0;
+}
+#portfolio .mart136 a:nth-of-type(1){
+  margin-top: 24px;
+}
+#portfolio .title-h3,#next .title-h3{
+  margin-bottom: 24px;
+}
+#portfolio .lightbox:hover img,#next .lightbox:hover{
+  transition: none;
+  transform: none;
+}
+.lightbox:hover img{
+  transform: none;
+}
+#ia{
+  padding-top: 48px;
+  padding-bottom: 0;
+}
+#ia p{
+  margin: 80px 0 88px 0 !important;
+}
+#ia .lightbox-gallery{
+  padding-bottom: 112px;
+}
+.title{
+  color: #58638E;
+  font-weight:700;
+}
+.title-h3{
+  font-size: 24px;
+  font-weight:700;
+}
+.title strong:nth-child(1){
+  padding: 4px 8px;
+  background-color: #58638E;
+  color: #ffffff;
+}
+.title strong:nth-child(2){
+  padding-left: 16px;
+}
+.title span{
+  padding-left: 6px;
+}
+.title-h3 span{
+  padding-right: 16px;
+}
+.videomargin{
+  margin-bottom: 64px !important
+}
+.portfolio375{
+  display: none;
+}
+.otherp{
+  margin: 80px auto 30px auto !important;
+}
+#found{
+  background-image: url(../../images/micshow-found.jpg);
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 !important;
+}
+#found>div,#outcome>div{
+  background-color: rgba(217,217,241, 0.85);
+  padding-top: 56px;
+  padding-bottom: 136px;
+}
+#found h3{
+  padding-right: 36px;
+}
+#found h3::after{
+  content: "11";
+  left: 43%;
+}
+#found p,#found h2,#found h5{
+  color: #ffffff;
+}
+#found .col-lg-12:nth-child(2){
+  margin: 4px 0 144px 0;
+}
+#found .col-lg-4,#usability .col-lg-4{
+  flex: 0 0 28%;
+  max-width: 28%;
+  width: 28%;
+  padding: 0;
+}
+#found .col-lg-4:nth-of-type(2),#usability .col-lg-4:nth-of-type(2){
+  margin: 0 8%;
+}
+#found h5{
+  font-weight: 700;
+}
+#usability h3::after{
+  content: "11";
+  padding: 90px 92px;
+}
+#usability .col-lg-7{
+  padding-left: 0;
+  padding-right: 0;
+}
+#usability .col-lg-12:nth-child(1){
+  margin-top: 64px;
+  margin-bottom: 152px;
+}
+#usability .col-lg-12:nth-child(2){
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+#usability li{
+  margin-bottom: 32px;
+}
+.number-box-p{
+  line-height: 1.5 !important;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+#usability .row:nth-of-type(3) .col-lg-6:nth-of-type(1){
+  padding-right: 40px;
+  padding-left: 0;
+}
+#usability .row:nth-of-type(3) .col-lg-6:nth-of-type(2){
+  padding-left: 40px;
+  padding-right: 0;
+}
+#usability .row:nth-of-type(3) .col-lg-12{
+  margin-bottom: 32px;
+}
+#next .col-lg-12:nth-child(1){
+  margin-bottom: 192px;
+}
+#next a{
+  margin-top: 22px;
+}
+#next .mart200 a{
+  margin-bottom: 32px;
+}
+#next .col-lg-12:nth-child(2){
+  margin: 4px 0 88px 0;
+}
+#next .title span{
+  padding: 0 4px;
+}
+#outcome h3{
+  color: rgb(158,157,190);
+}
+#outcome h3::after{
+  left: 36%;
+  content: "13";
+  padding: 90px 74px;
+  color: rgba(158,157,190,0.15);
+  background-image: url(../../images/framepurple.png);
+}
+#outcome{
+  background-image: url(../../images/marry-outcome.jpg);
+  background-position: left bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 !important;
+}
+#outcome>div{
+  padding-bottom: 112px;
+}
+#outcome .col-lg-12:nth-child(2){
+  margin: 80px 0 144px 0;
+}
+#outcome .col-lg-4{
+  flex: 0 0 29%;
+  max-width: 29%;
+  width: 29%;
+  padding: 0;
+}
+#outcome .col-lg-4:nth-of-type(2){
+  margin: 0 6.5%;
+}
+#footer{
+  padding:64px 0;
+}
+#footer .row{
+  position: relative;
+}
+#footer .nk-pagination-prev{
+  position: absolute;
+  left: 0;
+}
+#footer .nk-pagination-prev span{
+  margin-left: 24px;
+}
+#footer .row::before{
+  content: " Previous Work ";
+  color:rgba(255,218,227,0.35);
+  font-size: 68px;
+  font-family:'Noto Sans TC', 'Raleway', 'Open Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: -6px;
+  top: -46px;
+}
+#footer .row::after{
+  content: "Next Work ";
+  color:rgba(255,218,227,0.35);
+  font-size: 68px;
+  font-family:'Noto Sans TC', 'Raleway', 'Open Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: -46px;
+  z-index: -100;
+}
+#footer .nk-pagination-next,#footer .nk-pagination-next i{
+  position: absolute;
+  right: 0;
+}
+#footer .nk-pagination-next span{
+margin-right: 24px;
+}
+#footer a{
+  color: #58638E;
+  font-size: 18px;
+  font-weight: 500;
+}
+#footer i{
+  color: #58638E;
+  font-size: 22px;
+  position: absolute;
+  top: -4px;
+}
+.footerspan375{
+  display: none;
+}
+.display768yes,.display768yes1,.display768yes2,.display768yes3,.display768yes4,.display768yes5{
+  display: none;
+}
+
+
+@media(min-width: 1200px){
+  section .container{
+    max-width: 1280px;
+    padding-right: 32px !important;
+    padding-left: 32px !important;
+  }
+  section .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #home_section .container{
+    max-width: 100% ;
+    padding:0 !important;
+  }
+  #home_section .row{
+    margin-right: -32px;
+    margin-left: -32px;
+  }
+  #survey .col-lg-7{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media(max-width: 1300px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-1280.svg);
+  }
+  #home_section .align-items-center{
+    width: 82%;
+  }
+  #home_section .order-lg-first{
+    padding-right: 16px;
+    margin-left: 16px;
+  }
+  #problem .col-lg-12{
+    margin: 120px 0;
+  }
+  #goal h3{
+    top: 212px;
+  }
+  #survey{
+    background-image:url(../../images/marry-survey-top-1280.png) ;
+  }
+  #survey>div{
+    background-image:url(../../images/marry-survey-bottom-1280.png) ;
+  }
+  #portfolio>div{
+    background-image: url(../../images/marry-portfolio-bottom-1280.png);
+  }
+  #next{
+    background-position: left top;
+  }
+}
+
+@media(max-width: 1100px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-1024.svg);
+  }
+  #home_section .align-items-center{
+    width: 96%;
+  }
+  #home_section .order-lg-first{
+    padding-right: 0;
+    margin-top: 0;
+    margin-left: 32px;
+  }
+  .h21920{
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+  }
+  section .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #home_section .row{
+    margin-right: -32px;
+    margin-left: -32px;
+  }
+  #home_section ul span{
+    display: inline-block;
+  }
+  #introduction{
+    background-position: right center;
+  }
+  #introduction_none{
+    display: none;
+  }
+  #introduction>.container>.row>.col-lg-3:nth-of-type(1){
+    max-width: 16.666667%;
+  }
+  #introduction .col-lg-4{
+    flex: 0 0 41.66666667%;
+    max-width: 41.66666667%;
+    padding: 0 0 0 30px;
+  }
+  .padl32{
+    padding-left: 45px;
+  }
+  .padr48{
+    padding-right: 45px;
+  }
+  .padl24{
+    padding-left: 15px;
+  }
+  .padr30{
+    padding: 0 15px;
+  }
+  .col-lg-7{
+    float: right;
+  }
+  #problem h3, #goal h3, #challenge h3{
+    padding-left: 20px;
+  }
+  #background h3{
+    top: 192px;
+    padding-left: 24px;
+  }
+  #background h3::after{
+    width: 106%;
+  }
+  #problem{
+    background-image: url(../../images/marry-problem-1024.png);
+  }
+  #problem h3{
+    top: 152px;
+  }
+  #goal h3{
+    top: 236px;
+  }
+  #goal h4{
+    padding: 14px 12px;
+  }
+  #goal .col-lg-4{
+    width: 27%;
+  }
+  #goal .col-lg-4:nth-of-type(2){
+    margin: 0 9.5%;
+  }
+  #goal .title_border h4::before{
+    padding: 60px;
+    top: -20px;
+  }
+  #challenge{
+    background-image: url(../../images/marry-challenge-1024.png);
+  }
+  #challenge h3{
+    top: 208px;
+  }
+  #background .col-lg-12,#goal .col-lg-12, #challenge .col-lg-12, #survey .col-lg-12, #result .col-lg-12, #portfolio .col-lg-12,#found .col-lg-12{
+    margin: 88px 0;
+  }
+  #problem .col-lg-12{
+    margin: 104px 0;
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after{
+    left: 0px;
+  }
+  #process{
+    background-image: url(../../images/marry-processbg-1024.png);
+  }
+  #process h3{
+    padding-left: 56px;
+  }
+  #process h3::after{
+    left: 32%;
+  }
+  .process1920,.process768,.process320{
+    display: none;
+  }
+  .process1024{
+    display: inline-block;
+  }
+  .roadmap_list p{
+    font-size: 16px;
+  }
+  .roadmap_list .col-lg-2:nth-of-type(2){
+    margin-left: 0;
+  }
+  .roadmap_list .col-lg-2{
+    margin-left: 13px;
+  }
+  .roadmap_list p{
+    line-height: 1.5 !important;
+  }
+  .roadmap_list span{
+    line-height: 32px;
+  }
+  .cut{
+    line-height: 28px !important;
+  }
+  .plus{
+    line-height: 2.8 !important;
+  }
+  #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #usability h3::after, #next h3::after,#outcome h3::after{
+    left: 32%;
+  }
+  #survey{
+    background-size: cover;
+    background-image: url(../../images/marry-survey-top-1024.png);
+  }
+  #survey>div{
+    background-image: url(../../images/marry-survey-bottom-1024.png);
+  }
+  #survey .col-lg-12:nth-child(2), #result .col-lg-12:nth-child(2), #portfolio .otherp{
+    margin: 104px 0 72px 0 !important;
+    text-align: center;
+  }
+  #survey .col-lg-12:nth-child(2){
+    margin-bottom: 0 !important;
+  }
+  #survey .content>.content{
+    top: 736px;
+  }
+  #survey .content h4,#usability .content h4{
+    float: left;
+    padding: 0;
+  }
+  .strongother{
+    line-height: 1.5 !important;
+    display: inline-block !important;
+    margin-bottom: 8px !important;
+  }
+  #survey .title{
+    width: 100%;
+  }
+  #survey .col-md-4,#usability .col-md-4{
+    width: 21%;
+  }
+  #survey .col-lg-7,#usability .col-lg-7{
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  #survey .content:nth-of-type(2){
+    margin: 0;
+    top: 720px;
+  }
+  #survey .list_none{
+    top: -595px;
+  }
+  #survey .number-box-11, #survey .number-box-13{
+    margin-top: 6px;
+  }
+  #survey .number-box-12{
+    margin-top: 22px;
+  }
+  #survey .number-box-14{
+    margin-top: 4px;
+  }
+  #survey .col-lg-6 h4{
+    width: 100%;
+  }
+  #survey .col-lg-7,#usability .col-lg-7{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #survey .row:nth-of-type(1) .col-lg-6:nth-of-type(1){
+    padding-right: 32px;
+    padding-left: 0;
+  }
+  #survey .row:nth-of-type(1) .col-lg-6:nth-of-type(2){
+    padding-left: 32px;
+    padding-right: 0;
+  }
+  #survey .sta1920{
+    display: none;
+  }
+  #survey .sta1024{
+    display: inline-block;
+    width: 66%;
+    margin-left: 17%;
+  }
+  #stakeholders img{
+    margin: 64px 0 32px 0;
+  }
+  #stakeholders .lightbox img{
+    margin-left: 0;
+  }
+  .h4mbplus{
+    margin-bottom: 18px !important;
+  }
+  #result{
+    padding: 60px 0 240px 0 !important;
+  }
+  .resultline{
+    left: 46.8%;
+  }
+  #result-questionnaire{
+    margin: 0px !important;
+  }
+  #result-questionnaire .col-lg-6:nth-of-type(1),#result-questionnaire .col-lg-6:nth-of-type(2){
+    display: inline-block;
+  }
+  #result-questionnaire-two{
+    height: 640px;
+    top:96px;
+  }
+  #result-questionnaire-three{
+    top: 200px;
+  }
+  .resultmt{
+    display: inline-block;
+    margin-top: 8px;
+  }
+  .progress-bars{
+    display: inline-block;
+    padding: 0;
+  }
+  #result .col-lg-6{
+    flex: 0 0 49.8%;
+    max-width: 49.8%;
+  }
+  #result-important .col-lg-3>div{
+    height: 304px;
+  }
+  #result-important .resultsubtitle{
+    text-align: center;
+  }
+  #result-important .col-lg-3{
+    margin-top: 0px;
+  }
+  #result-important p{
+    padding-bottom: 0;
+    line-height: 1.8 !important;
+  }
+  .mfp-close-btn-in .mfp-close{
+    top: 0;
+  }
+  #result-journey h4{
+    margin-top: 360px !important;
+  }
+  #solve{
+    padding-top: 144px;
+    padding-bottom: 64px;
+    background-image: url(../../images/marry-solve-1024.png);
+  }
+  #solve h3{
+    padding-left: 8px !important;
+  }
+  #solve .col-md-4{
+    padding: 0 64px 0 0;
+    width: 32%;
+  }
+  .tab_s2 .tab-link{
+    padding: 10px 12px;
+  }
+  #solve .content:nth-of-type(2) .col-lg-7>.col-lg-5 a{
+    font-size: 16px;
+  }
+  #solve .col-md-3{
+    width: 41.666667%;
+  }
+  .faq_content2 .card{
+    height: 300px;
+  }
+  #portfolio>div{
+    background-image: url(../../images/marry-portfolio-bottom-1024.png);
+  }
+ #portfolio .col-lg-5,#next .col-lg-5{
+   flex: 0 0 48%;
+   max-width: 48%;
+  }
+ #portfolio .offset-lg-1,#next .offset-lg-1{
+   display: none;
+  }
+ #portfolio .col-lg-5-o,#next .col-lg-5-o{
+   padding-left: 40px;
+  }
+ #portfolio .col-lg-6-o,#next .col-lg-6-o{
+    padding-left: 96px;
+  }
+  #outcome .col-lg-12:nth-child(2){
+    margin: 88px 0 136px 0;
+  }
+  #found>div, #outcome>div{
+    padding-bottom: 112px;
+  }
+  #usability{
+  background-image: url(../../images/marry-usability-1024.png);
+  background-position: bottom right;
+  }
+  #usability .col-lg-12:nth-child(1){
+    margin: 88px 0 128px 0;
+  }
+  #usability .col-lg-12:nth-child(2){
+    margin: 48px 0 72px 0;
+  }
+  #usability .col-lg-7 h4{
+    width: 100%;
+  }
+  #usability .content{
+    margin-bottom: 80px;
+  }
+  #next h3{
+    padding-right: 8px !important;
+  }
+  #next img{
+    left: 6%;
+  }
+  #next .pt-100{
+    margin: 96px 0;
+  }
+}
+
+@media(max-width: 991px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-768.svg);
+    background-position: center;
+  }
+  #home_section .align-items-center{
+    width: 100%;
+    position: relative;
+  }
+  #home_section .order-lg-first{
+    padding-right: 0;
+    position: absolute;
+    bottom: -8px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #home_section h4{
+    margin-bottom: 6px !important;
+  }
+  .h21920{
+    display: none;
+  }
+  .h2768{
+    display: inline-block;
+    font-size: 28px !important;
+  }
+  .oneh4375no{
+    display: none;
+  }
+  .oneh4768{
+    display: inline-block;
+  }
+  .line{
+    display: none;
+  }
+  .col-md-5{
+    max-width: 45% !important;
+    flex:0 0 45% !important;
+    padding: 0 !important;
+  }
+  .col-md-7{
+    max-width: 55% !important;
+    flex:0 0 55% !important;
+    padding: 0 !important;
+  }
+  #home_section .col-lg-7{
+    margin-top: 0;
+  }
+  #introduction .row>.col-lg-3{
+    padding-right: 48px !important;
+  }
+  #introduction .row>.col-lg-3:nth-of-type(1){
+    margin-bottom: 48px;
+  }
+  #introduction .row>.col-lg-3:nth-of-type(2){
+    margin-bottom: 48px;
+  }
+  #introduction .col-md-7 h4,#introduction .col-md-7 p{
+    padding-left: 22px;
+  }
+  .detailimg{
+    padding: 0 0 0 24px !important;
+  }
+  .detailimg img{
+    float: right;
+  }
+  #problem{
+    background-position: right center;
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    font-size: 152px;
+    padding: 70px 32px;
+    width: 114%;
+    top: -152px;
+  }
+  #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    left: 30%;
+    width: 39%;
+    padding: 72px 32px;
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after{
+    left: 0;
+  }
+  #process h3, #survey h3, #result h3, #solve h3, #ia h3, #portfolio h3, #usability h3, #next h3, #outcome h3{
+    margin-top: 72px !important;
+  }
+  #background h3{
+    padding: 0 0 0 48px;
+    top: 194px;
+  }
+  #background p, #problem p,#goal .col-lg-7, #challenge .col-lg-7{
+    padding-left: 96px;
+  }
+  #problem h3{
+    top: 146px;
+    padding-left: 36px;
+  }
+  #goal .col-lg-12{
+    margin: 64px 0;
+  }
+  #goal .container{
+    margin: 48px 0;
+  }
+  #goal .col-lg-4{
+    width: 28% !important;
+    flex: 0 0 28% !important;
+    max-width: 28% !important;
+  }
+  #goal .col-lg-4:nth-of-type(2){
+    margin: 0 8%;
+  }
+  #goal .col-lg-4:nth-of-type(3){
+    float: right;
+  }
+  #goal h3{
+    padding-left: 32px;
+    top: 224px;
+  }
+  #goal h4{
+    padding: 0 20px;
+    margin-bottom: 28px;
+  }
+  #goal .col-lg-4:nth-of-type(1) h4{
+    padding-top: 4px;
+  }
+  #goal .col-lg-4:nth-of-type(2) h4,#goal .col-lg-4:nth-of-type(3) h4{
+    padding-top: 18px;
+    margin-bottom: 40px;
+  }
+  #goal .title_border h4::before{
+    padding: 50px;
+    top: -7px;
+  }
+  #challenge{
+    background-image:url(../../images/marry-challenge-768.png) ;
+    background-position: right center;
+  }
+  #challenge h3{
+    top: 212px;
+    padding-left: 46px;
+  }
+  #process{
+    background-image: url(../../images/marry-processbg-768.png);
+  }
+  #process>div{
+    padding-bottom: 112px;
+  }
+  #process h3{
+    padding-left: 0;
+  }
+  #process .col-lg-12:nth-child(2){
+    margin-bottom: 56px;
+  }
+  #process img{
+    margin-top: 88px;
+    width: 76%;
+    margin-left: 12%;
+  }
+  .process1920,.process1024,.process320{
+    display: none;
+  }
+  .process768{
+    display: inline-block;
+  }
+  .single_roadmap{
+    left: 0;
+    padding: 100px 0 0 0;
+  }
+  #process .col-lg-2 p{
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  #process .col-lg-2:nth-of-type(1) p,#process .col-lg-2:nth-of-type(2) p{
+    padding: 0 24px 0 0;
+  }
+  #process .col-lg-2:nth-of-type(3) p{
+    padding: 0 0 0 36px;
+  }
+  .single_roadmap .roadmap_icon{
+    top:-9px;
+    left: 24%;
+  }
+  .col-lg-2:nth-of-type(3) .roadmap_icon{
+    left: 56%;
+  }
+  .col-lg-2:nth-of-type(4) .roadmap_icon{
+    left: 52%;
+  }
+  .col-lg-2:nth-of-type(5) .roadmap_icon,.col-lg-2:nth-of-type(6) .roadmap_icon{
+    left: 44%;
+  }
+  .single_roadmap::before{
+    top: 20px;
+    left: 31.5%;
+    height: calc(100% - 132px);
+  }
+  #process .col-lg-2:nth-of-type(3) .single_roadmap::before{
+    left: 64%;
+  }
+  #process .col-lg-2:nth-of-type(4) .single_roadmap::before{
+    left: 59%;
+  }
+  #process .col-lg-2:nth-of-type(5) .single_roadmap::before,#process .col-lg-2:nth-of-type(6) .single_roadmap::before{
+    left: 52%;
+  }
+  #process .col-lg-2:nth-of-type(1) .single_roadmap::before,#process .col-lg-2:nth-of-type(6) .single_roadmap::before{
+    height: calc(100% - 96px);
+  }
+  #process .col-lg-2:nth-of-type(2) .single_roadmap::before,#process .col-lg-2:nth-of-type(3) .single_roadmap::before{
+    height: calc(100% - 168px);
+  }
+  .single_roadmap::after {
+    background-color: #ffffff;
+    border-radius: 100%;
+    content: "";
+    height: 9px;
+    left: 32%;
+    position: absolute;
+    top: 72px;
+    width: 9px;
+    -moz-transform: translateX(-50%);
+    -weblit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #process .col-lg-2:nth-of-type(3) .single_roadmap::after {
+    left: 65%;
+  }
+  #process .col-lg-2:nth-of-type(4) .single_roadmap::after {
+    left: 60%;
+  }
+  #process .col-lg-2:nth-of-type(5) .single_roadmap::after, #process .col-lg-2:nth-of-type(6) .single_roadmap::after{
+    left: 53%;
+  }
+  #survey{
+    background-image: url(../../images/marry-survey-top-768.png);
+    background-position: center top;
+  }
+  #survey>div{
+    background-image: url(../../images/marry-survey-bottom-768.png);
+  }
+  #survey .content>.content{
+    top: 0;
+  }
+  #survey h3{
+    padding-left: 0px !important;
+  }
+  #survey .content:nth-of-type(1){
+    margin: 0;
+  }
+  #survey .row:nth-of-type(1) .chart_bx{
+    margin-top: -3px;
+  }
+  #survey .content h4,#usability .content h4{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 184px;
+  }
+  #stakeholders .content h4{
+    margin-top: 144px;
+  }
+  #survey .row:nth-of-type(2) .content h4{
+    margin-top: 192px;
+    margin-bottom: 64px;
+  }
+  #survey .sec-title h4{
+    margin: 24px 0 0 0 !important;
+    text-align: left;
+  }
+  #survey .sec-title:nth-of-type(1) h4{
+    margin-top: 0 !important;
+  }
+  #survey .sec-title{
+    margin-bottom: 48px;
+  }
+  #survey .list_none .title{
+    margin: 8px 0 0 0!important;
+  }
+  #survey .content,#usability .content{
+    margin-top: 0;
+  }
+  #survey .col-md-4,#survey .col-md-8,#usability .col-md-4,#usability .col-md-8{
+    flex: 0 0 100%; 
+    max-width: 100%;
+    width: 100%;
+  }
+  #survey .content:nth-of-type(2){
+    top: 0;
+  }
+  #survey .list_none{
+    top: 0;
+  }
+  .app_icon{
+    float: left;
+    margin-right:30px;
+  }
+  .app_desc{
+    text-align: left;
+  }
+  #survey .number-box-12{
+    margin-top: 22px;
+  }
+  #survey .number-box-13{
+    margin-top: 8px;
+  }
+  #survey .number-box-14{
+    margin-top: 4px;
+  }
+  #survey .align-items-center{
+    top: 0;
+  }
+  #survey .row:nth-of-type(2) .col-lg-12{
+    margin-top: 0;
+  }
+  #survey ul li:nth-last-of-type(1){
+    margin-bottom: 0;
+  }
+  #stakeholders{
+    padding-bottom: 104px !important;
+  }
+  #stakeholders .sec-title{
+    margin-bottom: 64px;
+  }
+  #survey .stk1920{
+    display: none;
+  }
+  #survey .stk768{
+    display: inline-block;
+  }
+  #survey .sta1024{
+    width: 62%;
+    margin-left: 19%;
+  }
+  #result{
+    background-image: url(../../images/marry-result-768.png);
+  }
+  #result>div{
+    background-size: 0;
+  }
+  .resultline{
+    left: 45.5%;
+  }
+  .mfp-container{
+    background: #2B3042;
+  }
+  img.mfp-img{
+    padding: 48px 0;
+  }
+  .mfp-close-btn-in .mfp-close{
+    top: 3px;
+  }
+  #result .col-lg-6{
+    flex: 0 0 46%;
+    max-width: 46%;
+  }
+  #result .col-md-12{
+    flex: 0 0 80%;
+    max-width: 80%;
+    margin: 0 10% 88px 10%;
+  }
+  #result-questionnaire .col-lg-12{
+    margin-bottom: 72px !important;
+  }
+  #result-questionnaire .col-lg-6:nth-of-type(1), #result-questionnaire .col-lg-6:nth-of-type(2){
+    padding: 0 !important;
+  }
+  #result-questionnaire-one{
+    height: 45%;
+  }
+  #result-questionnaire-two,#result-questionnaire-three{
+    top: 0;
+  }
+  #result .col-lg-6:nth-child(2){
+    float: right;
+  }
+  .progress-content{
+    padding: 24px !important;
+  }
+  .progress-bars{
+    padding: 0 !important;
+  }
+  #result h4{
+    margin: 168px 0 0 0 !important;
+  }
+  .cf768{
+    display: inline-block;
+  }
+  .cf1920{
+    display: none;
+  }
+  #result-journey h4{
+    margin: 320px 0 0 0 !important;
+  }
+  #result-important h4{
+    margin: 152px 0 0 0 !important;
+  }
+  #result-journey p{
+    margin-bottom: 48px;
+  }
+  #result-important .col-md-6{
+    flex: 0 0 46%;
+    max-width: 46%;
+  }
+  #result-important .col-lg-3:nth-of-type(1){
+    margin-right: 0;
+  }
+  #result-important .col-lg-3:nth-of-type(2),#result-important .col-lg-3:nth-of-type(3),#result-important .col-lg-3:nth-of-type(4){
+    margin-left: 7.33%;
+    margin-right: 0;
+  }
+  #result-important .col-lg-3:nth-of-type(4){
+    float: right;
+  }
+  #result-important .col-lg-3>div{
+    height: 520px;
+  }
+  #result-important .col-lg-3{
+    margin-top: 0;
+    max-width: 19.5%;
+  }
+  #result-important .col-lg-3:nth-child(4) h4{
+    padding: 25px 0 44px 0;
+  }
+  #solve{
+    background-image: url(../../images/marry-solve-768.png);
+    padding-top: 64px;
+    padding-bottom: 0;
+  }
+  #solve .content:nth-of-type(1){
+    margin-bottom: 128px;
+  }
+  #solve .col-lg-12:nth-child(2){
+    margin: 0 0 144px 0;
+  }
+  #solve .col-md-4{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  #solve .col-lg-12:nth-of-type(2) .col-md-4{
+    margin-bottom: 16px;
+  }
+  #solve .col-lg-5{
+    padding-right: 24px !important;
+  }
+  #solve .col-lg-7{
+    padding-left: 32px !important;
+  }
+  #solve .content h4{
+    padding-bottom: 4px;
+    line-height: 1.5;
+  }
+  #solve .col-md-8{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  #solve .col-md-3{
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-right: 0 !important;
+    display: inline-block;
+  }
+  #solve .col-md-9{
+    flex: 0 0 60%;
+    max-width: 60%;
+    display: inline-block;
+    float: right;
+  }
+  #solve li{
+    margin-bottom: 28px;
+  }
+  #solve .nav-pills>li+li{
+    margin-left: 0;
+  }
+  .faq_content2 .card{
+    height: 376px;
+  }
+  #survey .content .col-lg-5 strong{
+    display: inline-block;
+    margin-bottom: 48px !important;
+  }
+  #survey .sec-title h4 strong{
+    display: inline-block;
+    margin-bottom: 20px !important;
+  }
+  #solve .solvebottom768{
+    display: inline-block;
+    margin-bottom: 44px;
+  }
+  .tab-content{
+    margin-top: 0;
+  }
+  #solve .title_default_light>p{
+    margin-bottom: 80px;
+  }
+  #portfolio{
+    background-size: 133%;
+  }
+  #portfolio>div{
+    background-image: url(../../images/marry-portfolio-bottom-768.png);
+  }
+  .por1920{
+    display: none !important;
+  }
+  .por768{
+    display: inline-block;
+  }
+  #portfolio a{
+    width: 76%;
+    margin: 56px 12% 32px 12% !important;
+  }
+  #portfolio h3{
+    padding-left: 8px !important;
+  }
+  #portfolio .col-lg-12>.container,#next .col-lg-12>.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .about-video-img-l{
+    margin-left: -64px;
+  }
+  .about-video-img-r{
+    margin-right: -66px;
+  }
+  #portfolio .pt-100{
+    margin: 96px 0 !important;
+  }
+  #portfolio .pt-100:nth-of-type(3){
+    margin-top: 88px !important;
+  }
+  #portfolio .pt-100:nth-of-type(4){
+    margin-top: 64px !important;
+  }
+  .extra-none{
+    line-height: 1.5 !important;
+  }
+  #usability{
+  background-image: url(../../images/marry-usability-768.png);
+  padding-top: 64px;
+  }
+  #usability .content h4{
+    margin-bottom: 32px;
+  }
+  #usability .display768yes{
+    top: -116px;
+  }
+  #usability .display768yes1{
+    top: -132px;
+  }
+  #usability .display768yes2{
+    display: inline-block;
+    top: -148px;
+  }
+  #usability .content h4{
+    line-height: 4;
+  }
+  #usability .col-lg-12:nth-child(2){
+    margin-bottom: 16px;
+  }
+  #usability .row:nth-of-type(2) .col-lg-12,#usability .row:nth-of-type(3) .col-lg-12{
+    margin-top: 0;
+  }
+  #usability .row:nth-of-type(2) h4{
+    margin-top: 72px;
+    margin-bottom: 48px;
+  }
+  #usability .row:nth-of-type(3) h4{
+    margin-top: 96px;
+    margin-bottom: 64px;
+  }
+  #next{
+    background-image: url(../../images/marry-next-768.png);
+    background-position: right top;
+  }
+  #next .about-video-img-l{
+    margin-left: 0;
+  }
+  #next img{
+    left: 0%;
+  }
+  .mart200{
+    margin-top: 180px !important;
+  }
+  #outcome{
+    background-position: center bottom;
+    background-image: url(../../images/marry-outcome-768.jpg);
+  }
+  #outcome .col-lg-12:nth-child(2){
+    margin-bottom: 124px;
+  }
+  #footer{
+    padding: 48px 0 64px 0;
+  }
+  #footer .row::before,#footer .row::after{
+    font-size: 52px;
+    top: -28px;
+  }
+  .display768yes{
+    display: inline-block;
+    top: -180px;
+  }
+  #stakeholders .display768yes{
+    display: inline-block;
+    top: -184px;
+  }
+  .display768yes1{
+    display: inline-block;
+    top: -168px;
+  }
+}
+
+@media(max-width: 767px){
+  nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
+    text-align: left;
+  }
+  .col-sm-12{
+    max-width:100% !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+  .section_banner{
+    padding: 0 !important;
+  }
+  #home_section .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #home_section .col-sm-12,#solve .col-sm-12{
+    max-width:100% !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-603.svg);
+    background-position: center;
+  }
+  .detailimg{
+    padding: 74px 0 0 0 !important;
+    position: absolute;
+  }
+  .detailimg img{
+    width: 48% !important;
+    position: absolute;
+    left: 23%;
+  }
+  #home_section .col-lg-8{
+    padding:0 16px ;
+    position: absolute;
+    bottom: 2%;
+  }
+  .order-lg-first{
+    height: 100%;
+  }
+  .order-lg-first h2{
+    line-height: 1.5;
+    margin: 0 ;
+    font-size: 24px !important;
+  }
+  .order-lg-first h4{
+    margin: 0;
+  }
+  .order-lg-first h4 span{
+    padding-top: 6px !important;
+  }
+  .fs-carousel-titlecat{
+    display: none;
+  }
+  .banner_text{
+    padding: 0 16px;
+    position: absolute;
+    bottom: 5px;
+  }
+  #home_section h4{
+    margin: 8px 0 12px 0 !important;
+  }
+  #home_section ul span{
+    font-size: 16px;
+  }
+  #home_section i{
+    font-size: 26px;
+    top: -7px;
+  }
+  #home_section li{
+    margin: 12px 0 !important;
+  }
+  #home_section li:nth-of-type(1){
+    margin-top: 0 !important;
+  }
+  .onespan375{
+    display: block;
+    margin-top: -36px;
+    margin-left: 58px;
+  }
+  .onespan375 span{
+    padding-right: 10px;
+  }
+  .onespan375no{
+    display: none;
+  }
+  .oneh4375{
+    display: inline-block;
+  }
+  .oneh4375no{
+    display: none;
+  }
+  .line{
+    display: none;
+  }
+  #introduction{
+    padding: 72px 0 24px 0;
+  }
+  #introduction .row>.col-lg-3{
+    padding-right: 32px !important;
+  }
+  #introduction .col-sm-12{
+    margin-bottom: 0 !important;
+    padding: 0 16px !important;
+  }
+  #introduction h4{
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+  .box_wrap{
+    padding: 0 0 48px 0 !important;
+  }
+  #introduction .col-lg-2 .box_wrap{
+    padding: 0;
+  }
+  #introduction .col-md-7 h4, #introduction .col-md-7 p{
+    padding-left: 0;
+  }
+  #background h3,#problem h3,#goal h3,#challenge h3,#process h3, #survey h3, #result h3, #solve h3, #ia h3, #portfolio h3, #found h3, #usability h3, #next h3, #outcome h3{
+    padding: 0;
+    top: 96px;
+  }
+  #background h3,#challenge h3,#process h3{
+    padding-left: 8px;
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after,#found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    font-size: 104px;
+    left: 30%;
+    width: 40%;
+    padding: 63px;
+    top: -134px;
+    color: rgba(255,218,227,0.3);
+  }
+  #survey h3::after,#result h3::after,#solve h3::after,#ia h3::after,#portfolio h3::after,#usability h3::after,#next h3::after, #outcome h3::after{
+    width: 42%;
+    left: 29%;
+  }
+  #outcome h3::after{
+  color:rgba(158,157,190,0.15);
+  }
+  #background p, #problem p, #goal p{
+    padding: 0 16px;
+    top: 168px;
+  }
+  #goal p{
+    padding: 0;
+  }
+  #background .col-lg-12, #problem .col-lg-12,#challenge .col-lg-12, #survey .col-lg-12, #result .col-lg-12, #portfolio .col-lg-12{
+    margin: 104px 0 240px 0;
+  }
+  #challenge .col-lg-12{
+    margin-bottom: 256px;
+  }
+  #challenge .chart_bx{
+    margin-top: 1px;
+  }
+  #problem{
+    background-image: url(../../images/marry-problem-603.png);
+  }
+  #goal .container{
+    margin: 0;
+    background-color: rgba(231,180,179, 0.85);
+  }
+  #goal .col-lg-12{
+    margin: 120px 0 128px 0;
+  }
+  #goal .col-lg-7{
+    padding: 0 16px;
+  }
+  #goal .col-md-8{
+    top: 160px;
+  }
+  #goal .col-lg-4:nth-of-type(2),#goal .col-lg-4:nth-of-type(3){
+    top: 20px;
+  }
+  #goal .col-lg-4:nth-of-type(2){
+    margin: 0 7%;
+  }
+  #goal .col-lg-4:nth-of-type(3){
+    margin-right: 0;
+  }
+  #goal h4{
+    padding-top: 32px !important;
+    margin-bottom: 64px !important;
+  }
+  #goal .title_border h4::before{
+    padding: 62px;
+    top: -20x;
+  }
+  #challenge .col-md-8{
+    top: 184px;
+    padding: 0 16px;
+  }
+  #goal .col-lg-4:nth-of-type(1),#goal .col-lg-4:nth-of-type(3){
+    padding: 0;
+  }
+  #goal .col-lg-4:nth-of-type(1){
+    top: 0;
+  }
+  #goal .box_wrap{
+    padding: 0 0 120px 0 !important;
+  }
+  #goal h4, #survey h4, #solve h4, #solve-method h4{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .res_xs_mt_20{
+    margin-top: 0;
+  }
+  #challenge{
+    background-image: url(../../images/marry-challenge603.png);
+    background-position: center;
+  }
+  #challenge .chart_info_list li{
+    margin: 0 0 32px 0;
+  }
+  #process{
+    padding-bottom: 0;
+    padding-top: 168px;
+  }
+  #process h3{
+    top: -40px;
+    padding-left: 8px;
+  }
+  .single_roadmap::before{
+    height:calc(100% - 40px)  !important;
+    left: 20px !important;
+    top: 42px;
+    transform: translateX(0%);
+  }
+  .single_roadmap::after{
+    display: none;
+  }
+  .container-fluid::before{
+    bottom: 85px;
+  }
+  #process .roadmap_list{
+    width: 100%;
+    padding: 0 30%;
+    margin: 0 0 128px 0;
+  }
+  #process .container-fluid{
+    margin-top: 64px;
+  }
+  #process .col-sm-12{
+    padding: 0;
+  }
+  #process img{
+    margin-top: 0;
+  }
+  #process .col-lg-12:nth-child(2){
+    margin-top: 24px;
+    margin-bottom: 88px;
+  }
+  .align-items-end{
+    align-items:flex-end!important;
+  }
+  .single_roadmap{
+    position: relative;
+    padding: 136px 0 0 0 !important;
+  }
+  .single_roadmap .roadmap_icon{
+    margin: 0;
+    padding: 0 !important;
+    top: 10px;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    left: 10px !important;
+    right: 10px !important;
+    position: absolute;
+  }
+  .roadmap_list .col-sm-12{
+    margin-left: 0 !important;
+  }
+  #process>div{
+    padding-bottom: 24px;
+  }
+  #process .col-sm-12 p{
+    width: 80%;
+    float: right;
+    top:8px;
+    left: 80px;
+    position: absolute;
+    padding: 0 !important;
+    font-size: 14px;
+  }
+  .roadmap_list p{
+    line-height: 2 !important;
+  }
+  .roadmap_list .col-sm-12:nth-child(2){
+    top:-40px;
+  }
+  .roadmap_list .col-sm-12:nth-child(2) .single_roadmap::before{
+    height: calc(110%)  !important;
+  }
+  .roadmap_list .col-sm-12:nth-child(3){
+    top:16px;
+  }
+  .roadmap_list .col-sm-12:nth-child(3) .single_roadmap::before{
+    height: calc(100%)  !important;
+  }
+  .roadmap_list .col-sm-12:nth-child(4),.roadmap_list .col-sm-12:nth-child(5),.roadmap_list .col-sm-12:nth-child(6){
+    top:40px;
+  }
+  #survey, #portfolio, #next{
+    padding-top: 40px !important;
+  }
+  #survey{
+    background-image: url(../../images/marry-survey-top-603.png);
+  }
+  #survey>div{
+    padding: 0px 16px 56px 16px !important;
+    background-image: url(../../images/marry-survey-bottom-603.png);
+  }
+  #survey .col-lg-12,#result .col-lg-12{
+    margin: 72px 0;
+  }
+  #survey .col-lg-6{
+    display: inline-block;
+    max-width: 40% !important;
+    flex: 0 0 40% !important;
+    width: 40% !important;
+  }
+  #survey .col-lg-5{
+    margin-bottom: 56px !important;
+  }
+  #survey .lightboxp{
+    font-size: 12px !important;
+  }
+  #survey .row:nth-of-type(1) .chart_bx{
+    margin-top: -6px;
+  }
+  #survey .row:nth-of-type(1) .display768yes{
+    top: -146px;
+  }
+  #survey .row:nth-of-type(1) .col-lg-5{
+    margin-top: 168px !important;
+  }
+  #survey .sec-title img{
+    padding-left: 0;
+  }
+  #survey .content h4{
+    line-height: 1.8;
+  }
+  #survey .content .col-lg-5 strong{
+    margin-bottom: 40px !important;
+  }
+  #survey .sta1920,#survey .sta1024,#survey .stk768{
+    display: none;
+  }
+  #survey .stk603{
+    display: inline-block;
+  }
+  #survey .sta603{
+    display: inline-block;
+    width: auto !important;
+  }
+  #stakeholders .display768yes{
+    top: -148px;
+  }
+  #stakeholders .lightbox img{
+    width: 68% !important; 
+    margin-left: 16%;
+  }
+  #survey .marl56 .chart_bx{
+    top: 8px;
+  }
+  #stakeholders img{
+    margin: 64px 0 32px 0;
+  }
+  #stakeholders li:nth-of-type(1) .chart_bx,#stakeholders li:nth-of-type(3) .chart_bx{
+    margin-top: -6px;
+  }
+  .app_desc .app_desc_title{
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .app_desc p{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .padadd{
+    margin-top: 32px;
+  }
+  .number-box{
+    font-size: 24px;
+    width: 48px;
+    height: 48px;
+  }
+  #competitive1920{
+    display: none;
+  }
+  #competitive375{
+    display: inline-block;
+  }
+  #survey .list_none .title:nth-last-of-type(1){
+    margin-top: 24px !important;
+  }
+  #survey .content h4{
+    margin-top: 112px;
+    margin-bottom: 24px;
+  }
+  #stakeholders{
+    padding-bottom: 0 !important;
+  }
+  #stakeholders .content h4{
+    margin-top: 192px;
+  }
+  #survey h4, #solve h4{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  #survey .content h4 strong, #solve .content h4 strong{
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .display768yes{
+    top: -152px;
+  }
+  .display768yes4{
+    top: -88px;
+  }
+  #survey .number-box-11{
+    margin-top: 38px;
+    margin-bottom: 28px;
+  }
+  #survey .number-box-12{
+    margin-top: 52px;
+    margin-bottom: 44px;
+  }
+  #survey .number-box-13{
+    margin-top: 22px;
+  }
+  #survey .number-box-14{
+    margin-top: 20px;
+  }
+  #survey .col-md-6{
+    padding: 0 !important;
+  }
+  #survey .content:nth-of-type(1){
+    margin-top: 0px;
+  }
+  #survey .row:nth-of-type(1) .col-lg-6:nth-of-type(1){
+    margin-bottom: 56px;
+  }
+  #survey .row:nth-of-type(1) h4{
+    margin-top: 136px;
+  }
+  #survey .row:nth-of-type(1) .box_wrap h4{
+    margin: 20px 0;
+  }
+  #survey .row:nth-of-type(1) .box_wrap h4{
+    font-size: 16px;
+  }
+  #result-important .box_wrap h4,#usability .row:nth-of-type(2) .box_wrap h4, #usability .row:nth-of-type(3) .box_wrap h4{
+    font-size: 16px !important;
+  }
+  #result{
+    padding: 48px 16px 72px 16px !important;
+    background-image: url(../../images/marry-result-603.png);
+    background-position: bottom right;
+  }
+  #result>div{
+    background-size: 0%;
+  }
+  #result .col-md-12{
+    margin: 0 0% 92px 0%;
+  }
+  #result .col-lg-12:nth-child(2){
+    margin-top: 96px !important;
+    margin-bottom: 0 !important;
+  }
+  #result-questionnaire,#result-important{
+    margin-top: 168px !important;
+  }
+  #result-journey{
+    margin-top: 224px !important;
+  }
+  #result-journey p{
+    margin-bottom: 64px;
+  }
+  #result-questionnaire-one{
+    height: 32%;
+  }
+  #result-questionnaire-one .col-md-12:nth-of-type(2){
+    margin-bottom: 80px;
+  }
+  #result-questionnaire-two{
+    margin-bottom: 72px !important;
+  }
+  #result-questionnaire-three .sec-title{
+    margin-top: 940px;
+  }
+  #survey h3{
+    padding-left: 16px !important;
+  }
+  #result h3{
+    padding-left: 4px !important;
+  }
+  #result h4{
+    margin: 56px 0 0 0 !important;
+  }
+  .resultline{
+    left: 41%;
+  }
+  .progress-bars1{
+    margin-top: 4px;
+  }
+  .progress-bars2{
+    margin-top: 88px;
+  }
+  .main_title{
+    font-size: 16px !important;
+  }
+  .progress-name,.progress-value{
+    font-size: 14px !important;
+  }
+  #result-persona .col-lg-4:nth-of-type(1){
+    margin-right: 0;
+  }
+  #result-persona .col-lg-4:nth-of-type(2){
+    margin-left: 0;
+  }
+  .mkdf-testimonial-image{
+    top: -104px;
+    left: 0;
+  }
+  .mkdf-testimonial-image img{
+    width: 144px;
+    height: 144px;
+  }
+  #result-persona .fs-carousel-titlecat{
+    display: block;
+  }
+  #result-persona .fs-carousel-titlecat span{
+    font-size: 12px;
+    padding: 6px 16px;
+    margin-right: 5%;
+  }
+  .mfp-close-btn-in .mfp-close{
+    font-size: 24px;
+  }
+  #result-important{
+    padding-bottom: 0 !important;
+  }
+  #result-important>div{
+    margin: 56px 0 112px 0  !important;
+  }
+  #result-important .col-lg-3:nth-of-type(1), #result-important .col-lg-3:nth-of-type(3){
+    float: left;
+  }
+  #result-important .col-lg-3:nth-child(4) h4{
+    padding: 8px 0 32.5px 0;
+  }
+  #result-important .col-lg-3:nth-of-type(1)>div,#result-important .col-lg-3:nth-of-type(2)>div{
+    height: 512px;
+  }
+  #result-important .col-lg-3:nth-of-type(3)>div,#result-important .col-lg-3:nth-of-type(4)>div{
+    height: 320px;
+  }
+  #result-important .col-sm-12{
+    margin-bottom: 56px !important;
+    margin-top: 0 !important;
+  }
+  #result-important .col-lg-3{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    max-width: 40% !important;
+    flex: 0 0 40% !important;
+    width: 40% !important;
+    display: inline-block;
+  }
+  #result-important .col-lg-3:nth-of-type(2), #result-important .col-lg-3:nth-of-type(4){
+    float: right;
+  }
+  #solve{
+    padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 80px;
+    background-image: url(../../images/marry-solve-603.png);
+  }
+  #solve h3,#portfolio h3,#usability h3{
+    padding-left: 4px !important;
+  }
+  #next h3,#outcome h3{
+    padding-left: 8px !important;
+  }
+  #solve .align-items-center{
+    margin: 32px 0 0 0;
+  }
+  #solve .col-sm-12{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    height: auto !important;
+  }
+  #solve .col-md-7{
+    margin-top: 80px;
+  }
+  #solve .col-lg-12:nth-child(2){
+    margin: 0 0 216px 0;
+  }
+  #solve .content>.col-lg-7 .col-lg-4{
+    width: 100%;
+    margin: 0 !important;
+  }
+  #solve .box_wrap{
+    padding: 0;
+  }
+  #solve .box_wrap h4{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #solve p{
+    margin-bottom: 56px;
+  }
+  #solve .card-header h4{
+    font-size: 16px;
+  }
+  #solve .title_default_light>p{
+    padding: 0;
+  }
+  #solve .content:nth-of-type(1){
+    margin-bottom: 40px;
+  }
+  #solve .content:nth-of-type(2) .col-lg-7>.col-lg-5 a{
+    font-size: 14px;
+  }
+  #solve .col-md-4{
+    margin-bottom: 32px;
+  }
+  .faq_content2 .card-header{
+    padding: 36px 40px 18px 40px;
+  }
+  .faq_content2 .card{
+    height: 248px;
+  }
+  .faq_content2 .card-body{
+    font-size: 14px;
+  }
+  .strong1{
+    font-size: 16px;
+  }
+  .card-header h4{
+    margin: 0 !important;
+    padding-top: 16px !important;
+  }
+  #solve .content:nth-of-type(2) .col-md-9{
+    margin-top: 40px;
+  }
+  #ia{
+    padding-top: 40px;
+  }
+  #ia .container,#found .container,#usability .container,#next .container,#outcome .container,#footer .container{
+    padding: 0 16px !important;
+  }
+  #ia p{
+    margin: 80px 0 96px 0 !important;
+  }
+  #ia h3{
+    padding-left: 7px !important;
+    margin-bottom: 88px !important;
+  }
+  #ia .lightbox-gallery{
+    padding-bottom: 88px;
+  }
+  #portfolio{
+    background-size: 127%;
+  }
+  #portfolio>div{
+    padding: 0 16px;
+    background-image: url(../../images/marry-portfolio-bottom-603.png);
+  }
+  #portfolio h3{
+    margin: 104px 0 72px 0 !important;
+  }
+  #portfolio .row>p{
+    margin-bottom: 0px !important;
+  }
+  #portfolio a{
+    width: 80%;
+    margin: 56px 10% 32px 10% !important;
+  }
+  #portfolio .pt-100{
+    margin: 80px 0 !important;
+  }
+  #portfolio .pt-100:nth-of-type(3){
+    margin-top: 80px !important;
+  }
+  #portfolio .pt-100:nth-of-type(5){
+    margin-bottom: 96px !important;
+  }
+  #portfolio .md-mb-30{
+    margin-bottom: 0;
+  }
+  #portfolio .mt-40{
+    margin-top: 0;
+  }
+  .extra-none{
+    margin-bottom: 16px;
+  }
+  .about-video-img-l{
+    margin-left: 0;
+  }
+  .about-video-img-r{
+    margin-right: 0;
+  }
+  video{
+    width: 80%;
+    margin-left: 11%;
+  }
+  .title-h3{
+    font-size: 20px;
+  }
+  .portfolio375{
+    display: inline-block;
+  }
+  .portfolio1920{
+    display: none;
+  }
+  .display768yes1{
+    top: -148px;
+  }
+  .display768yes2{
+    top: -168px;
+  }
+  #found{
+    background-image: url(../../images/micshow-found375.jpg);
+  }
+  #found h3{
+    padding-left: 20px !important;
+  }
+  #found .col-lg-12:nth-child(2), #outcome .col-lg-12:nth-child(2){
+    margin: 64px 0 144px 0;
+  }
+  #found .col-lg-4:nth-of-type(2), #usability .col-lg-4:nth-of-type(2), #outcome .col-lg-4:nth-of-type(2){
+    margin: 0;
+  }
+  #outcome .box_wrap{
+    padding: 0 !important;
+  }
+  #found .col-lg-4:nth-of-type(3) .box_wrap,#outcome .col-lg-4:nth-of-type(3) .box_wrap{
+    padding: 0 0 16px 0 !important;
+  }
+  #usability {
+  background-image: url(../../images/marry-usability-603.png);
+  }
+  #usability .col-lg-12:nth-child(2){
+    margin-top: 104px;
+  }
+  #usability .col-lg-12:nth-child(1){
+    margin: 72px 0;
+  }
+  #usability .content h4{
+    line-height: 1.8;
+    margin-top: 184px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  #usability .content h4 strong{
+    display: inline-block;
+    margin-bottom: 32px;
+  }
+  #usability li{
+    margin-bottom: 26px;
+  }
+  #usability .col-lg-4,#outcome .col-lg-4{
+    max-width: 26% !important;
+    flex: 0 0 26% !important;
+    width: 26% !important;
+    display: inline-block;
+  }
+  #usability .col-lg-4:nth-of-type(2){
+    margin: 0 10.35%;
+    top: -17px;
+  }
+  #usability .number-box-11{
+    margin-top: 5px;
+  }
+  #usability .number-box-12,#usability .number-box-13,#usability .number-box-14{
+    margin-top: 13px;
+  }
+  #usability li:nth-of-type(2) .number-box-p,#usability li:nth-of-type(3) .number-box-p,#usability ul li:nth-of-type(4) .number-box-p{
+    padding-top: 16px;
+  }
+  #usability .row:nth-of-type(2) h4,#usability .row:nth-of-type(3) h4{
+    margin-top: 136px;
+  }
+  #usability .display768yes{
+    top: -96px;
+  }
+  #usability .display768yes1{
+    top: -112px;
+  }
+  #usability .display768yes2{
+    top: -128px;
+  }
+  #usability .display768yes3{
+    top: -136px;
+  }
+  #usability .box_wrap{
+    padding: 0 0 96px 0 !important;
+  }
+  #usability .col-lg-4:nth-of-type(3) .box_wrap{
+    padding: 0 !important;
+  }
+  .display768yes5{
+    top: -128px;
+  }
+  #usability .row:nth-of-type(3) .col-lg-6:nth-of-type(1){
+    padding-right: 0;
+  }
+  #usability .row:nth-of-type(3) .col-lg-6:nth-of-type(2){
+    padding-left: 0;
+    float: right;
+  }
+  #usability .row:nth-of-type(2) .box_wrap h4, #usability .row:nth-of-type(3) .box_wrap h4{
+    margin: 20px 0 24px 0;
+  }
+  #usability .col-lg-6{
+    max-width: 42% !important;
+    flex: 0 0 42% !important;
+    width: 42% !important;
+    display: inline-block;
+  }
+  #next{
+    padding: 64px 0 96px 0 !important;
+    background-image: url(../../images/marry-next-603.png);
+  }
+  #next .col-lg-12:nth-child(2){
+    margin-bottom: 112px;
+  }
+  #next .mb-40{
+    margin-bottom: 0;
+  }
+  #next .pt-100:nth-of-type(2) h4{
+    margin: 0 0 10px 0;
+  }
+  #next .pt-100:nth-of-type(3){
+    margin: 144px 0 40px 0 !important;
+  }
+  #outcome{
+    background-position: left bottom;
+  }
+  #outcome .col-lg-4:nth-of-type(2){
+    margin: 0 11%;
+  }
+  #footer{
+    padding: 40px 0 64px 0;
+  }
+  #footer span{
+    font-size: 14px;
+  }
+  #footer i{
+    font-size: 18px;
+    top: 2px;
+  }
+  #footer .nk-pagination-prev span{
+    margin-left: 16px;
+  }
+  #footer .nk-pagination-next span{
+    margin-right: 16px;
+  }
+  .footerspan375no{
+    display: none;
+  }
+  .footerspan375{
+    display: inline-block;
+  }
+  #footer .row::before{
+    content: " Previous";
+    left: -4px;
+  }
+  #footer .row::after{
+    content: "Next";
+  }
+  #footer .row::before,#footer .row::after{
+    font-size: 38px;
+    top: -16px;
+  }
+}  
+
+@media(max-width: 766px) and (min-width: 514px){
+  #goal .col-lg-4,#solve .col-lg-4{
+    max-width: 28% !important;
+    display: inline-block;
+  }
+  #goal .col-lg-4:nth-of-type(3),#solve .col-lg-4:nth-of-type(3){
+    float: right;
+  }
+  #goal .col-lg-12{
+    margin: 120px 0 144px 0;
+  }
+  #survey .col-lg-6 .box_wrap{
+    width: 100%;
+  }
+  #survey .row:nth-of-type(1) .col-lg-6:nth-of-type(2){
+    float: right;
+  }
+  #solve .content>.col-lg-7 .col-lg-4:nth-child(2){
+    margin: 0 8% !important;
+  }
+  #portfolio .col-lg-5, #next .col-lg-5{
+    max-width: 85% !important;
+    flex: 0 0 85% !important;
+    width: 85% !important;
+    margin: 0 auto;
+  }
+  #found h3{
+    padding-left: 6px !important;
+  }
+  #found .col-lg-12:nth-child(2){
+    text-align: center;
+  }
+  #usability .col-lg-4:nth-of-type(3){
+    float: right;
+  }
+  #usability .box_wrap{
+    padding: 0 0 24px 0 !important;
+  }
+  #usability .col-lg-6:nth-of-type(2){
+    float: right;
+  }
+  #next .pt-100:nth-of-type(2) h4{
+    margin: 16px 0 10px 0;
+  }
+  .footerspan375no{
+    display: inline-block;
+  }
+  .footerspan375{
+    display: none;
+  }
+  #footer .row::before{
+    content: " Previous Work ";
+  }
+  #footer .row::after{
+    content: "Next Work ";
+  }
+}
+
+@media(max-width: 766px) and (min-width: 580px){
+  .order-lg-first h2{
+    margin: 0 0 20px 0;
+  }
+  .detailimg{
+    padding: 68px 0 0 0 !important;
+  }
+  .fs-carousel-titlecat{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4px;
+  }
+  .fs-carousel-titlecat span{
+    font-size: 12px;
+    padding:6px 12px;
+    width: 24%;
+  }
+  .fs-carousel-titlecat span:nth-of-type(1),.fs-carousel-titlecat span:nth-of-type(2){
+    margin-right: 5.5%;
+  }
+  .fs-carousel-titlecat span:nth-of-type(3){
+    float: left;
+  }
+  .detailimg{
+    top: 0.5%;
+  }
+  .detailimg img{
+    width: 40% !important;
+    left: 26%;
+  }
+  #introduction .col-sm-12:nth-child(odd){
+    padding-left: 16px;
+    max-width: 45% !important;
+    flex: 0 0 45% !important;
+  }
+  #introduction .col-sm-12:nth-child(even){
+    padding-right: 16px;
+    max-width: 55% !important;
+    flex: 0 0 55% !important;
+  }
+  #introduction .box_wrap{
+    padding: 0 0 40px 0 !important;
+  }
+  #process h3{
+    padding-left: 0;
+    padding-right: 6px;
+  }
+  #process .col-sm-12 p{
+    top: 6px;
+    font-size: 16px;
+  }
+  #survey ul li{
+    margin-bottom: 48px;
+  }
+  #survey .number-box-11, #survey .number-box-14{
+    margin-top: 8px;
+  }
+  #survey .number-box-12{
+    margin-top: 22px;
+  }
+  #survey .number-box-13{
+    margin-top: 12px;
+  }
+  #competitive1920{
+    display: inline-block;
+  }
+  #competitive375{
+    display: none;
+  }
+  #survey .col-lg-6 .box_wrap{
+    padding: 0 !important;
+  } 
+  #survey .lightboxp{
+    margin-left: 0;
+  }
+  #result-questionnaire, #result-journey, #result-important{
+    margin-top: 88px;
+  }
+  #result-important .col-md-6:nth-child(odd){
+    float: left;
+  }
+  #result-important .col-md-6:nth-child(even){
+    float: right;
+  }
+  #result-important .col-lg-3:nth-of-type(1), #result-important .col-lg-3:nth-of-type(2){
+    margin-bottom: 44px;
+  }
+  #result-persona .col-md-6,#result-important .col-md-6{
+    flex: 0 0 46% !important;
+    max-width: 46% !important;
+  }
+  #result-persona .col-lg-4:nth-of-type(2){
+    margin-left: 8%;
+  }
+  #result-persona .col-lg-4 p{
+    margin: 72px 0 40px 0;
+  }
+  #result-persona .fs-carousel-titlecat span{
+    padding: 6px 5px;
+    margin-right: 4%;
+  }
+  .resultline{
+    left: 44.5%;
+  }
+  #result-persona .col-lg-4 h4{
+    width: 95%;
+  }
+  #solve .title_default_light>p{
+    margin-bottom: 88px;
+  }
+  #solve .col-md-3{
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+  }
+  #solve .col-md-9{
+    flex: 0 0 60% !important;
+    max-width: 60% !important;
+    margin-top: 0;
+  }
+  #solve .content:nth-of-type(2) .col-md-9{
+    margin-top: 0;
+  }
+  #portfolio .row>p{
+    margin-bottom: 40px;
+  }
+  #portfolio .sec-title{
+    margin-top: 16px;
+  }
+  #portfolio .pt-100{
+    margin: 80px 0 !important;
+  }
+  #portfolio .pt-100:nth-of-type(5){
+    margin-top: 104px !important;
+  }
+  #portfolio .row>p{
+    margin-bottom: 40px !important;
+  }
+  #usability .display768yes3{
+    top: -110px;
+  }
+  #usability .display768yes5{
+    top: -102px;
+  }
+  #outcome{
+    background-position: center;
+  }
+
+}
+
+@media(max-width: 475px) and (min-width: 320px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-414.svg);
+  }
+  .h21920, .onespan375no{
+    display: inline-block;
+  }
+  .h2768{
+    display: none;
+  }
+  .detailimg img{
+    width: 50% !important;
+    left: 22%;
+  }
+  .detailimg{
+    padding: 80px 0 0 0 !important;
+  }
+  .banner_text{
+    bottom: 8px;
+  }
+  #introduction{
+    background-image: url(../../images/marry-introduction-414.png);
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
+    left: 21%;
+    width: 58%;
+  }
+  #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    left: 19%;
+    width: 63%;
+  }
+  #problem{
+    background-image: url(../../images/marry-problem-414.png);
+  }
+  #goal .col-lg-12{
+    margin: 120px 0 264px 0;
+  }
+  #goal .col-md-8{
+    top: 256px;
+  }
+  #goal .box_wrap{
+    width: 64%;
+    margin: 0 auto;
+    padding: 0 0 104px 0 !important;
+  }
+  #goal .col-lg-4:nth-of-type(2){
+    margin: 0;
+    top: 0;
+  }
+  #challenge{
+    background-image: url(../../images/marry-challenge-414.png);
+  }
+  #process{
+    background-image: url(../../images/marry-processbg-320.png);
+  }
+  #process h3{
+    padding-left: 0;
+  }
+  .process1920,.process1024,.process768{
+    display: none;
+  }
+  .process320{
+    display: inline-block;
+  }
+  #process img{
+    width: 100%;
+    padding: 0 16px;
+    margin-left: 0;
+  }
+  #survey{
+    background-image: url(../../images/marry-survey-top-414.png);
+  }
+  #survey>div{
+    background-image: url(../../images/marry-survey-bottom-414.png);
+  }
+  #survey h3,#result h3,#solve h3,#ia h3,#portfolio h3,#outcome h3{
+    padding-left: 8px !important;
+  }
+  #survey .col-lg-6,#result-important .col-lg-3,#usability .col-lg-4,#usability .col-lg-6,#outcome .col-lg-4{
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+  #survey .lightboxp{
+    margin-left: 0px;
+  }
+  #survey .display768yes1,#survey .row:nth-of-type(1) .display768yes{
+    top: -172px;
+  }
+  #survey .row:nth-of-type(3) .display768yes{
+    top: -178px;
+  }
+  #survey .row:nth-of-type(2) .content h4{
+    margin-bottom: 48px;
+  }
+  #survey .test533{
+    display: inline-block;
+  }
+  #survey .test1920{
+    display: none;
+  }
+  #survey .surveysectitleh4{
+    top: -3px !important;
+    position: absolute !important;
+    line-height: 1.5 !important;
+  }
+  #survey .number-box-11{
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+  #survey .number-box-13{
+    margin-top: 8px;
+  }
+  #survey .number-box-14{
+    margin-top: 24px;
+  }
+  #survey .stk603,#result .que1920{
+    display: none;
+  }
+  #survey .stk414,#result .que414{
+    display: inline-block;
+  }
+  #stakeholders .chart_bx{
+    margin-top: -8px !important;
+  }
+  #stakeholders .lightbox img{
+    width: 96% !important;
+    margin-left: 2%;
+  }
+  #survey .sta603{
+    width: 96% !important;
+    margin-left: 2.5%;
+  }
+  #result{
+    background-image: url(../../images/marry-result-414.png);
+  }
+  #result-questionnaire{
+    margin-top: 128px !important;
+  }
+  #result-questionnaire .col-lg-6:nth-of-type(1), #result-questionnaire .col-lg-6:nth-of-type(2){
+    margin-bottom: 72px !important;
+  }
+  #result-questionnaire-one{
+    height: auto;
+  }
+  #result-questionnaire-three{
+    top: -200px;
+  }
+  .progress-bars2{
+    margin-top: 0;
+  }
+  #result-questionnaire-three .sec-title{
+    margin-top: 1340px;
+  }
+  #result-journey{
+    margin-top: -120px !important;
+  }
+  #result-important{
+    margin-top: 148px !important;
+  }
+  #result-important .col-sm-12{
+    margin-bottom: 112px !important;
+  }
+  #result-important .col-sm-12:nth-of-type(2),#result-important .col-sm-12:nth-of-type(3){
+    margin-bottom: 88px !important;
+  }
+  #result-important .col-sm-12:nth-of-type(4){
+    margin-bottom: 0 !important;
+  }
+  #result-important .box_wrap{
+    height: 320px !important;
+    padding: 0 !important;
+  }
+  #result-important .col-lg-3:nth-child(4) h4{
+    padding: 0 0 16px 0;
+  }
+  #solve{
+    background-image: url(../../images/marry-solve-414.png);
+  }
+  #solve .col-lg-12:nth-child(2){
+    margin: 0 0 184px 0;
+  }
+  #solve .box_wrap{
+    padding: 0 0 32px 0 !important;
+  }
+  #solve .faq_content2 .card{
+    height: 328px;
+  }
+  #portfolio{
+    background-size: 134%;
+  }
+  #portfolio>div{
+    background-image: url(../../images/marry-portfolio-bottom-414.png);
+  }
+  #portfolio .row>p{
+    margin-bottom: 72px !important;
+  }
+  #portfolio a{
+    width: 100%;
+    margin: 56px 0% 32px 0% !important;
+  }
+  #portfolio .pt-100{
+    margin: 24px 0 80px 0 !important;
+  }
+  #portfolio .pt-100:nth-of-type(3),#portfolio .pt-100:nth-of-type(5){
+    margin-top: 24px !important;
+  }
+  #usability{
+    background-image: url(../../images/marry-usability-414.png);
+  }
+  #usability h3{
+    padding-left: 5px !important;
+  }
+  #usability .display768yes{
+    top: -120px;
+  }
+  #usability .display768yes1{
+    top: -136px;
+  }
+  #usability .display768yes2{
+    top: -152px;
+  }
+  .resultline{
+    left: 42%;
+  }
+  #usability .number-box-11{
+    margin-top: 16px;
+  }
+  #usability .number-box-12,#usability .number-box-14{
+    margin-top: 24px;
+  }
+  #usability .col-lg-4:nth-of-type(2){
+    margin: 0;
+    top: 0;
+  }
+  #usability .col-lg-7 .col-lg-6:nth-child(2) .box_wrap{
+    padding: 0 0 48px 0 !important;
+  }
+  #next{
+    background-image: url(../../images/marry-next-414.png);
+  }
+  #next h3{
+    padding-left: 2px !important;
+    padding-right: 0 !important;
+  }
+  #next .mart200 h4>strong:nth-of-type(2){
+    position: absolute;
+    top: 11px;
+    line-height: 1.5;
+  }
+  #next .mart200 .title-h3{
+    margin-top: 32px;
+  }
+  #next .pt-100:nth-of-type(2) h4{
+    margin: 40px 0 10px 0;
+  }
+  #outcome>div{
+    padding-bottom: 96px;
+    background-color: rgba(217,217,241, 0.82);
+  }
+  #outcome .col-lg-4:nth-of-type(2){
+    margin: 0;
+  }
+  #outcome .box_wrap{
+    margin-bottom: 88px;
+  }
+  #outcome .col-lg-4:nth-of-type(3) .box_wrap{
+    margin-bottom: 0px;
+  }
+}
+
+@media(max-width: 409px) and (min-width: 320px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-320.svg);
+  }
+  .banner_text{
+    bottom: 0;
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
+    left: 18%;
+    width: 64%;
+  }
+  #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    left: 15%;
+    width: 70%;
+  }
+  #challenge{
+    background-image: url(../../images/marry-challenge-320.png);
+  }
+  #process h3{
+    padding-left: 6px !important;
+  }
+  #survey{
+    background-image: url(../../images/marry-survey-top-320.png);
+  }
+  #survey>div{
+    background-image: url(../../images/marry-survey-bottom-320.png);
+  }
+  #survey .surveysectitleh4-other{
+    top: -3px !important;
+    position: absolute !important;
+    line-height: 1.5 !important;
+  }
+  #survey .sta603{
+    width: 100% !important;
+    margin-left: 0.3%;
+  }
+  #survey .row:nth-of-type(1) .display768yes{
+    top: -170px;
+  }
+  #survey .display768yes1,#survey .row:nth-of-type(3) .display768yes{
+    top: -172px;
+  }
+  #stakeholders .lightbox img{
+    width: 100% !important;
+    margin-left: 0;
+  }
+  #result{
+    background-image: url(../../images/marry-result-320.png);
+  }
+  #result-questionnaire{
+    margin-top: 152px !important;
+  }
+  #result-questionnaire-one .col-md-12:nth-of-type(2){
+    margin-bottom: 0;
+  }
+  #result-questionnaire-three .sec-title{
+    margin-top: 1314px;
+  }
+  #result-important{
+    margin-top: 168px !important;
+  }
+  #result-important .col-sm-12:nth-of-type(1){
+    margin-bottom: 128px !important;
+  }
+  #result-important .col-sm-12:nth-of-type(2), #result-important .col-sm-12:nth-of-type(3){
+    margin-bottom: 68px !important;
+  }
+  #solve h3{
+    padding-left: 0 !important;
+  }
+  #solve .faq_content2 .card{
+    height: 358px;
+  }
+  #ia p{
+    margin-bottom: 80px !important;
+  }
+  #portfolio>div{
+    background-image: url(../../images/marry-portfolio-bottom-320.png);
+  }
+  #portfolio h3, #usability h3{
+    padding-left: 4px !important;
+  }
+  .mart136{
+    margin: 108px 0 0 0 !important
+  }
+  #portfolio .bigtitle{
+    margin: 64px 0 0 0 !important
+  }
+  #usability{
+    background-image: url(../../images/marry-usability-320.png);
+  }
+  #usability .content h4{
+    margin-top: 160px;
+  }
+  #usability .row:nth-of-type(2) h4{
+    margin-top: 104px;
+  }
+  .resultline{
+    left: 41%;
+  }
+  #usability .number-box-11{
+    margin-top: 26px;
+  }
+  #usability .number-box-12, #usability .number-box-14{
+    margin-top: 34px;
+  }
+  #usability .number-box-13{
+    margin-top: 24px;
+  }
+  #next{
+    background-image: url(../../images/marry-next-320.png);
+  }
+  .mart72{
+    margin: 32px 0 0 0 !important;
+  }
+  .mart200{
+    margin: 168px 0 0 0 !important;
+  }
+}
+
+@media(max-width: 579px) and (min-width: 476px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-533.svg);
+  }
+  .banner_text{
+    bottom: 0;
+  }
+  .h2768{
+    margin-bottom: 16px !important;
+  }
+  .fs-carousel-titlecat{
+    display: block;
+    margin-bottom: 8px;
+  }
+  #background h3, #challenge h3, #process h3{
+    padding-left: 12px;
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
+    left: 27.5%;
+    width: 45%;
+  }
+  #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    width: 48%;
+    left: 26.5%;
+  }
+  .detailimg{
+    padding: 80px 0 0 0 !important;
+  }
+  #home_section .col-lg-8{
+    bottom: 2.5%;
+  }
+  #introduction{
+    background-image:url(../../images/marry-introduction-533.png);
+  }
+  #challenge{
+    background-image: url(../../images/marry-challenge-533.png);
+  }
+  #goal .col-lg-4:nth-of-type(1){
+    top: -20px;
+  }
+  #process h3{
+    padding-left: 8px !important;
+  }
+  #process .roadmap_list{
+    padding: 0 29%;
+  }
+  #process img{
+    width: 84%;
+    margin-left: 8%;
+  }
+  #survey{
+    background-image: url(../../images/marry-survey-533.png);
+  }
+  #survey>div{
+    background-image: url(../../images/marry-survey-bottom-533.png);
+  }
+  #result h3,#solve h3,#ia h3,#portfolio h3,#usability h3, #next h3,#outcome h3{
+    padding-left: 16px !important;
+  }
+  #result h3,#solve h3,#ia h3,#portfolio h3,#usability h3, #next h3,#outcome h3{
+    padding-left: 8px !important;
+  }
+  #survey .number-box-11{
+    margin-top: 24px;
+  }
+  #survey .number-box-12{
+    margin-top: 36px;
+  }
+  #survey .number-box-13{
+    margin-top: 8px;
+  }
+ #survey .number-box-14{
+   margin-top: 9px;
+  }
+  #survey .row:nth-of-type(1) .display768yes{
+    top: -170px;
+  }
+  #survey .row:nth-of-type(2) .display768yes{
+    top: -112px;
+  }
+  #survey .row:nth-of-type(1) h4{
+    margin-top: 104px;
+  }
+  #result-questionnaire-three{
+    top: -96px;
+  }
+  #survey .row:nth-of-type(1) .col-lg-6:nth-of-type(1){
+    margin-bottom: 0;
+  }
+  #survey .row:nth-of-type(1) .box_wrap{
+    padding: 0 !important;
+  }
+  #survey .row:nth-of-type(2) .content h4,#stakeholders .content h4{
+    margin-top: 208px;
+  }
+  #survey .test1920{
+    display: none;
+  }
+  #survey .row:nth-of-type(2) .lightbox{
+    margin-left: 0;
+    width: auto !important;
+  }
+  #survey .test533{
+    display: inline-block;
+    width: 76% !important;
+    margin-left: 15.5%;
+    margin-top: 8px;
+    padding-left: 0 !important;
+  }
+  #stakeholders .lightbox{
+    width: auto !important;
+    margin-left: 0;
+  }
+  #stakeholders .lightbox img{
+    width: 74% !important;
+    margin-left: 13%;
+  }
+  #survey .lightboxp{
+    margin-left: 15.5%;
+    margin-right: 8.4%;
+  }
+ .resultline{
+   left: 44%;
+ }
+ #result{
+   background-image: url(../../images/marry-result-533.png);
+ }
+ #result .col-md-12{
+   margin: 0 0 80px 0;
+ }
+ .progress-bars1{
+   margin-top: 0;
+ }
+ .progress-bars2{
+   margin-top: 76px;
+ }
+ #result-persona .col-lg-4{
+   margin-top: 176px;
+ }
+ .res_sm_mb_20{
+   margin-bottom: 48px;
+ }  
+ #result-questionnaire{
+  margin-top: 120px !important;
+}
+ #result-important{
+   margin-top: 200px !important;
+ }
+ #result-journey{
+   margin-top: 248px !important;
+ }
+ #result-persona .res_sm_mb_20:nth-of-type(3){
+  margin-bottom: 0;
+}
+ #result-persona .fs-carousel-titlecat span{
+   padding: 6px 24px;
+ }
+ #result-important .col-md-6{
+  flex: 0 0 46% !important;
+  max-width: 46% !important;
+}
+#result-important .col-md-6:nth-child(odd){
+  float: left;
+}
+#result-important .col-md-6:nth-child(even){
+  float: right;
+}
+#result-important .col-lg-3>div{
+  padding: 40px 16px;
+}
+#result-questionnaire-three .sec-title{
+  margin-top: 928px;
+}
+#solve{
+  padding-bottom: 56px;
+}
+#solve p{
+  margin-bottom: 64px;
+}
+#solve .col-md-3{
+  flex: 0 0 35% !important;
+  max-width: 35% !important;
+}
+#solve .col-md-9{
+  flex: 0 0 55% !important;
+  max-width: 55% !important;
+  margin-top: 0;
+}
+#solve .content:nth-of-type(2) .col-md-9{
+  margin-top: 0;
+}
+#solve .col-lg-12:nth-child(2){
+  margin: 0 0 200px 0;
+}
+.display768yes2{
+  top: -144px;
+}
+.tab_s2 .tab-link{
+  padding: 10px;
+}
+.faq_content2 .card{
+  height: 296px;
+}
+#portfolio{
+  background-size: 126%;
+}
+#portfolio>div{
+  background-image: url(../../images/marry-portfolio-bottom-533.png);
+}
+#portfolio a{
+  width: 94%;
+  margin: 56px 3% 32px 3% !important;
+}
+video{
+  width: 50%;
+  margin-left: 25%;
+}
+#portfolio .sec-title{
+  margin-top: -24px;
+}
+#portfolio .sec-title h4{
+  margin: 0 0 10px 0;
+}
+#portfolio .pt-100{
+  margin: 88px 0 48px 0 !important;
+}
+#portfolio .pt-100:nth-of-type(1) .bigtitle{
+  margin-top: 160px !important;
+}
+#found h3{
+  padding-left: 16px !important;
+}
+#found .col-lg-4, #outcome .col-lg-4{
+  max-width: 85% !important;
+  flex: 0 0 85% !important;
+  width: 85% !important;
+  margin: 0 auto !important;
+}
+#usability{
+  background-image: url(../../images/marry-usability-533.png);
+}
+#usability .col-lg-4, #outcome .col-lg-4{
+  max-width: 29% !important;
+  flex: 0 0 29% !important;
+  width: 29% !important;
+}
+#usability .col-lg-6{
+  max-width: 45% !important;
+  flex: 0 0 45% !important;
+  width: 45% !important;
+}
+#usability ul li:nth-of-type(4) p, #usability ul li:nth-of-type(5) p{
+  padding-top: 18px;
+}
+#usability .col-lg-4:nth-of-type(1){
+  float: left;
+}
+#usability .col-lg-4:nth-of-type(2){
+  margin: 0 6.5%;
+  top: auto;
+}
+#usability .row:nth-of-type(2) h4{
+  margin-top: 120px;
+}
+#usability .row:nth-of-type(3) h4{
+  margin-bottom: 56px;
+}
+#usability .display768yes2{
+  top: -122px;
+}
+#next{
+  background-image: url(../../images/marry-next-533.png);
+}
+#next .portfolio375{
+  margin-top: -16px;
+}
+#next .pt-100:nth-of-type(2) h4{
+  margin: 0 0 10px 0;
+}
+#outcome{
+  background-position: right bottom;
+}
+#outcome .col-lg-4{
+  margin: 0 !important;
+}
+#outcome .col-lg-4:nth-of-type(2){
+  margin: 0 6.5% !important;
+}
+#outcome .col-lg-12:nth-child(2){
+  margin-bottom: 136px;
+}
+.footerspan375no{
+  display: none;
+}
+.footerspan375{
+  display: inline-block;
+}
+#footer .row::before{
+  content: " Previous";
+}
+#footer .row::after{
+  content: "Next";
+}
+}
+
+@media(max-width: 513px) and (min-width: 476px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-480.svg);
+  }
+  .h21920,.onespan375no{
+    display: inline-block;
+  }
+  .h2768,.fs-carousel-titlecat{
+    display: none;
+  }
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
+    left: 25%;
+    width: 50%;
+  }
+  #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    left: 24%;
+    width: 54%;
+  }
+  .detailimg{
+    padding: 88px 0 0 0 !important;
+  }
+  .detailimg img{
+    width: 50% !important;
+    left: 22%;
+  }
+  .banner_text{
+    bottom: 4px;
+  }
+  #home_section h4{
+    margin: 12px 0 16px 0 !important;
+  }
+  #goal .container{
+    padding-bottom: 96px;
+  }
+  #goal .col-md-8{
+    top: 240px;
+  }
+  #goal .box_wrap, #solve .box_wrap, #solve-method .box_wrap{
+    width: 56%;
+    margin: 0 auto;
+  }
+  #goal .box_wrap{
+    padding: 0 0 96px 0 !important;
+  }
+  #goal .col-lg-4:nth-of-type(1),#goal .col-lg-4:nth-of-type(2), #goal .col-lg-4:nth-of-type(3){
+    margin: 0;
+    top: 0;
+  }
+  #challenge{
+    background-image: url(../../images/marry-challenge-480.png);
+  }
+  #process h3{
+    padding-right: 6px;
+  }
+  #process img{
+    width: 100%;
+    margin-left: 0;
+    padding: 0 16px;
+  }
+  #survey>div{
+    background-image: url(../../images/marry-survey-bottom-480.png);
+  }
+  #survey .number-box-11{
+    margin-top: 28px;
+  }
+  #survey .row:nth-of-type(1) .col-lg-6:nth-of-type(1){
+    margin-bottom: 56px;
+  }
+  #survey .row:nth-of-type(1) .col-lg-6:nth-of-type(2){
+    float: right;
+  }
+  #survey .row:nth-of-type(1) .box_wrap{
+    padding: 0 0 48px 0 !important;
+  }
+  #survey .row:nth-of-type(1) .chart_bx{
+    margin-top: -8px;
+  }
+  #survey .row:nth-of-type(2) .content h4{
+    margin-top: 128px;
+  }
+  #survey .test533{
+    width: 88% !important;
+    margin-left: 11%;
+  }
+  #survey .lightboxp{
+    margin-left: 11%;
+    margin-right: 0.5%;
+  }
+  #survey li:nth-last-of-type(1) .surveysectitleh4{
+    top: -3px !important;
+    position: absolute !important;
+    line-height: 1.5 !important;
+  }
+  #survey .marl56 .chart_bx{
+    top: 7px;
+  }
+  #survey .sta603{
+    width: 92% !important;
+    margin-left: 4%;
+  }
+  #stakeholders .chart_bx{
+    margin-top: -6px;
+  }
+  #stakeholders .lightbox img{
+    width: 83% !important;
+    margin-left: 8.5%;
+  }
+  #stakeholders .display768yes{
+    top: -172px;
+  }
+  #result{
+    background-image: url(../../images/marry-result-480.png);
+  }
+  #result h3, #ia h3, #portfolio h3, #usability h3, #next h3, #outcome h3{
+    padding-left: 14px !important;
+  }
+  #result-questionnaire-three .sec-title{
+    margin-top: 850px;
+  }
+  #result-important .col-sm-12{
+    margin-bottom: 96px !important;
+  }
+  #result-important .col-lg-3>div{
+    padding: 28px 16px;
+  }
+  .resultline{
+    left: 43%;
+  }
+  #solve h3{
+    padding-left: 8px !important;
+  }
+  #solve .col-lg-12:nth-child(2){
+    margin: 0 0 216px 0;
+  }
+  #solve .content:nth-of-type(2)>.col-lg-7{
+    margin: 16px 0 0 0;
+  }
+  .display768yes2{
+    top: -144px;
+  }
+  #ia .lightbox-gallery .image{
+    margin-top: 16px;
+  }
+  #portfolio{
+    background-size: 122%;
+  }
+  #portfolio>div{
+    background-image: url(../../images/marry-portfolio-bottom-480.png);
+  }
+  #portfolio a{
+    width: 100%;
+    margin: 56px 0 32px 0 !important;
+  }
+  #portfolio .pt-100{
+    margin: 88px 0 56px 0 !important;
+  }
+  #usability{
+    background-image: url(../../images/marry-usability-480.png);
+  }
+  #usability .display768yes{
+    top: -98px;
+  }
+  #usability .row:nth-of-type(3) .col-lg-6:nth-of-type(2) .box_wrap{
+    padding: 0 0 32px 0 !important;
+  }
+  #usability .number-box-11{
+    margin-top: 18px;
+  }
+  #usability .number-box-12,#usability .number-box-14{
+    margin-top: 24px;
+  }
+  #usability .number-box-13{
+    margin-top: 12px;
+  }
+  #usability .col-lg-4,#usability .col-lg-6,#outcome .col-lg-4{
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+  #usability .col-lg-4:nth-of-type(2){
+    margin: 0;
+    top: 0;
+  }
+  #usability .row:nth-of-type(3) h4, #usability .row:nth-of-type(2) h4{
+    margin-bottom: 56px;
+  }
+  #usability .row:nth-of-type(3) h4{
+    margin-top: 176px;
+  }
+  #usability .display768yes1{
+    top: -118px;
+  }
+  #usability .display768yes2{
+    top: -144px;
+  }
+  #found h3{
+    padding-left: 0 !important;
+  }
+  #next{
+    background-image: url(../../images/marry-next-480.png);
+  }
+  #next .mart200 h4>strong:nth-of-type(2){
+    position: absolute;
+    top: 11px;
+    line-height: 1.5;
+  }
+  #next .mart200 .title-h3{
+    margin-top: 32px;
+  }
+  #outcome{
+    background-position: left bottom;
+  }
+  #outcome>div{
+    background-color: rgba(217,217,241, 0.8);
+  }
+  #outcome .col-lg-4:nth-of-type(2){
+    margin: 0 !important;
+  }
+  #outcome .box_wrap{
+    padding: 0 0 120px 0 !important;
+  }
+}
+
+@media(max-width: 513px){
+  #goal .col-lg-4{
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+  #survey .row:nth-of-type(2) .lightbox,#stakeholders .lightbox{
+    margin-left: 0;
+    width: auto !important;
+  }
+  #outcome>div{
+    padding-bottom: 96px;
+  }
+}
