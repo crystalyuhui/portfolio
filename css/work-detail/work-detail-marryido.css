@@ -131,7 +131,7 @@ section{
   height: 100%;
 }
 #home_section .align-items-center{
-  width: 76%;
+  width: 78%;
   margin: 0 auto !important;
 }
 #home_section .col-lg-7{
@@ -217,6 +217,16 @@ section{
 .v_royal_blue{
     overflow-x: hidden;
 }
+.mfp-bg{
+  height: 100% !important;
+  position: fixed !important;
+}
+.mfp-wrap{
+  top: 0 !important;
+  height: 100% !important;
+  position: fixed !important;
+  overflow: hidden auto !important;
+}
 #introduction{
   padding: 64px 0;
   height: auto;
@@ -283,6 +293,8 @@ section{
   background-position: bottom center;
   background-size: 100%;
   background-repeat: no-repeat;
+  position: relative;
+  bottom: 0;
 }
 #ia{
   background-image: url(../../images/marry-iabg.png);
@@ -434,7 +446,6 @@ section{
 #background h3::after{
   left: 78px;
   width: 67%;
-
 }
 #problem h3::after{
   color:rgba(255,218,227,0.35);
@@ -505,7 +516,7 @@ padding-left: 88px;
 }
 #goal p{
   text-align: center;
-  line-height: 1.5 !important;
+  line-height: 1.8 !important;
 }
 #challenge p,#survey li p{
   margin-left: 16px;
@@ -1005,6 +1016,9 @@ line-height: 2;
 .lightbox img{
   cursor: zoom-in;
 }
+.lightbox:hover img{
+  transform: none !important;
+}
 .mfp-bg,.mfp-figure figure{
   background:#2B3042 !important;
 }
@@ -1401,9 +1415,100 @@ margin-right: 24px;
     margin-right: -32px;
     margin-left: -32px;
   }
+  #home_section .order-lg-first{
+    padding-right: 0;
+  }
+  #introduction .col-lg-4{
+    width: 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  #background h3,#problem h3,#goal h3,#challenge h3{
+    margin-top: 0 !important;
+    margin-bottom: -256px !important;
+  }
+  #process h3,#survey h3,#result h3,#solve h3,#ia h3,#portfolio h3,#usability h3,#next h3,#outcome h3{
+    margin-bottom: -120px !important;
+    margin-top: 136px !important;
+  }
+  #solve h3{
+    margin-top: 80px !important;
+  }
+  #usability{
+    background-image: url(../../images/marry-usability-top.png);
+    background-position:top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+  #usability>div{
+    background-image: url(../../images/marry-usability-bottom.png);
+    background-position:bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+  }
+  #usability .container{
+    padding: 100px 0;
+  }
+  #usability h3{
+    margin-top: 104px !important;
+  }
+  #background h3::after,#problem h3::after,#goal h3::after,#challenge h3::after,#process h3::after,#survey h3::after,#result h3::after,#solve h3::after,#ia h3::after,#portfolio h3::after,#usability h3::after,#next h3::after,#outcome h3::after{ 
+    position: relative;
+    width: auto;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+    top: -256px;
+    left: 0;
+  }
+  #background h3{
+    top: 172px;
+  }
+  #problem .col-lg-12{
+    margin: 128px 0;
+  }
+  #problem h3{
+    top: 144px;
+  }
+  #goal h3{
+    top: 220px;
+  }
+  #challenge h3{
+    top: 202px;
+  }
   #survey .col-lg-7{
     padding-left: 0;
     padding-right: 0;
+  }
+  #solve .col-lg-12:nth-child(2),#usability .col-lg-12:nth-child(2),#next .col-lg-12:nth-child(2){
+    margin-top: 64px;
+  }
+}
+
+@media(min-width: 1500px){
+  #process{
+    background-image: url(../../images/marry-processbg-1920.png);
+    background-position: bottom left;
+  }
+  #survey{
+    background-image: url(../../images/marry-survey-top-1920.png);
+  }
+  #portfolio>div{
+    background-image: url(../../images/marry-portfolio-bottom-1920.png);
+  }
+  #usability{
+    background-image: url(../../images/marry-usability-top-1920.png);
+    background-position: top right;
+  }
+  #usability>div{
+    background-position: bottom left;
+    background-size: 80%;
   }
 }
 
@@ -1422,7 +1527,10 @@ margin-right: 24px;
     margin: 120px 0;
   }
   #goal h3{
-    top: 212px;
+    top: 235px;
+  }
+  #challenge{
+    background-image: url(../../images/marry-challenge-1280.png);
   }
   #survey{
     background-image:url(../../images/marry-survey-top-1280.png) ;
@@ -1433,12 +1541,12 @@ margin-right: 24px;
   #portfolio>div{
     background-image: url(../../images/marry-portfolio-bottom-1280.png);
   }
-  #next{
-    background-position: left top;
+  #usability{
+    background-image: url(../../images/marry-usability-top-1280.png);
   }
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1199px){
   #home_section>.container{
     background-image: url(../../images/marry-banner-1024.svg);
   }
@@ -1479,11 +1587,16 @@ margin-right: 24px;
     max-width: 41.66666667%;
     padding: 0 0 0 30px;
   }
+  #introduction .padl32{
+    width: 24.5%;
+    flex: 0 0 24.5%;
+    max-width: 24.5%;
+  }
   .padl32{
     padding-left: 45px;
   }
   .padr48{
-    padding-right: 45px;
+    padding-right: 40px;
   }
   .padl24{
     padding-left: 15px;
@@ -1530,7 +1643,7 @@ margin-right: 24px;
     background-image: url(../../images/marry-challenge-1024.png);
   }
   #challenge h3{
-    top: 208px;
+    top: 212px;
   }
   #background .col-lg-12,#goal .col-lg-12, #challenge .col-lg-12, #survey .col-lg-12, #result .col-lg-12, #portfolio .col-lg-12,#found .col-lg-12{
     margin: 88px 0;
@@ -1768,7 +1881,7 @@ margin-right: 24px;
     margin: 88px 0 128px 0;
   }
   #usability .col-lg-12:nth-child(2){
-    margin: 48px 0 72px 0;
+    margin: 64px 0 72px 0;
   }
   #usability .col-lg-7 h4{
     width: 100%;
@@ -1823,11 +1936,13 @@ margin-right: 24px;
     display: none;
   }
   .col-md-5{
-    max-width: 45% !important;
-    flex:0 0 45% !important;
+    width: 44.7% !important;
+    max-width: 44.7% !important;
+    flex:0 0 44.7% !important;
     padding: 0 !important;
   }
   .col-md-7{
+    width: 55% !important;
     max-width: 55% !important;
     flex:0 0 55% !important;
     padding: 0 !important;
@@ -1855,6 +1970,7 @@ margin-right: 24px;
   }
   #problem{
     background-position: right center;
+    background-image: url(../../images/marry-problem-768.png);
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     font-size: 152px;
@@ -2410,6 +2526,9 @@ margin-right: 24px;
     max-width:100% !important;
     flex: 0 0 100% !important;
     width: 100% !important;
+  }
+  _::-webkit-full-page-media, _:future, :root #home_section{
+    height: 90vh;
   }
   .section_banner{
     padding: 0 !important;
@@ -2985,13 +3104,19 @@ margin-right: 24px;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 80px;
-    background-image: url(../../images/marry-solve-603.png);
+    background-image: url(../../images/marry-solve-414.png);
   }
   #solve h3,#portfolio h3,#usability h3{
     padding-left: 4px !important;
   }
+  #solve h3{
+    margin-bottom: 160px !important;
+  }
   #next h3,#outcome h3{
     padding-left: 8px !important;
+  }
+  #next .col-lg-12:nth-child(1){
+    margin-bottom: 160px;
   }
   #solve .align-items-center{
     margin: 32px 0 0 0;
@@ -3378,13 +3503,16 @@ margin-right: 24px;
   }
   #introduction .col-sm-12:nth-child(odd){
     padding-left: 16px;
+    width: 45% !important;
     max-width: 45% !important;
     flex: 0 0 45% !important;
   }
   #introduction .col-sm-12:nth-child(even){
     padding-right: 16px;
-    max-width: 55% !important;
-    flex: 0 0 55% !important;
+    width: 54.8% !important;
+    max-width: 54.8% !important;
+    flex: 0 0 54.8% !important;
+    float: right;
   }
   #introduction .box_wrap{
     padding: 0 0 40px 0 !important;
@@ -3682,6 +3810,9 @@ margin-right: 24px;
   }
   #solve .faq_content2 .card{
     height: 328px;
+  }
+  #ia p{
+    margin-top: 64px !important;
   }
   #portfolio{
     background-size: 134%;
@@ -4390,7 +4521,7 @@ video{
     padding-left: 0 !important;
   }
   #next{
-    background-image: url(../../images/marry-next-480.png);
+    background-image: url(../../images/marry-next-414.png);
   }
   #next .mart200 h4>strong:nth-of-type(2){
     position: absolute;

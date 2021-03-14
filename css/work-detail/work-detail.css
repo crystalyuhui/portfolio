@@ -7,6 +7,9 @@
 .padl0{
   padding-left: 0;
 }
+.pl-70{
+  padding-left: 70px;
+}
 .padl62{
   padding-left: 62px;
   margin-top:16px;
@@ -107,6 +110,9 @@ section{
 #home_section .col-lg-7{
   float: none;
   margin-top: 36px;
+  width: 58%;
+  flex: 0 0 58%;
+  max-width: 58%;
 }
 #home_section h4{
   margin: 24px 0 !important;
@@ -179,6 +185,16 @@ section{
 }
 .v_royal_blue{
     overflow-x: hidden;
+}
+.mfp-bg{
+  height: 100% !important;
+  position: fixed !important;
+}
+.mfp-wrap{
+  top: 0 !important;
+  height: 100% !important;
+  position: fixed !important;
+  overflow: hidden auto !important;
 }
 #introduction{
   padding: 64px 0;
@@ -364,9 +380,6 @@ section{
 #challenge h3{
   top: 112px;
 }
-#process h3{
-  padding-right: 8px;
-}
 #solve h3{
   margin-bottom: 184px !important;
   margin-top: 0 !important;
@@ -380,8 +393,10 @@ section{
   font-size: 184px;
   color: rgba(255,255,255, 0.15);
   content: "01";
-  position: absolute;
-  left: 104px;
+  position: relative;
+  top: -28px;
+  display: flex;
+  justify-content: center;
 }
 #problem h3::after{
   color: rgba(0,135,194, 0.1);
@@ -396,32 +411,27 @@ section{
 }
 #process h3::after{
   content: "05";
-  left: 42%;
 }
 #survey h3::after,#result h3::after,#ia h3::after,#portfolio h3::after,#usability h3::after,#next h3::after{
   color: rgba(0,135,194, 0.1);
   content: "06";
-  left: 41%;
 }
 #result h3::after{
   content: "07";
-  left: 41.6%;
+  margin-left: 8px;
 }
 #solve h3::after{
   content: "08";
-  left: 41%;
 }
 #ia h3::after{
   content: "09";
-  left: 40.5%;
 }
 #portfolio h3::after{
   content: "10";
-  left: 41.8%;
+  margin-right: 12px;
 }
 #next h3::after{
   content: "13";
-  left: 41.8%;
 }
 #background p,#problem p,#goal p,#challenge p{
   padding: 0;
@@ -556,6 +566,9 @@ padding-left: 88px;
 #solve .content h4{
   color: #ffffff;
 }
+#solve .content p{
+  line-height: 1.8 !important;
+}
 #result-questionnaire{
   margin: 0 !important;
 }
@@ -584,6 +597,9 @@ padding-left: 88px;
 }
 #result-persona{
   margin: 0 !important;
+}
+#result-persona .small_space{
+  display: inline-block;
 }
 #result-persona .col-lg-4{
   background-color: rgba(222,236,255,0.8);
@@ -758,6 +774,9 @@ line-height: 2;
 }
 .lightbox-gallery .image img{
   cursor: zoom-in;
+}
+.lightbox:hover img{
+  transform: none !important;
 }
 .mfp-bg,.mfp-figure figure{
   background:#222F62 !important;
@@ -990,12 +1009,8 @@ img.mfp-img{
   padding-top: 56px;
   padding-bottom: 136px;
 }
-#found h3{
-  padding-right: 36px;
-}
 #found h3::after{
   content: "11";
-  left: 43%;
 }
 #found p,#found h2,#found h5,#outcome p,#outcome h2,#outcome h5{
   color: #ffffff;
@@ -1017,7 +1032,6 @@ img.mfp-img{
 }
 #usability h3::after{
   content: "12";
-  left: 42%;
 }
 #usability .col-lg-7{
   padding-left: 0;
@@ -1061,9 +1075,13 @@ img.mfp-img{
 #portfolio .col-lg-5, #next .col-lg-5{
   padding: 0;
 }
+#portfolio .col-lg-5-o,#next .col-lg-5-o{
+  width: 41.3%;
+  flex: 0 0 41.3%;
+  max-width: 41.3%;
+}
 #outcome h3::after{
   content: "14";
-  left: 42%;
 }
 #outcome{
   background-image: url(../../images/micshow-outcome.jpg);
@@ -1134,12 +1152,16 @@ margin-right: 24px;
   display: none;
 }
 
-
 @media(min-width: 1200px){
   section .container{
     max-width: 1280px;
     padding-right: 32px !important;
     padding-left: 32px !important;
+  }
+  #introduction .col-lg-4{
+    width: 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
   }
   #process .container{
     max-width: 100%;
@@ -1157,15 +1179,96 @@ margin-right: 24px;
     margin-right: -32px;
     margin-left: -32px;
   }
+  #survey{
+    background-image: url(../../images/micshow-survey-top.png);
+    background-position: top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #F9F6FF;
+  }
+  #survey>div{
+    background-image: url(../../images/micshow-survey-bottom.png);
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+  }
+  #survey,#portfolio{
+    padding: 0 !important;
+  }
+  #survey .container{
+    padding: 48px 0 104px 0;
+  }
   #survey .col-lg-7{
     padding-left: 0;
     padding-right: 0;
   }
+  #portfolio .container{
+    padding: 48px 0 96px 0;
+  }
+  #portfolio{
+    background-image: url(../../images/micshow-portfolio-top.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  #portfolio>div{
+    background-image: url(../../images/micshow-portfolio-bottom.png);
+    background-position: bottom center;
+    background-size: 105%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+  }
+  #usability{
+    background-color: #F9F6FF;
+    background-image: url(../../images/micshow-usability-top.png);
+    background-position: top right;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+  #usability>div{
+    background-image: url(../../images/micshow-usability-bottom.png);
+    background-position: bottom right;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+  }
+  #usability .container{
+    padding: 100px 0;
+  }
 }
 
-@media(max-width: 1380px){
-  #process h3{
-    padding-right: 0;
+@media(min-width: 1500px){
+  #home_section img{
+    width: 360px !important;
+  }
+  #challenge{
+    background-image: url(../../images/micshow-challenge-1920.png);
+    background-position: top center;
+  }
+  #survey{
+    background-image: url(../../images/micshow-survey-top-1920.png);
+  }
+  #survey>div{
+    background-image: url(../../images/micshow-survey-bottom-1920.png);
+  }
+  #portfolio{
+    background-image: url(../../images/micshow-portfolio-top-1920.png);
+  }
+  #usability{
+    background-image: url(../../images/micshow-usability-top-1920.png);
+    background-size: 100%;
+  }
+  #usability>div{
+    background-size: 105%;
+  }
+  #next{
+    background-image: url(../../images/micshow-next-1920.jpg);
+    background-position: top center;
   }
 }
 
@@ -1179,11 +1282,26 @@ margin-right: 24px;
   #home_section>.container{
     background-image: url(../../images/micshow-banner1400.jpg);
   }
-  .banner_text{
-    padding-right: 64px;
+  #portfolio{
+    background-image: url(../../images/micshow-portfolio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 48px 0 96px 0 !important;
   }
-  #process h3{
-    padding-left: 14px;
+  #portfolio>div,#usability>div{
+    background-image: none;
+  }
+  #portfolio .container,#usability .container{
+    padding: 0;
+  }
+  #usability{
+    background-color: #F9F6FF;
+    background-image: url(../../images/micshow-usability.png);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
   }
   #next{
     background-position: left top;
@@ -1198,7 +1316,7 @@ margin-right: 24px;
     width: 80%;
   }
   .banner_text{
-    padding-right: 80px;
+    padding-right: 72px;
   }
   section .row{
     margin-right: 0;
@@ -1222,6 +1340,11 @@ margin-right: 24px;
     max-width: 41.66666667%;
     padding: 0 15px;
   }
+  #introduction .padr30{
+    width: 24.5%;
+    flex: 0 0 24.5%;
+    max-width: 24.5%;
+  }
   .padr30{
     padding: 0 15px;
   }
@@ -1240,20 +1363,8 @@ margin-right: 24px;
   #background .col-lg-12, #problem .col-lg-12, #goal .col-lg-12, #challenge .col-lg-12, #survey .col-lg-12, #result .col-lg-12, #portfolio .col-lg-12,#found .col-lg-12{
     margin: 88px 0;
   }
-  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after{
-    left: 56px;
-  }
   #challenge .chart_bx{
     margin-top: 6px;
-  }
-  #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after{
-    left: 40%;
-  }
-  #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
-    left: 44%;
-  }
-  #process h3{
-    padding-left: 16px;
   }
   #process .col-lg-2:nth-of-type(2) p{
     margin-top: -5px;
@@ -1290,9 +1401,6 @@ margin-right: 24px;
   }
   #survey .content>.content{
     top: 736px;
-  }
-  #survey h3{
-    padding-left: 28px !important;
   }
   #survey .content h4,#usability .content h4{
     float: left;
@@ -1345,9 +1453,6 @@ margin-right: 24px;
   #result{
     padding: 60px 0 0 0 !important;
   }
-  #result h3{
-    padding-left: 16px !important;
-  }
   #result .h4_1024{
     margin-top: 160px !important;
   }
@@ -1389,9 +1494,6 @@ margin-right: 24px;
     padding-bottom: 64px;
     background-image: url(../../images/solvebg1024.jpg);
   }
-  #solve h3{
-    padding-left: 28px !important;
-  }
   #solve .col-md-4{
     padding: 0 64px 0 0;
     width: 32%;
@@ -1411,20 +1513,15 @@ margin-right: 24px;
   .faq_content2 .card{
     height: 316px;
   }
-  #ia h3{
-    padding-left: 28px !important;
-  }
   #ia .col-lg-12:nth-child(2){
     text-align: center;
   }
  #portfolio{
   padding: 72px 0 96px 0 !important;
+  background-image: url(../../images/micshow-portfolio1024.jpg);
   }
  #portfolio .otherp{
   margin: 16px 0 44px 0 !important;
-  }
- #portfolio h3{
-   padding-left: 8px !important;
   }
  #portfolio .col-lg-5,#next .col-lg-5{
    flex: 0 0 48%;
@@ -1435,12 +1532,9 @@ margin-right: 24px;
   }
  #portfolio .col-lg-5-o,#next .col-lg-5-o{
    padding-left: 40px;
-  }
- #portfolio .col-lg-6-o,#next .col-lg-6-o{
-    padding-left: 96px;
-  }
-  #found h3{
-    padding-left: 52px !important;
+   width: 47.7%;
+    flex: 0 0 47.7%;
+    max-width: 47.7%;
   }
   #found .col-lg-12:nth-child(2), #outcome .col-lg-12:nth-child(2){
     margin: 16px 0 88px 0;
@@ -1450,9 +1544,6 @@ margin-right: 24px;
   }
   #usability{
   background-image: url(../../images/micshow-usability1024.png);
-  }
-  #usability h3{
-    padding-left: 78px !important
   }
   #usability .col-lg-12:nth-child(2){
     margin-top: 16px;
@@ -1482,17 +1573,11 @@ margin-right: 24px;
     background-image: url(../../images/micshow-next1024.jpg);
     padding-bottom: 56px !important;
   }
-  #next h3{
-    padding-left: 88px !important;
-  }
   #next .img{
     left: 6%;
   }
   #next .pt-100{
     margin: 96px 0;
-  }
-  #outcome h3{
-    padding-left: 80px !important;
   }
 }
 
@@ -1508,14 +1593,17 @@ margin-right: 24px;
     display: none;
   }
   .col-md-5{
-    max-width: 45% !important;
-    flex:0 0 45% !important;
+    width: 44.7% !important;;
+    max-width: 44.7% !important;
+    flex:0 0 44.7% !important;
     padding: 0 !important;
   }
   .col-md-7{
+    width: 55% !important;
     max-width: 55% !important;
     flex:0 0 55% !important;
     padding: 0 !important;
+    float: right;
   }
   #home_section .col-lg-7,#home_section .col-lg-5{
     margin-top: 40px;
@@ -1547,11 +1635,10 @@ margin-right: 24px;
   #problem{
     background-image: url(../../images/micshow-problem768.png);
   }
-  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after{
-    left: -8px;
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
+    top: -24px;
   }
   #background h3{
-    padding-right: 56px;
     top: 42%;
   }
   #problem h3,#goal h3{
@@ -1572,15 +1659,6 @@ margin-right: 24px;
   }
   #process>div{
     padding-bottom: 112px;
-  }
-  #process h3{
-    padding-left: 0;
-  }
-  #process h3::after,#survey h3::after,#result h3::after,#solve h3::after,#portfolio h3::after,#ia h3::after{
-    left: 36%;
-  }
-  #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
-    left: 39.5%;
   }
   .single_roadmap{
     left: 0;
@@ -1614,17 +1692,17 @@ margin-right: 24px;
   }
   .single_roadmap::before{
     top: 20px;
-    left: 31.5%;
+    left: 32%;
     height: calc(100% - 132px);
   }
   #process .col-lg-2:nth-of-type(3) .single_roadmap::before{
-    left: 64%;
+    left: 65%;
   }
   #process .col-lg-2:nth-of-type(4) .single_roadmap::before{
-    left: 59%;
+    left: 60%;
   }
   #process .col-lg-2:nth-of-type(5) .single_roadmap::before,#process .col-lg-2:nth-of-type(6) .single_roadmap::before{
-    left: 52%;
+    left: 53%;
   }
   #process .col-lg-2:nth-of-type(1) .single_roadmap::before,#process .col-lg-2:nth-of-type(6) .single_roadmap::before{
     height: calc(100% - 96px);
@@ -1664,9 +1742,6 @@ margin-right: 24px;
   }
   #survey .content>.content h4{
     margin-top: 128px;
-  }
-  #survey h3{
-    padding-left: 24px !important;
   }
   #survey .content h4,#usability .content h4{
     text-align: center;
@@ -1723,9 +1798,6 @@ margin-right: 24px;
   }
   .resultline{
     left: 45.5%;
-  }
-  #result h3{
-    padding-left: 4px !important;
   }
   .mfp-container{
     background: #222F62;
@@ -1814,9 +1886,6 @@ margin-right: 24px;
     background-image: url(../../images/solvebg768.jpg);
     background-position: right center;
   }
-  #solve h3{
-    padding-left: 20px !important;
-  }
   #solve .content:nth-of-type(1){
     margin-bottom: 176px;
   }
@@ -1872,9 +1941,6 @@ margin-right: 24px;
   #solve .title_default_light>p{
     margin-bottom: 80px;
   }
-  #ia h3{
-    padding-left: 20px !important;
-  }
   #portfolio{
     padding: 48px 0 !important;
     background-image: url(../../images/micshow-portfolio768.jpg);
@@ -1882,9 +1948,6 @@ margin-right: 24px;
   #portfolio .row>p{
     margin-top: 24px !important;
     margin-bottom: 96px !important;
-  }
-  #portfolio h3{
-    padding-left: 8px !important;
   }
   #portfolio .col-lg-12>.container,#next .col-lg-12>.container{
     padding-left: 0 !important;
@@ -1905,6 +1968,11 @@ margin-right: 24px;
   #portfolio .pt-100:nth-of-type(4){
     margin-top: 64px !important;
   }
+  #portfolio .col-lg-5-o, #next .col-lg-5-o{
+    width: 44.4% !important;
+    flex: 0 0 44.4% !important;
+    max-width: 44.4% !important;
+  }
   .extra-none{
     line-height: 1.5 !important;
   }
@@ -1914,17 +1982,11 @@ margin-right: 24px;
   #found>div{
     background-color: rgba(0,135,194, 0.7);
   }
-  #found h3{
-    padding-left: 16px !important;
-  }
   #found .col-lg-12:nth-child(2), #outcome .col-lg-12:nth-child(2){
     margin: 16px 0 144px 0;
   }
   #usability{
   background-image: url(../../images/micshow-usability768.png);
-  }
-  #usability h3{
-    padding-left: 36px !important;
   }
   #usability .content h4{
     line-height: 4;
@@ -1950,9 +2012,6 @@ margin-right: 24px;
   #next{
     background-image: url(../../images/micshow-next768.jpg);
   }
-  #next h3{
-    padding-left: 36px !important;
-  }
   #next .about-video-img-l{
     margin-left: 0;
   }
@@ -1964,9 +2023,6 @@ margin-right: 24px;
   }
   #outcome>div{
     background-color: rgba(0,135,194, 0.7);
-  }
-  #outcome h3{
-    padding-left: 40px !important;
   }
   #footer{
     padding: 48px 0 64px 0;
@@ -2009,6 +2065,9 @@ margin-right: 24px;
     max-width:100% !important;
     flex: 0 0 100% !important;
     width: 100% !important;
+  }
+  _::-webkit-full-page-media, _:future, :root #home_section{
+    height: 90vh;
   }
   .section_banner{
     padding: 0 !important;
@@ -2128,16 +2187,8 @@ margin-right: 24px;
     padding: 0;
     top: 0;
   }
-  #background h3{
-    padding-right: 10px;
-  }
-  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after{
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     font-size: 104px;
-    left: 35%;
-  }
-  #found h3::after,#usability h3::after,#next h3::after,#outcome h3::after{
-    font-size: 104px;
-    left: 39%;
   }
   #background p, #problem p, #goal p{
     padding: 0 16px;
@@ -2151,9 +2202,6 @@ margin-right: 24px;
   }
   #goal{
     background-image:url(../../images/goalbg375.jpg)
-  }
-  #goal h3{
-    padding-left: 12px;
   }
   #goal .col-lg-12{
     margin: 120px 0 128px 0;
@@ -2194,7 +2242,6 @@ margin-right: 24px;
   }
   #process h3{
     top: -40px;
-    padding-left: 8px;
   }
   .single_roadmap::before{
     height:calc(100% - 40px)  !important;
@@ -2360,9 +2407,6 @@ margin-right: 24px;
   #result>div{
     background-size: 0%;
   }
-  #result h3{
-    padding-left: 10px !important;
-  }
   #result-questionnaire,#result-journey,#result-important{
     margin-top: 80px !important;
   }
@@ -2493,19 +2537,22 @@ margin-right: 24px;
     margin: 16px 0 64px 0 !important;
   }
   #ia h3{
-    padding-left: 16px !important;
     margin-bottom: 72px !important;
   }
   #portfolio{
     padding: 0 16px !important;
-    background-image: url(../../images/micshow-portfolio375.jpg);
+    background-image: url(../../images/micshow-portfolio414.jpg);
   }
   #portfolio h3{
     margin: 104px 0 72px 0 !important;
-    padding-left: 8px !important;
   }
   #portfolio .row>p{
     margin-bottom: 0px !important;
+  }
+  #portfolio .col-lg-5-o, #next .col-lg-5-o{
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
   #portfolio .pt-100{
     margin: 80px 0 !important;
@@ -2556,9 +2603,6 @@ margin-right: 24px;
   #found>div, #outcome>div{
     padding-top: 0;
   }
-  #found h3{
-    padding-left: 20px !important;
-  }
   #found .col-lg-12:nth-child(2), #outcome .col-lg-12:nth-child(2){
     margin: 0 0 96px 0;
   }
@@ -2576,9 +2620,7 @@ margin-right: 24px;
   }
   #usability {
   background-image: url(../../images/micshow-usability375.png);
-  }
-  #usability h3, #next h3{
-    padding-left: 28px !important;
+  padding: 56px 0;
   }
   #usability .col-lg-12:nth-child(1){
     margin: 72px 0;
@@ -2636,9 +2678,6 @@ margin-right: 24px;
     padding: 0 0 96px 0 !important;
     background-image: url(../../images/micshow-next375.jpg);
   }
-  #next h3{
-    padding-left: 44px !important;
-  }
   #next .col-lg-12:nth-child(2){
     margin: -16px 0 48px 0;
   }
@@ -2660,9 +2699,6 @@ margin-right: 24px;
   }
   #outcome{
     background-image: url(../../images/micshow-outcome375.jpg);
-  }
-  #outcome h3{
-    padding-left: 26px !important;
   }
   #outcome>div{
     background-color: rgba(0,135,194, 0.75);
@@ -2752,12 +2788,6 @@ margin-right: 24px;
     width: 85% !important;
     margin: 0 auto;
   }
-  #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
-    left: 42%;
-  }
-  #found h3{
-    padding-left: 6px !important;
-  }
   #found .col-lg-12:nth-child(2){
     text-align: center;
   }
@@ -2809,9 +2839,6 @@ margin-right: 24px;
   #next .pt-100:nth-of-type(2) h4{
     margin: 48px 0 10px 0;
   }
-  #outcome h3{
-    padding-left: 16px !important;
-  }
   .footerspan375no{
     display: inline-block;
   }
@@ -2861,13 +2888,16 @@ margin-right: 24px;
   }
   #introduction .col-sm-12:nth-child(odd){
     padding-left: 16px;
+    width: 45% !important;
     max-width: 45% !important;
     flex: 0 0 45% !important;
   }
   #introduction .col-sm-12:nth-child(even){
     padding-right: 16px;
-    max-width: 55% !important;
-    flex: 0 0 55% !important;
+    width: 54.8 !important;
+    max-width: 54.8% !important;
+    flex: 0 0 54.8% !important;
+    float: right;
   }
   #introduction .padr30 .box_wrap{
     padding-right: 20px !important;
@@ -2875,18 +2905,8 @@ margin-right: 24px;
   #introduction .box_wrap{
     padding: 0 0 40px 0 !important;
   }
-  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after{
-    left: 40%;
-  }
-  #background h3{
-    padding-right: 20px;
-  }
   #challenge{
     background-image: url(../../images/micshow-challenge603.png);
-  }
-  #process h3{
-    padding-left: 0;
-    padding-right: 0;
   }
   #process .col-sm-12 p{
     top: 6px;
@@ -2894,9 +2914,6 @@ margin-right: 24px;
   }
   #survey{
     padding: 48px 16px 56px 16px !important;
-  }
-  #survey h3{
-    padding-left: 8px !important;
   }
   #survey .col-lg-12:nth-child(2){
     margin: 16px 0 32px 0 !important;
@@ -2934,9 +2951,6 @@ margin-right: 24px;
   }
   #result{
     background-image: url(../../images/micshow-result603.png);
-  }
-  #result h3{
-    padding-right: 14px !important;
   }
   #result-questionnaire, #result-journey, #result-important{
     margin-top: 0px !important;
@@ -2982,9 +2996,6 @@ margin-right: 24px;
   #solve .title_default_light>p{
     margin-bottom: 88px;
   }
-  #solve h3,#portfolio h3{
-    padding-left: 0 !important;
-  }
   #solve .col-md-3{
     flex: 0 0 30% !important;
     max-width: 30% !important;
@@ -3001,7 +3012,6 @@ margin-right: 24px;
     top: -138px;
   }
   #ia h3{
-    padding-left: 14px !important;
     margin-bottom: 88px !important;
   }
   #portfolio{
@@ -3040,9 +3050,6 @@ margin-right: 24px;
   }
   #found .box_wrap, #outcome .box_wrap{
     padding: 0 0 8px 0 !important;
-  }
-  #usability h3, #next h3{
-    padding-left: 12px !important;
   }
   #usability li:nth-of-type(2) .number-box-p{
     padding-top: 4px;
@@ -3092,18 +3099,11 @@ margin-right: 24px;
   .banner_text{
     bottom: 0px;
   }
-  #background h3{
-    padding-left: 0;
-    padding-right: 6px;
-  }
-  #problem h3, #goal h3, #challenge h3{
-    padding-left: 12px;
-  }
   #process .roadmap_list{
     padding: 0 21%;
   }
   #usability{
-    background-image: url(../../images/micshow-usability320.png);
+    background-image: url(../../images/micshow-usability375.png);
   }
   #usability .number-box-12{
     margin-top: 22px;
@@ -3140,14 +3140,8 @@ margin-right: 24px;
   #portfolio .pt-100:nth-of-type(5){
     margin-top: 160px !important;
   }
-  #next h3{
-    padding-left: 32px !important;
-  }
   #next .md-pt-30{
     margin: 112px 0 96px 0;
-  }
-  #outcome h3{
-    padding-left: 40px !important;
   }
 }
 
@@ -3159,17 +3153,8 @@ margin-right: 24px;
   .banner_text{
     bottom: 8px;
   }
-  #background h3{
-    padding-right: 20px;
-  }
-  #process h3{
-    padding-left: 0;
-  }
   #process .roadmap_list{
     padding: 0 24%;
-  }
-  #survey h3{
-    padding-left: 8px !important;
   }
   #survey .number-box-11{
     margin-top: 26px;
@@ -3187,18 +3172,11 @@ margin-right: 24px;
   #result{
     background-image: url(../../images/micshow-result414.png);
   }
-  #result h3{
-    padding-left: 0 !important;
-    padding-right: 4px !important;
-  }
   #result-important .col-lg-3>div{
     height: 240px;
   }
   #result-questionnaire, #result-journey, #result-important{
     margin-top: 0 !important;
-  }
-  #solve h3{
-    padding-left: 6px !important;
   }
   #solve .box_wrap{
     padding: 0 0 32px 0 !important;
@@ -3206,26 +3184,17 @@ margin-right: 24px;
   #solve .faq_content2 .card{
     height: 256px;
   }
-  #ia h3{
-    padding-left: 10px !important;
-  }
   #portfolio{
     background-image: url(../../images/micshow-portfolio414.jpg);
   }
   #portfolio .pt-100:nth-of-type(1){
     margin-top: 160px !important;
   }
-  #portfolio h3{
-    padding-left: 0 !important;
-  }
   #portfolio .md-mb-30,#portfolio .col-lg-6-o{
     margin-bottom: 30px;
   }
   #portfolio .pt-100:nth-of-type(3),#portfolio .pt-100:nth-of-type(5){
     margin-top: 96px !important;
-  }
-  #found h3{
-    padding-left: 12px !important;
   }
   #usability{
     background-image: url(../../images/micshow-usability414.png);
@@ -3242,9 +3211,6 @@ margin-right: 24px;
   #next{
     background-position: left bottom;
   }
-  #next h3{
-    padding-left: 24px !important;
-  }
   #next .pt-100:nth-of-type(2) h4{
     margin: 40px 0 10px 0;
   }
@@ -3254,9 +3220,6 @@ margin-right: 24px;
 }
 
 @media(max-width: 579px) and (min-width: 476px){
-  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after{
-    left: 39%;
-  }
   #home_section>.container{
     background-image: url(../../images/micshow-banner533.jpg);
     background-position: center top;
@@ -3270,12 +3233,6 @@ margin-right: 24px;
   #introduction{
     background-position: left top;
   }
-  #background h3{
-    padding-right: 14px;
-  }
-  #problem h3, #goal h3, #challenge h3,#survey h3{
-    padding-left: 8px !important;
-  }
   #challenge{
     background-image: url(../../images/micshow-challenge603.png);
   }
@@ -3285,19 +3242,12 @@ margin-right: 24px;
   #goal .col-lg-4:nth-of-type(1){
     top: -20px;
   }
-  #process h3{
-    padding-left: 4px;
-    padding-right: 0;
-  }
   #process .roadmap_list{
     padding: 0 29%;
   }
   #survey{
     background-image: url(../../images/micshow-survey533.png);
     background-position: center bottom;
-  }
-  #survey h3{
-    padding-left: 16px !important;
   }
   #survey .number-box-11{
     margin-top: 28px;
@@ -3343,9 +3293,6 @@ margin-right: 24px;
   #result-persona{
     margin-top: 48px !important;
   }
- #result h3{
-   padding-left: 0 !important;
- }
  .resultline{
    left: 44%;
  }
@@ -3383,9 +3330,6 @@ margin-right: 24px;
 #solve{
   background-image: url(../../images/solvebg533.jpg);
 }
-#solve h3{
-  padding-left: 12px !important;
-}
 #solve p{
   margin-bottom: 64px;
 }
@@ -3413,9 +3357,6 @@ margin-right: 24px;
 #portfolio{
   background-image: url(../../images/micshow-portfolio603.jpg);
 }
-#portfolio h3{
-  padding-left: 8px !important;
-}
 .video,#next .img{
   width: 50%;
   margin-left: 25%;
@@ -3438,9 +3379,6 @@ margin-right: 24px;
 #portfolio .pt-100:nth-of-type(5){
   margin-top: 176px !important;
 }
-#found h3{
-  padding-left: 16px !important;
-}
 #found .col-lg-4, #outcome .col-lg-4{
   max-width: 85% !important;
   flex: 0 0 85% !important;
@@ -3450,11 +3388,8 @@ margin-right: 24px;
 #usability{
   background-image: url(../../images/micshow-usability533.png);
 }
-#usability h3, #next h3{
-  padding-left: 32px !important;
-}
 #usability .display768yes{
-  top: -112px;
+  top: -84px;
 }
 #usability .number-box-11, #usability .number-box-13{
   margin-top: 6px;
@@ -3486,9 +3421,6 @@ margin-right: 24px;
 #next .about-video-img-r{
   margin-top: 24px;
 }
-#outcome h3{
-  padding-left: 26px !important;
-}
 .footerspan375no{
   display: none;
 }
@@ -3504,9 +3436,6 @@ margin-right: 24px;
 }
 
 @media(max-width: 513px) and (min-width: 476px){
-  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after{
-    left: 37%;
-  }
   #home_section>.container{
     background-image:url(../../images/micshow-banner480.jpg);
     background-position: center top;
@@ -3517,21 +3446,12 @@ margin-right: 24px;
   #home_section h4{
     margin: 12px 0 16px 0 !important;
   }
-  #background h3{
-    padding-right: 24px;
-  }
-  #problem h3, #goal h3, #challenge h3, #survey h3,#portfolio h3{
-    padding-left: 0px !important;
-  }
   #goal .box_wrap, #solve .box_wrap, #solve-method .box_wrap{
     width: 80%;
     margin: 0 auto;
   }
   #challenge{
     background-image: url(../../images/micshow-challenge480.png);
-  }
-  #process h3{
-    padding-right: 6px;
   }
   #survey{
     padding: 40px 16px 32px 16px !important;
@@ -3561,9 +3481,6 @@ margin-right: 24px;
     background-image: url(../../images/micshow-result414.png);
     background-position: left top;
   }
-  #result h3{
-    padding-right: 8px !important;
-  }
   #result-questionnaire, #result-journey, #result-important{
     margin-top: 64px !important;
   }
@@ -3572,9 +3489,6 @@ margin-right: 24px;
   }
   .resultline{
     left: 43%;
-  }
-  #solve h3{
-    padding-left: 0px !important;
   }
   #solve .content:nth-of-type(1){
     margin-bottom: 88px;
@@ -3585,18 +3499,12 @@ margin-right: 24px;
   .display768yes2{
     top: -144px;
   }
-  #ia h3{
-    padding-left: 8px !important;
-  }
   #ia .lightbox-gallery .image{
     margin-top: 16px;
   }
   .video,#next .img{
     width: 56%;
     margin-left: 22%;
-  }
-  #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
-    left: 39%;
   }
   #found .col-lg-12:nth-child(2){
     text-align: center;
@@ -3609,15 +3517,11 @@ margin-right: 24px;
   #usability{
     background-image: url(../../images/micshow-usability480.png);
   }
-  #usability h3, #next h3{
-    padding-left: 8px !important;
+  #usability .display768yes{
+    top: -112px;
   }
   #usability .row:nth-of-type(3) .col-lg-6:nth-of-type(2) .box_wrap{
     padding: 0 0 32px 0 !important;
-  }
-  #found h3{
-    padding-left: 0 !important;
-    padding-right: 8px !important;
   }
   #usability .col-lg-4:nth-of-type(1),#usability .col-lg-4:nth-of-type(3){
     top: 0;
@@ -3630,9 +3534,6 @@ margin-right: 24px;
   }
   #next .pt-100:nth-of-type(3){
     margin: 176px 0 40px 0 !important;
-  }
-  #outcome h3{
-    padding-left: 8px !important;
   }
   #outcome .col-lg-12:nth-child(2){
     text-align: left;

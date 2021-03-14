@@ -222,7 +222,15 @@ nav .logo > a{
         background-image:url("../../images/totalwork-marryido-1024.svg") !important;
     }
     .bgdr{
-        background-image:url("../../images/totalwork-driver-pad.png") !important;
+        background-image:url("../../images/totalwork-driver-pad.jpg") !important;
+    }
+}
+
+@media(max-width: 1100px){
+    .eltdf-btn.eltdf-btn-simple:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+        left:0;
+        width:100%;
+        opacity: 1;
     }
 }
 
@@ -265,19 +273,19 @@ nav .logo > a{
         height: auto;
     }
     .bgms{
-        background-image:url("../../images/totalwork-micshow-pad768.png") !important;
+        background-image:url("../../images/totalwork-micshow-pad768.jpg") !important;
     }
     .bgmr{
         background-image:url("../../images/totalwork-marryido-pad768.svg") !important;
     }
     .bgch{
-        background-image:url("../../images/childrenhospital-pad900.jpg") !important;
+        background-image:url("../../images/totalwork-childrenhospital-pad900.jpg") !important;
     }
 }
 
 @media (max-width: 850px){
     .bgdr{
-        background-image:url("../../images/totalwork-driver-pad850.png") !important;
+        background-image:url("../../images/totalwork-driver-pad850.jpg") !important;
     }
 }
 
@@ -288,7 +296,7 @@ nav .logo > a{
     .fs-carousel-item{
         width: 100% !important;
         height: 83.33333333% !important;
-    }
+    } 
     .fs-carousel-title{
         padding: 0 16px;
     }
@@ -306,6 +314,9 @@ nav .logo > a{
     .fs-carousel-titlecat span:nth-of-type(3){
         float: right;
     }
+    .eltdf-btn.eltdf-btn-simple .eltdf-btn-cover{
+        width: 47px;
+    }
     .eltdf-btn.eltdf-btn-simple{
         padding: 10px 20px 16px 20px;
     }
@@ -322,7 +333,7 @@ nav .logo > a{
         float: left;
     }
     .bgch{
-        background-image:url("../../images/childrenhospital.jpg") !important;
+        background-image:url("../../images/totalwork-childrenhospital.jpg") !important;
         background-position: right center;
     }
 } 
@@ -362,14 +373,24 @@ nav .logo > a{
 
 @media (max-width: 500px){
     .bgmr{
+        background-image:url("../../images/totalwork-marryido-pad414.svg") !important;
+    }
+    _::-webkit-full-page-media, _:future, :root .bgmr{
         background-image:url("../../images/totalwork-marryido-pad480.svg") !important;
     }
     .bgch{
-        background-image:url("../../images/childrenhospital-phone414.jpg") !important;
+        background-image:url("../../images/totalwork-childrenhospital-phone414.jpg") !important;
     }
     .bgdr{
-        background-image:url("../../images/totalwork-driver-pad.png") !important;
+        background-image:url("../../images/totalwork-driver-pad.jpg") !important;
     }
+    .fs-carousel-item{
+        width: 100% !important;
+        height: 94% !important;
+    }
+    _::-webkit-full-page-media, _:future, :root .fs-carousel-item{
+        height: 83.33333333% !important;
+    } 
 }
 
 @media (max-width: 450px){
@@ -377,7 +398,7 @@ nav .logo > a{
         background-image:url("../../images/totalwork-marryido-pad414.svg") !important;
     }
     .bgdr{
-        background-image:url("../../images/totalwork-driver-pad414.png") !important;
+        background-image:url("../../images/totalwork-driver-pad414.jpg") !important;
     }
     
 }

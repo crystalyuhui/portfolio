@@ -3213,7 +3213,8 @@ header a:hover,
 	border-left: 1px dashed rgba(255,255,255,0.6);
 	content: "";
 	height: 90px;
-	left: 50%;
+	width: 50%;
+	left: 75%;
 	position: absolute;
 	top: 20px;
 	-moz-transform: translateX(-50%);

@@ -191,6 +191,16 @@ section{
 .v_royal_blue{
     overflow-x: hidden;
 }
+.mfp-bg{
+  height: 100% !important;
+  position: fixed !important;
+}
+.mfp-wrap{
+  top: 0 !important;
+  height: 100% !important;
+  position: fixed !important;
+  overflow: hidden auto !important;
+}
 #introduction{
   padding: 64px 0;
   height: auto;
@@ -232,8 +242,9 @@ section{
   padding-right: 30px;
 }
 #introduction .col-lg-4{
-  flex: 0 0 35.333333%;
-  max-width: 35.333333%;
+  width: 35%;
+  flex: 0 0 35%;
+  max-width: 35%;
   padding-right: 62px;
 }
 #background{
@@ -245,18 +256,13 @@ section{
 }
 #problem,#goal,#challenge,#survey,#result,#portfolio{
   padding: 0 !important;
-}
-#survey{
-    padding: 48px 0 96px 0 !important;
-}
-#survey{
-  padding-bottom:80px !important;
-}
+}   
 #survey{
   background-image: url(../../images/child-survey.png);
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 48px 0 80px 0 !important;
 }
 #result{
   background-image: url(../../images/child-result.png);
@@ -969,6 +975,9 @@ line-height: 2;
 .image img{
   cursor: zoom-in;
 }
+.lightbox:hover img{
+  transform: none !important;
+}
 .mfp-bg,.mfp-figure figure{
   background:#2F190B !important;
 }
@@ -1373,6 +1382,46 @@ margin-right: 24px;
   display: none;
 }
 
+@media(min-width: 1300px){
+  #process h3::after,#survey h3::after,#result h3::after,#portfolio h3::after{
+    left: calc(1216px/2 - 190.5px);
+  }
+  #design h3::after{
+    left: calc(1216px/2 - 192.5px);
+  }
+  #questionnaire h3::after,#outcome h3::after{
+    left: calc(1216px/2 - 173px);
+  }
+  #next h3::after{
+    left: calc(1216px/2 - 155.5px);
+  }
+  #result{
+    background-image: url(../../images/child-result-top.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #FDF5F1;
+    padding: 0 !important;
+  }
+  #result>div{
+    background-image: url(../../images/child-result-bottom.png);
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+  }
+  #result .container{
+    padding: 64px 0 0 0;
+  }
+  #outcome>div{
+    padding: 0;
+  }
+  #outcome .row{
+    padding-top: 56px;
+    padding-bottom: 168px;
+  }
+}
 
 @media(min-width: 1200px){
   section .container{
@@ -1392,9 +1441,102 @@ margin-right: 24px;
     margin-right: -32px;
     margin-left: -32px;
   }
+  #background .col-lg-12,#goal .col-lg-12{
+    margin: 0;
+  }
+  #background{
+    padding: 104px 0 168px 0 !important;
+  }
+  #goal{
+    padding: 220px 0 204px 0 !important;
+  }
+  #background h3::after{
+    left: calc(507px/2 - 173px);
+  }
+  #problem h3::after,#goal h3::after,#challenge h3::after{
+    left: calc(507px/2 - 190.5px);
+  }
+  #survey{
+    background-image: url(../../images/child-survey-top.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 !important;
+  }
+  #survey>div{
+    background-image: url(../../images/child-survey-bottom.png);
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+  }
+  #survey .container{
+    padding: 48px 0 80px 0 ;
+  }
   #survey .col-lg-7,#design .col-lg-7{
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media(max-width: 1299px) and (min-width: 1200px){
+  #survey>div{
+    background-position: bottom right;
+    background-size: 110%;
+  }
+}
+
+@media(min-width: 1500px){
+  #background{
+    padding: 104px 0 296px 0 !important;
+  }
+  #background h3{
+    top: 144px;
+  }
+  #background p{
+    top: 44px;
+  }
+  #problem .col-lg-12{
+    margin: 168px 0 104px 0;
+  }
+  #goal{
+    padding: 220px 0 456px 0 !important;
+  }
+  #goal h3{
+    top: 284px;
+  }
+  #goal .col-lg-7{
+    top: 120px;
+  }
+  #challenge .col-lg-12{
+    margin: 128px 0 208px 0;
+  }
+  #process{
+    background-image: url(../../images/child-processbg-1920.png);
+  }
+  #survey{
+    background-image: url(../../images/child-survey-top-1920.png);
+  }
+  #survey>div{
+    background-image: url(../../images/child-survey-bottom-1920.png);
+  }
+  #result{
+    background-image: url(../../images/child-result-top-1920.png);
+  }
+  #portfolio{
+    background-image: url(../../images/child-portfolio-1920.png);
+  }
+  #next{
+    background-image: url(../../images/child-next-1920.png);
+    background-position: top center;
+  }
+  #outcome .row{
+    padding-top: 80px;
+    padding-bottom: 488px;
+  }
+  #outcome .col-lg-4{
+    top: 88px;
   }
 }
 
@@ -1458,9 +1600,10 @@ margin-right: 24px;
     padding: 0;
   }
   #introduction .col-lg-4{
-    flex: 0 0 44%;
-    max-width: 44%;
-    padding: 0 64px;
+    width: 43.5%;
+    flex: 0 0 43.5%;
+    max-width: 43.5%;
+    padding: 0 64px 0 60px;
   }
   #introduction .padr30{
     flex: 0 0 21.5%;
@@ -1745,13 +1888,15 @@ margin-right: 24px;
     font-size: 22px;
   }
   .col-md-5{
+    width: 45%;
     max-width: 45% !important;
     flex:0 0 45% !important;
     padding: 0 !important;
   }
   .col-md-7{
-    max-width: 55% !important;
-    flex:0 0 55% !important;
+    width: 54.7%;
+    max-width: 54.7% !important;
+    flex:0 0 54.7% !important;
     padding: 0 !important;
   }
   #home_section .col-lg-6{
@@ -2181,6 +2326,9 @@ margin-right: 24px;
     display: flex;
     align-items: center;
   }
+  #phoneonly .row{
+    display: inline-block;
+  }
   #phoneonly h3,#phoneonly h5{
     text-align: center;
     color: #40220F;
@@ -2204,7 +2352,7 @@ margin-right: 24px;
   }
   .eltdf-st-button{
     outline: none;
-    margin: 0 auto;
+    text-align: center;
   }
   .eltdf-btn{
       margin:47px 0 0;
