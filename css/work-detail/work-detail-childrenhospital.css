@@ -1383,6 +1383,18 @@ margin-right: 24px;
 }
 
 @media(min-width: 1300px){
+  #process h3::after,#survey h3::after,#result h3::after,#portfolio h3::after{
+    left: calc(1216px/2 - 190.5px);
+  }
+  #design h3::after{
+    left: calc(1216px/2 - 192.5px);
+  }
+  #questionnaire h3::after,#outcome h3::after{
+    left: calc(1216px/2 - 173px);
+  }
+  #next h3::after{
+    left: calc(1216px/2 - 155.5px);
+  }
   #result{
     background-image: url(../../images/child-result-top.png);
     background-position: top center;
@@ -1429,6 +1441,12 @@ margin-right: 24px;
     margin-right: -32px;
     margin-left: -32px;
   }
+  #background h3::after{
+    left: calc(507px/2 - 173px);
+  }
+  #problem h3::after,#goal h3::after,#challenge h3::after{
+    left: calc(507px/2 - 190.5px);
+  }
   #background .col-lg-12,#goal .col-lg-12{
     margin: 0;
   }
@@ -1459,17 +1477,6 @@ margin-right: 24px;
   #survey .col-lg-7,#design .col-lg-7{
     padding-left: 0;
     padding-right: 0;
-  }
-  #process .col-lg-12, #survey .col-lg-12, #design .col-lg-12, #result .col-lg-12, #portfolio .col-lg-12, #questionnaire .col-lg-12, #next .col-lg-12, #outcome .col-lg-12{
-    margin: 160px 0 -112px 0;
-  }
-  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #design h3::after, #portfolio h3::after, #questionnaire h3::after, #next h3::after, #outcome h3::after{
-    position: relative;
-    background-size: auto;
-    top: -140px;
-    left: 0;
-    display: flex;
-    justify-content: center;
   }
 }
 
