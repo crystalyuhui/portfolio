@@ -1460,6 +1460,9 @@ margin-right: 24px;
     padding-left: 0;
     padding-right: 0;
   }
+  #process .col-lg-12, #survey .col-lg-12, #design .col-lg-12, #result .col-lg-12, #portfolio .col-lg-12, #questionnaire .col-lg-12, #next .col-lg-12, #outcome .col-lg-12{
+    margin: 160px 0 -112px 0;
+  }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #design h3::after, #portfolio h3::after, #questionnaire h3::after, #next h3::after, #outcome h3::after{
     position: relative;
     background-size: auto;
