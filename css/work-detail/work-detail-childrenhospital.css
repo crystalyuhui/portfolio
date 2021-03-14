@@ -1464,6 +1464,7 @@ margin-right: 24px;
     position: relative;
     background-size: auto;
     top: -140px;
+    left: 0;
     display: flex;
     justify-content: center;
   }
