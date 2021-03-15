@@ -1383,18 +1383,6 @@ margin-right: 24px;
 }
 
 @media(min-width: 1300px){
-  #process h3::after,#survey h3::after,#result h3::after,#portfolio h3::after{
-    left: calc(1216px/2 - 190.5px);
-  }
-  #design h3::after{
-    left: calc(1216px/2 - 192.5px);
-  }
-  #questionnaire h3::after,#outcome h3::after{
-    left: calc(1216px/2 - 173px);
-  }
-  #next h3::after{
-    left: calc(1216px/2 - 155.5px);
-  }
   #result{
     background-image: url(../../images/child-result-top.png);
     background-position: top center;
@@ -1441,11 +1429,9 @@ margin-right: 24px;
     margin-right: -32px;
     margin-left: -32px;
   }
-  #background h3::after{
-    left: calc(507px/2 - 173px);
-  }
-  #problem h3::after,#goal h3::after,#challenge h3::after{
-    left: calc(507px/2 - 190.5px);
+  #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #design h3::after, #portfolio h3::after, #questionnaire h3::after, #next h3::after, #outcome h3::after{
+    left: 50%;
+    transform: translateX(-50%);
   }
   #background .col-lg-12,#goal .col-lg-12{
     margin: 0;
