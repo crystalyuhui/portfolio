@@ -1010,7 +1010,15 @@ line-height: 2;
 .lightbox-gallery .col-lg-12{
   margin: 0 !important;
 }
-
+.lightbox-gallery .image img{
+  cursor: zoom-in;
+}
+.lightbox img{
+  cursor: zoom-in;
+}
+.lightbox:hover img{
+  transform: none !important;
+}
 .mfp-bg,.mfp-figure figure{
   background:#2B3042 !important;
 }
@@ -1890,12 +1898,6 @@ margin-right: 24px;
   #next .pt-100{
     margin: 96px 0;
   }
-  .lightbox-gallery:hover{
-    transform: scale(1.03) !important;
-  }
-  .lightbox:hover{
-    transform: scale(1.03) !important;
-  }
 }
 
 @media(max-width: 991px){
@@ -1959,6 +1961,9 @@ margin-right: 24px;
   }
   #introduction .col-md-7 h4,#introduction .col-md-7 p{
     padding-left: 22px;
+  }
+  .lightbox:hover{
+    transform: scale(1.02) !important;
   }
   .detailimg{
     padding: 0 0 0 24px !important;

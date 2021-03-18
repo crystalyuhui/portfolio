@@ -1626,6 +1626,9 @@ margin-right: 24px;
   #introduction .col-md-7 h4,#introduction .col-md-7 p{
     padding-left: 35px;
   }
+  .lightbox:hover{
+    transform: scale(1.02) !important;
+  }
   .detailimg{
     padding: 0 0 0 24px !important;
   }
