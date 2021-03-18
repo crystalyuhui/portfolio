@@ -145,15 +145,15 @@
     background-color:#ffd07c;
 }
 .eltdf-btn.eltdf-btn-simple:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
-    position:absolute;
-    top:10%;
     left:64%;
-    width:51px;
-    height:80%;
-    margin:0;
-    background-color:#ffd07c;
     opacity: 0;
     transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
+}
+.eltdf-btn.eltdf-btn-simple:active .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+    left:0;
+    width:100%;
+    opacity: 1;
+    transition:none;
 }
 .eltdf-btn.eltdf-btn-simple>:not(.eltdf-btn-cover){
     position:relative;
@@ -207,14 +207,6 @@ eltdf-btn.eltdf-btn-large{
     }
 }
 
-@media(max-width: 1100px){
-    .eltdf-btn.eltdf-btn-simple:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
-        left:0;
-        width:100%;
-        opacity: 1;
-    }
-}
-
 @media (min-width: 994px) and (max-width: 1150px) {
     .videoheight{
         height: 90vh;
@@ -244,6 +236,21 @@ eltdf-btn.eltdf-btn-large{
         background-size:cover;
         background-position: center;
         padding: 0;
+    }
+}
+
+@media(max-width: 993px){
+    .eltdf-btn.eltdf-btn-simple:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+        left:0;
+        width:100%;
+        opacity: 1;
+    }
+    .eltdf-btn.eltdf-btn-simple:active .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+        left:0;
+        width:100%;
+        background-color:#FEC766;
+        opacity: 1;
+        transition:none;
     }
 }
 

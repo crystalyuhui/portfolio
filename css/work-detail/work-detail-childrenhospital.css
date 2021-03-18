@@ -2412,14 +2412,16 @@ margin-right: 24px;
   .eltdf-btn.eltdf-btn-simple:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
       position:absolute;
       top:10%;
-      left:64%;
-      width:51px;
       height:80%;
       margin:0;
       background-color:#FFB2A0;
-      opacity: 0;
       transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
   }
+  .eltdf-btn.eltdf-btn-simple:active .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+    background-color:#FEAC99;
+    transition: none;
+    width:100%;
+}
   .eltdf-btn.eltdf-btn-simple>:not(.eltdf-btn-cover){
       position:relative;
       z-index:1;
@@ -2471,6 +2473,11 @@ margin-right: 24px;
       padding-left: 12px;
       color: #ffffff;
   }
+  .eltdf-btn.eltdf-btn-simple:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+    left:0;
+    width:98%;
+    opacity: 1;
+}
   #home_section,#introduction,#background,#problem,#goal,#challenge,#process,#survey,#result,#design,#portfolio,#questionnaire,#next,#outcome{
     display: none;
   }
