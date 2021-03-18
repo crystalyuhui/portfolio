@@ -1890,11 +1890,11 @@ margin-right: 24px;
   #next .pt-100{
     margin: 96px 0;
   }
-  .lightbox-gallery :hover{
-    background-color: red;
+  .lightbox-gallery:hover{
+    transform: scale(1.03) !important;
   }
-  .lightbox :hover{
-    background-color: red;
+  .lightbox:hover{
+    transform: scale(1.03) !important;
   }
 }
 
