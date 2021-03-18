@@ -1010,15 +1010,7 @@ line-height: 2;
 .lightbox-gallery .col-lg-12{
   margin: 0 !important;
 }
-.lightbox-gallery .image img{
-  cursor: zoom-in;
-}
-.lightbox img{
-  cursor: zoom-in;
-}
-.lightbox:hover img{
-  transform: none !important;
-}
+
 .mfp-bg,.mfp-figure figure{
   background:#2B3042 !important;
 }
@@ -1897,6 +1889,12 @@ margin-right: 24px;
   }
   #next .pt-100{
     margin: 96px 0;
+  }
+  .lightbox-gallery .image img:hover{
+    cursor: zoom-in;
+  }
+  .lightbox img:hover{
+    cursor: zoom-in;
   }
 }
 
