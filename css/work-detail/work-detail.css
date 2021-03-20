@@ -2896,11 +2896,8 @@ margin-right: 24px;
     float: left;
   }
   #home_section>.container{
-    background-image: url(../../images/micshow-banner6033.jpg);
-    background-position: center;
-  }
-  .banner_text{
-    display: none;
+    background-image: url(../../images/micshow-banner603.jpg);
+    background-position: center top;
   }
   #introduction{
    padding: 70px 0 48px 0; 
@@ -3170,11 +3167,11 @@ margin-right: 24px;
 
 @media(max-width: 475px) and (min-width: 410px){
   #home_section>.container{
-    background-image: url(../../images/micshow-banner414.jpg);
-    background-position: center top;
+    background-image: url(../../images/micshow-banner6033.jpg);
+    background-position: center;
   }
   .banner_text{
-    bottom: 8px;
+    display: none;
   }
   #process .roadmap_list{
     padding: 0 24%;
@@ -3468,11 +3465,11 @@ margin-right: 24px;
 
 @media(max-width: 513px) and (min-width: 476px){
   #home_section>.container{
-    background-image:url(../../images/micshow-banner480.jpg);
-    background-position: center top;
+    background-image:url(../../images/micshow-banner6033.jpg);
+    background-position: center;
   }
   .banner_text{
-    bottom: 12px;
+    display: none;
   }
   #home_section h4{
     margin: 12px 0 16px 0 !important;
