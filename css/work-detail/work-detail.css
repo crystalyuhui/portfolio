@@ -2896,8 +2896,11 @@ margin-right: 24px;
     float: left;
   }
   #home_section>.container{
-    background-image: url(../../images/micshow-banner603.jpg);
-    background-position: center top;
+    background-image: url(../../images/micshow-banner6033.jpg);
+    background-position: center;
+  }
+  .banner_text{
+    display: none;
   }
   #introduction{
    padding: 70px 0 48px 0; 

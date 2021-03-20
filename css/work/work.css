@@ -392,9 +392,11 @@ nav .logo > a{
         width: 100% !important;
         height: 94% !important;
     }
+    /*
     _::-webkit-full-page-media, _:future, :root .fs-carousel-item{
         height: 83.33333333% !important;
     } 
+    */
 }
 
 @media (max-width: 450px){
