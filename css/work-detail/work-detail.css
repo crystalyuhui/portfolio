@@ -3557,7 +3557,7 @@ margin-right: 24px;
   }
 }
 
-@media(aspect-ratio: 414/896) {
+@media screen and (aspect-ratio: 414/896) {
   .detailimg img{
     width: 56% !important;
   }
