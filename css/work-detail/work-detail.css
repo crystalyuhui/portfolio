@@ -2075,10 +2075,6 @@ margin-right: 24px;
     flex: 0 0 100% !important;
     width: 100% !important;
   }
-  .phone-height {
-    height: 100vh !important; 
-    height: calc(var(--vh, 1vh) * 100) !important;
-  }
   .section_banner{
     padding: 0 !important;
   }
