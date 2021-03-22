@@ -93,6 +93,10 @@ section{
 #home_section{
   height: 100vh;
 }
+.my-element {
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+}
 #home_section>.container{
   height: 100%;
   background-image: url(../../images/micshow-banner1.jpg);
@@ -2077,10 +2081,6 @@ margin-right: 24px;
   }
   .section_banner{
     padding: 0 !important;
-  }
-  .my-element {
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 100);
   }
   #home_section>.container{
     background-image: url(../../images/micshow-banner603.jpg);
