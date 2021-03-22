@@ -2078,6 +2078,9 @@ margin-right: 24px;
   .section_banner{
     padding: 0 !important;
   }
+  #home_section{
+    height: -webkit-fill-available;
+  }
   #home_section>.container{
     background-image: url(../../images/micshow-banner603.jpg);
     background-position: center;
