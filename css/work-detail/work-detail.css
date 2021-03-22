@@ -2069,9 +2069,6 @@ margin-right: 24px;
     flex: 0 0 100% !important;
     width: 100% !important;
   }
-  _::-webkit-full-page-media, _:future, :root #home_section{
-    height: 90vh;
-  }
   .section_banner{
     padding: 0 !important;
   }
