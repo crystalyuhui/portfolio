@@ -76,19 +76,22 @@
     <!--== Header End ==-->
 
     <!-- START SECTION BANNER -->
-    <section id="home_section" class="section_banner gradient_box2 pb-0" data-image-src="assets/images/banner_bg3.png" data-parallax="scroll" data-z-index="1">
+    <section id="home_section" class="section_banner gradient_box2 pb-0 phone-height" data-image-src="assets/images/banner_bg3.png" data-parallax="scroll" data-z-index="1">
       <div class="container">
           <div class="row align-items-center">
               <div class="col-lg-7 col-md-7 col-sm-12 order-lg-first">
                 <div class="banner_text animation" data-animation="fadeInUp" data-animation-delay="1.3s">
-                  <h2>麥秀<br>社交互動直播應用程式</h2>
+                  <h2>麥秀<br><span class="onespan375no">社交互動直播應用程式</span><span class="onespan375"><span>-</span>社交互動直播應用程式</span></h2>
                   <div class="fs-carousel-titlecat"> 
                     <span>iOS</span>
 								    <span>Android</span>
 								    <span>UI / UX</span>
                   </div>
-                  <h4>
+                  <h4 class="oneh4375no">
                     經調查顯示，互動性的高低是使用者黏著度及付費意願的關鍵，所以我們開發麥秀直播應用程式時，利用社交歸屬感創造差異化，以直播和交友相輔相成為目標，特別強化主題式互動和直播交友功能，在麥秀上架到應用程式商店三個月後，展現了以下顯著的成效： 
+                  </h4>
+                  <h4 class="oneh4375">
+                    經調查顯示，互動性的高低是使用者黏著度及付費意願的關鍵，所以我們開發麥秀直播應用程式時，利用社交歸屬感創造差異化，特別強化主題式互動和直播交友功能，在麥秀上架到應用程式商店三個月後，展現了以下顯著的成效： 
                   </h4>
                   <ul class="list_none chart_info_list text-white ml-0 res_xs_mt_20">
                     <li>
@@ -97,13 +100,13 @@
                     </li>
                     <li>
                       <i class="ion-ios-checkmark"></i>
-                      <span>30 日留存率約為其他直播平台的一倍</span>
+                      <span>30日留存率約為其他直播平台的一倍</span>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="col-lg-5 col-md-5 col-sm-12 detailimg">
-                <img src="images/iPhone1.png" style="width: 299px;">
+                <img src="images/iPhone1.svg" style="width: 299px;">
               </div>
           </div>
           <div class="line">
@@ -1225,5 +1228,11 @@
 <script src="js/work-detail/plugins.js"></script>
 <script src="js/work-detail/main.js"></script>
 <!--== preloader end ==-->
+<script>
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+</script>
 </body>
 </html>

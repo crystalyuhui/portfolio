@@ -139,6 +139,12 @@ section{
 .banner_text{
   padding: 0;
 }
+.onespan375{
+  display: none;
+}
+.oneh4375{
+  display: none;
+}
 .fs-carousel-titlecat{
   height: 31px;;
 }
@@ -2069,8 +2075,16 @@ margin-right: 24px;
     flex: 0 0 100% !important;
     width: 100% !important;
   }
+  .phone-height {
+    height: 100vh !important; 
+    height: calc(var(--vh, 1vh) * 100) !important;
+  }
   .section_banner{
     padding: 0 !important;
+  }
+  #home_section>.container{
+    background-image: url(../../images/micshow-banner603.jpg);
+    background-position: center;
   }
   #home_section .row{
     margin-right: 0;
@@ -2081,12 +2095,74 @@ margin-right: 24px;
     flex: 0 0 100% !important;
     width: 100% !important;
   }
-  #home_section>.container{
-    background-image: url(../../images/micshow-banner375.svg);
-    background-position: center;
+  #home_section .align-items-center{
+    width: 95%;
   }
-  .order-lg-first,.detailimg,.detailimg img,.fs-carousel-titlecat,.line{
+  #home_section .col-lg-7, #home_section .col-lg-5{
+    margin-top: 0;
+  }
+  #home_section .col-lg-7{
+    height: auto;
+    position: absolute;
+    bottom: 4px;
+    float: none;
+    z-index: 100;
+  }
+  #home_section .col-lg-5{
+    position: absolute;
+    top: 80px;
+    padding: 0 30px 0 0!important;
+  }
+  .detailimg img{
+    float: none;
+    display: grid;
+    margin: 0 auto;
+  }
+  .order-lg-first h2{
+    line-height: 1.5;
+    margin: 0 ;
+  }
+  .order-lg-first h4{
+    margin: 0;
+  }
+  .order-lg-first h4 span{
+    padding-top: 6px !important;
+  }
+  .fs-carousel-titlecat{
     display: none;
+  }
+  .banner_text{
+    padding-right: 16px;
+  }
+  #home_section h4{
+    margin: 8px 0 12px 0 !important;
+  }
+  #home_section ul span{
+    font-size: 16px;
+  }
+  #home_section i{
+    font-size: 26px;
+    top: -7px;
+  }
+  #home_section li{
+    margin: 12px 0 !important;
+  }
+  #home_section li:nth-of-type(1){
+    margin-top: 0 !important;
+  }
+  .onespan375{
+    display: block;
+    margin-top: -36px;
+    margin-left: 58px;
+  }
+  .onespan375 span{
+    padding-right: 10px;
+  }
+  .onespan375no,.oneh4375no,.line{
+    display: none;
+  }
+  .oneh4375{
+    display: inline-block;
   }
   #introduction{
     padding: 72px 0 24px 0;
@@ -2670,6 +2746,9 @@ margin-right: 24px;
 }  
 
 @media(max-width: 766px) and (min-width: 511px){
+  .detailimg img{
+    width: 49% !important;
+  }
   #goal{
     background-position: right top;
   }
@@ -2792,8 +2871,11 @@ margin-right: 24px;
 }
 
 @media(max-width: 766px) and (min-width: 580px){
-  #home_section>.container{
-    background-image: url(../../images/micshow-banner603.svg);
+  .detailimg img{
+    width: 40% !important;
+  }
+  .order-lg-first h2{
+    margin: 0 0 20px 0;
   }
   .fs-carousel-titlecat{
     display: inline-block;
@@ -2928,7 +3010,7 @@ margin-right: 24px;
     left: 44.5%;
   }
   #result-persona .col-lg-4 h4{
-    width: 84%;
+    width: 86%;
   }
   #solve .title_default_light>p{
     margin-bottom: 88px;
@@ -3006,17 +3088,27 @@ margin-right: 24px;
 
 }
 
+@media(max-width: 766px) and (min-width: 715px){
+  #result-persona .col-lg-4 h4{
+    width: 100%;
+  }
+}
+
 @media(max-width: 766px) and (min-width: 630px){
   #usability li:nth-of-type(2) .number-box-p{
     padding-top: 16px;
     margin-bottom: 48px;
   }
-  #result-persona .col-lg-4 h4{
-    width: 90%;
-  }
 }
 
 @media(max-width: 409px) and (min-width: 320px){
+  #home_section>.container{
+    background-image: url(../../images/micshow-banner375.jpg);
+    background-position: center;
+  }
+  .detailimg img{
+    width: 48.5% !important;
+  }
   #process .roadmap_list{
     padding: 0 21%;
   }
@@ -3073,6 +3165,9 @@ margin-right: 24px;
 }
 
 @media(max-width: 475px) and (min-width: 410px){
+  .detailimg img{
+    width: 53.5% !important;
+  }
   #process .roadmap_list{
     padding: 0 24%;
   }
@@ -3145,10 +3240,13 @@ margin-right: 24px;
   }
 }
 
-@media(max-width: 579px) and (min-width: 476px){
-  #home_section>.container{
-    background-image: url(../../images/micshow-banner480.svg);
+@media(max-width: 412px) and (min-width: 390px){
+  .detailimg img{
+    width: 60% !important;
   }
+}
+
+@media(max-width: 579px) and (min-width: 476px){
   #introduction{
     background-position: left top;
   }
@@ -3357,6 +3455,12 @@ margin-right: 24px;
 }
 
 @media(max-width: 513px) and (min-width: 476px){
+  .detailimg img{
+    width: 54% !important;
+  }
+  #home_section h4{
+    margin: 12px 0 16px 0 !important;
+  }
   #goal .box_wrap, #solve .box_wrap, #solve-method .box_wrap{
     width: 80%;
     margin: 0 auto;
