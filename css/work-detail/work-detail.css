@@ -3556,9 +3556,3 @@ margin-right: 24px;
     text-align: left;
   }
 }
-
-@media screen and (aspect-ratio: 414/896){
-  .detailimg img{
-    width: 56% !important;
-  }
-}
