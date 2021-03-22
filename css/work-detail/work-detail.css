@@ -2087,6 +2087,7 @@ margin-right: 24px;
   #home_section>.container{
     background-image: url(../../images/micshow-banner375.svg);
     background-position: center;
+    background-size: 100%;
   }
   .order-lg-first,.detailimg,.detailimg img,.fs-carousel-titlecat,.line{
     display: none;
