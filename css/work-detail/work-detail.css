@@ -3166,7 +3166,7 @@ margin-right: 24px;
 
 @media(max-width: 475px) and (min-width: 410px){
   .detailimg img{
-    width: 39% !important;
+    width: 100% !important;
   }
   #process .roadmap_list{
     padding: 0 24%;
@@ -3556,9 +3556,13 @@ margin-right: 24px;
     text-align: left;
   }
 }
-
-@media screen and (min-device-aspect-ratio: 1/1.8) {
+ 
+@media only screen 
+and (device-width : 414px) 
+and (device-height : 736px) 
+and (-webkit-device-pixel-ratio : 3) { 
   .detailimg img{
-    width: 100% !important;
+    width: 39% !important;
   }
 }
+
