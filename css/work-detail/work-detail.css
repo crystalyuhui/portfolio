@@ -2076,7 +2076,8 @@ margin-right: 24px;
     width: 100% !important;
   }
   #home_section{
-  height: fill-available;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
   }
   .section_banner{
     padding: 0 !important;
@@ -3556,7 +3557,7 @@ margin-right: 24px;
   }
 }
 
-@media screen and (aspect-ratio: 414/896){
+@media screen and (aspect-ratio: 1/2.16){
   .detailimg img{
     width: 48% !important;
   }
