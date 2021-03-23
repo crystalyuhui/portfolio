@@ -2075,16 +2075,11 @@ margin-right: 24px;
     flex: 0 0 100% !important;
     width: 100% !important;
   }
-  #home_section{
-    height: 100vh; 
-    height: calc(var(--vh, 1vh) * 100);
+  _::-webkit-full-page-media, _:future, :root #home_section{
+    height: 90vh;
   }
   .section_banner{
     padding: 0 !important;
-  }
-  #home_section>.container{
-    background-image: url(../../images/micshow-banner603.jpg);
-    background-position: center;
   }
   #home_section .row{
     margin-right: 0;
@@ -2101,22 +2096,23 @@ margin-right: 24px;
   #home_section .col-lg-7, #home_section .col-lg-5{
     margin-top: 0;
   }
-  #home_section .col-lg-7{
-    height: auto;
-    position: absolute;
-    bottom: 4px;
-    float: none;
-    z-index: 100;
+  #home_section>.container{
+    background-image: url(../../images/micshow-banner375.jpg);
+    background-position: center top;
   }
-  #home_section .col-lg-5{
-    position: absolute;
-    top: 66px;
-    padding: 0 30px 0 0!important;
+  .detailimg{
+    display: none;
   }
   .detailimg img{
-    float: none;
-    display: grid;
-    margin: 0 auto;
+    display: none;
+  }
+  #home_section .col-lg-8{
+    padding:0 16px ;
+    position: absolute;
+    bottom: 2%;
+  }
+  .order-lg-first{
+    height: 100%;
   }
   .order-lg-first h2{
     line-height: 1.5;
@@ -2132,7 +2128,9 @@ margin-right: 24px;
     display: none;
   }
   .banner_text{
-    padding-right: 16px;
+    padding-right: 0;
+    position: absolute;
+    bottom: 6px;
   }
   #home_section h4{
     margin: 8px 0 12px 0 !important;
@@ -2158,11 +2156,17 @@ margin-right: 24px;
   .onespan375 span{
     padding-right: 10px;
   }
-  .onespan375no,.oneh4375no,.line{
+  .onespan375no{
     display: none;
   }
   .oneh4375{
     display: inline-block;
+  }
+  .oneh4375no{
+    display: none;
+  }
+  .line{
+    display: none;
   }
   #introduction{
     padding: 72px 0 24px 0;
@@ -2746,9 +2750,6 @@ margin-right: 24px;
 }  
 
 @media(max-width: 766px) and (min-width: 511px){
-  .detailimg img{
-    width: 49% !important;
-  }
   #goal{
     background-position: right top;
   }
@@ -2871,9 +2872,6 @@ margin-right: 24px;
 }
 
 @media(max-width: 766px) and (min-width: 580px){
-  .detailimg img{
-    width: 35% !important;
-  }
   .order-lg-first h2{
     margin: 0 0 20px 0;
   }
@@ -2896,6 +2894,10 @@ margin-right: 24px;
   }
   .fs-carousel-titlecat span:nth-of-type(3){
     float: left;
+  }
+  #home_section>.container{
+    background-image: url(../../images/micshow-banner603.jpg);
+    background-position: center top;
   }
   #introduction{
    padding: 70px 0 48px 0; 
@@ -3010,7 +3012,7 @@ margin-right: 24px;
     left: 44.5%;
   }
   #result-persona .col-lg-4 h4{
-    width: 86%;
+    width: 84%;
   }
   #solve .title_default_light>p{
     margin-bottom: 88px;
@@ -3088,26 +3090,25 @@ margin-right: 24px;
 
 }
 
-@media(max-width: 766px) and (min-width: 715px){
-  #result-persona .col-lg-4 h4{
-    width: 100%;
-  }
-}
-
 @media(max-width: 766px) and (min-width: 630px){
   #usability li:nth-of-type(2) .number-box-p{
     padding-top: 16px;
     margin-bottom: 48px;
   }
+  #result-persona .col-lg-4 h4{
+    width: 90%;
+  }
+}
+
+@media(max-width: 766px) and (min-width: 670px){
+  #home_section>.container{
+    background-image: url(../../images/micshow-banner768.jpg);
+  }
 }
 
 @media(max-width: 409px) and (min-width: 320px){
-  #home_section>.container{
-    background-image: url(../../images/micshow-banner375.jpg);
-    background-position: center;
-  }
-  .detailimg img{
-    width: 36% !important;
+  .banner_text{
+    bottom: 0px;
   }
   #process .roadmap_list{
     padding: 0 21%;
@@ -3165,8 +3166,12 @@ margin-right: 24px;
 }
 
 @media(max-width: 475px) and (min-width: 410px){
-  .detailimg img{
-    width: 39% !important;
+  #home_section>.container{
+    background-image: url(../../images/micshow-banner414.jpg);
+    background-position: center top;
+  }
+  .banner_text{
+    bottom: 8px;
   }
   #process .roadmap_list{
     padding: 0 24%;
@@ -3239,14 +3244,18 @@ margin-right: 24px;
     margin-top: 48px;
   }
 }
-/*
-@media(max-width: 412px) and (min-width: 390px){
-  .detailimg img{
-    width: 60% !important;
-  }
-}
-*/
+
 @media(max-width: 579px) and (min-width: 476px){
+  #home_section>.container{
+    background-image: url(../../images/micshow-banner533.jpg);
+    background-position: center top;
+  }
+  .banner_text{
+    bottom: 8px;
+  }
+  #home_section .col-lg-8{
+    bottom: 2.5%;
+  }
   #introduction{
     background-position: left top;
   }
@@ -3455,8 +3464,12 @@ margin-right: 24px;
 }
 
 @media(max-width: 513px) and (min-width: 476px){
-  .detailimg img{
-    width: 54% !important;
+  #home_section>.container{
+    background-image:url(../../images/micshow-banner480.jpg);
+    background-position: center top;
+  }
+  .banner_text{
+    bottom: 12px;
   }
   #home_section h4{
     margin: 12px 0 16px 0 !important;
@@ -3554,11 +3567,5 @@ margin-right: 24px;
   }
   #outcome .col-lg-12:nth-child(2){
     text-align: left;
-  }
-}
-
-@media screen and (max-aspect-ratio: 1/1.8){
-  .detailimg img{
-    width: 48% !important;
   }
 }
