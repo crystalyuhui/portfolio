@@ -2076,8 +2076,14 @@ margin-right: 24px;
     width: 100% !important;
   }
   #home_section{
-    height: 100vh; 
-    height: calc(var(--vh, 1vh) * 100);
+    // For Edge
+  height: 100%;
+// WebKit-based browsers will ignore this
+height: -moz-available;
+// Mozilla-based browsers will ignore this.
+height: -webkit-fill-available;  
+// For WebKit-based browsers, Edge not support this
+height: fill-available;
   }
   .section_banner{
     padding: 0 !important;
