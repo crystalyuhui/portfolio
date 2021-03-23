@@ -3557,7 +3557,7 @@ margin-right: 24px;
   }
 }
 
-@media screen and (max-aspect-ratio: 1/1.8){
+@media screen and (device-aspect-ratio:1/1.8){
   .detailimg img{
     width: 48% !important;
   }
