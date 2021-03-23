@@ -3107,7 +3107,7 @@ margin-right: 24px;
     background-position: center;
   }
   .detailimg img{
-    width: 36% !important;
+    width: 100% !important;
   }
   #process .roadmap_list{
     padding: 0 21%;
