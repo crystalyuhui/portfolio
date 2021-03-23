@@ -3557,8 +3557,8 @@ margin-right: 24px;
   }
 }
 
-@media (max-aspect-ratio: 1/1.8){
+@media (min-aspect-ratio: 1/1.8){
   .detailimg img{
-    width: 70% !important;
+    width: 100% !important;
   }
 }
