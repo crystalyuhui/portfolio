@@ -2747,7 +2747,7 @@ margin-right: 24px;
 
 @media(max-width: 766px) and (min-width: 511px){
   .detailimg img{
-    width: 49% !important;
+    width: 35% !important;
   }
   #goal{
     background-position: right top;
@@ -2872,7 +2872,13 @@ margin-right: 24px;
 
 @media(max-width: 766px) and (min-width: 580px){
   .detailimg img{
-    width: 35% !important;
+    width: 29.5% !important;
+  }
+  #home_section .col-lg-7{
+    bottom: -4px;
+  }
+  #home_section .col-lg-5{
+    top: 60px;
   }
   .order-lg-first h2{
     margin: 0 0 20px 0;
@@ -3107,7 +3113,13 @@ margin-right: 24px;
     background-position: center;
   }
   .detailimg img{
-    width: 36% !important;
+    width: 42% !important;
+  }
+  #home_section .col-lg-7{
+    bottom: -4px;
+  }
+  #home_section .col-lg-5{
+    top: 60px;
   }
   #process .roadmap_list{
     padding: 0 21%;
@@ -3165,6 +3177,9 @@ margin-right: 24px;
 }
 
 @media(max-width: 340px){
+  .detailimg img{
+    width: 34% !important;
+  }
   .order-lg-first h2{
     font-size: 22px;
   }
@@ -3181,9 +3196,10 @@ margin-right: 24px;
     font-size: 24px;
   }
 }
+
 @media(max-width: 475px) and (min-width: 410px){
   .detailimg img{
-    width: 39% !important;
+    width: 41% !important;
   }
   #process .roadmap_list{
     padding: 0 24%;
@@ -3473,7 +3489,7 @@ margin-right: 24px;
 
 @media(max-width: 513px) and (min-width: 476px){
   .detailimg img{
-    width: 54% !important;
+    width: 38% !important;
   }
   #home_section h4{
     margin: 12px 0 16px 0 !important;
@@ -3574,22 +3590,16 @@ margin-right: 24px;
   }
 }
 
-@media (max-aspect-ratio: 375/667) and (orientation: portrait){
-  #home_section .col-lg-7{
-    bottom: -4px;
-  }
-  #home_section .col-lg-5{
-    top: 60px;
-  }
+@media only screen 
+and (device-width : 414px) 
+and (device-height : 736px) 
+and (-webkit-device-pixel-ratio : 3) { 
   .detailimg img{
-    width: 34% !important;
+    width: 100% !important;
   }
 }
 
-@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) { 
-      .detailimg img{
-        width: 6% !important;
-      }
-}
+
+
 
 
