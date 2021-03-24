@@ -3176,7 +3176,7 @@ margin-right: 24px;
   }
 }
 
-@media(min-width: 374px){
+@media(max-width: 409px) and (min-width: 374px){
   .detailimg img{
     width: 46% !important;
   }
