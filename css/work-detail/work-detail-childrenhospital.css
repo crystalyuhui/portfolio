@@ -2304,14 +2304,15 @@ margin-right: 24px;
   #phoneonly{
     display: block !important;
     padding: 0;
-    height: 100vh;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
   }
   #phoneonly .container{
-    height: calc(100vh - 52px - 104px);
-    height: calc(var(--vh, 1vh) * 100 - 52px - 104px);
+    height: calc(100% - 52px - 104px);
     top: 52px;
     display: flex;
     align-items: center;
+    overflow: hidden;
   }
   #phoneonly .row{
     display: inline-block;
@@ -2326,6 +2327,10 @@ margin-right: 24px;
   #phoneonly h5{
     line-height: 1.5;
     margin: 0 0 24px 0;
+  }
+  #phoneonly img{
+    max-width: 90%;
+    margin-left: 5%;
   }
   #footer{
     background-color: #e5f7db;
