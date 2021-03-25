@@ -1604,6 +1604,15 @@
 <script src="js/work-detail/plugins.js"></script>
 <script src="js/work-detail/main.js"></script>
 <!--== preloader end ==-->
-
+<script>
+  function safariHacks() {
+    let windowsVH = window.innerHeight / 100;
+    document.querySelector('#home_section').style.setProperty('--vh', windowsVH + 'px');
+    window.addEventListener('resize', function() {
+        document.querySelector('#home_section').style.setProperty('--vh', windowsVH + 'px');
+    });
+  }
+  safariHacks();
+</script>
 </body>
 </html>

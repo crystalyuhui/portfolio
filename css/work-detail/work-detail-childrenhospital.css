@@ -2308,6 +2308,7 @@ margin-right: 24px;
   }
   #phoneonly .container{
     height: calc(100vh - 52px - 104px);
+    height: calc(var(--vh, 1vh) * 100 - 52px - 104px);
     top: 52px;
     display: flex;
     align-items: center;

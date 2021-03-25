@@ -3625,7 +3625,7 @@ margin-right: 24px;
 
 @media only screen and (device-width : 360px) and (device-height : 640px) and (-webkit-device-pixel-ratio : 3) { 
   .detailimg img{
-    width: 38% !important;
+    width: 36% !important;
   }
   .order-lg-first h2{
     font-size: 22px;
