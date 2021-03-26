@@ -2309,13 +2309,16 @@ margin-right: 24px;
   }
   #phoneonly .container{
     height: calc(100% - 52px - 104px);
+    position: absolute;
     top: 52px;
-    display: flex;
-    align-items: center;
+    bottom: 104px;
     overflow: hidden;
   }
   #phoneonly .row{
     display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
   #phoneonly h3,#phoneonly h5{
     text-align: center;
