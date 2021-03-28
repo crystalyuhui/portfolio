@@ -1944,7 +1944,7 @@ margin-right: 24px;
     display: grid;
     position: absolute;
     top: 112px;
-    height: calc(100vh - 319px - 112px);
+    height: calc(100% - 319px - 112px);
   }
   .detailimg img{
     width: 70% !important;
@@ -3488,7 +3488,7 @@ margin-right: 24px;
 @media(max-width: 766px) and (min-width: 580px){
   #home_section .col-lg-7{
     top: 102px;
-    height: calc(100vh - 280px - 102px);
+    height: calc(100% - 280px - 102px);
   }
   .order-lg-first h2{
     margin: 0 0 20px 0;
@@ -3645,7 +3645,7 @@ margin-right: 24px;
   }
   #home_section .col-lg-7{
     top: 80px;
-    height: calc(100vh - 301px - 80px);
+    height: calc(100% - 301px - 80px);
   }
   .detailimg img{
     width: 76% !important;
@@ -4021,7 +4021,7 @@ margin-right: 24px;
 @media(max-width: 579px) and (min-width: 476px){
   #home_section .col-lg-7{
     top: 80px;
-    height: calc(100vh - 271px - 80px);
+    height: calc(100% - 271px - 80px);
   }
   .detailimg img{
     width: 66% !important;
@@ -4326,7 +4326,7 @@ video{
     background-image: url(../../images/marry-banner-480.jpg);
   }
   #home_section .col-lg-7{
-    height: calc(100vh - 286px - 80px);
+    height: calc(100% - 286px - 80px);
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
     left: 25%;
@@ -4577,7 +4577,7 @@ video{
   }
   #home_section .col-lg-7{
     top: 70px;
-    height: calc(100vh - 274px - 70px);
+    height: calc(100% - 274px - 70px);
   }
 }
 
