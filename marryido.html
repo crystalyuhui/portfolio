@@ -106,6 +106,9 @@
                   </ul>
                 </div>
               </div>
+              <div class="col-lg-7 col-md-12 col-sm-12 detailimg">
+                <img src="images/marryido-pad.svg" style="width: 88%;">
+              </div>
           </div>
           <div class="line">
             <div class="scroll-indicator">
@@ -1217,6 +1220,15 @@
 <script src="js/work-detail/plugins.js"></script>
 <script src="js/work-detail/main.js"></script>
 <!--== preloader end ==-->
-
+<script>
+  function safariHacks() {
+    let windowsVH = window.innerHeight / 100;
+    document.querySelector('#home_section').style.setProperty('--vh', windowsVH + 'px');
+    window.addEventListener('resize', function() {
+        document.querySelector('#home_section').style.setProperty('--vh', windowsVH + 'px');
+    });
+  }
+  safariHacks();
+</script>
 </body>
 </html>

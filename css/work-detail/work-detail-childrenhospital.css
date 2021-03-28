@@ -2334,7 +2334,8 @@ margin-right: 24px;
   }
   #phoneonly img{
     max-width: 90%;
-    margin-left: 5%;
+    display: grid;
+    margin: auto;
   }
   #footer{
     background-color: #e5f7db;
@@ -3076,6 +3077,22 @@ margin-right: 24px;
     top: -16px;
   }
 }  
+
+@media(max-width: 579px){
+  #phoneonly img{
+    max-width: 80%;
+  }
+}
+
+@media(max-width: 389px){
+  #phoneonly img{
+    max-width: 74%;
+  }
+  #phoneonly h3{
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+}
 
 @media(max-width: 766px) and (min-width: 511px){
 /*

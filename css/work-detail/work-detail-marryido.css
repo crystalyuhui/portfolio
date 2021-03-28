@@ -122,7 +122,7 @@ section{
 }
 #home_section>.container{
   height: 100%;
-  background-image: url(../../images/marry-banner.svg);
+  background-image: url(../../images/marry-banner.jpg);
   background-position: center right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,6 +137,9 @@ section{
 #home_section .col-lg-7{
   float: none;
   margin-top: 36px;
+  width: 58%;
+  flex: 0 0 58%;
+  max-width: 58%;
 }
 #home_section h4{
   margin: 24px 0 !important;
@@ -1514,14 +1517,22 @@ margin-right: 24px;
 
 @media(max-width: 1300px){
   #home_section>.container{
-    background-image: url(../../images/marry-banner-1280.svg);
+    background-image: url(../../images/marry-banner-1280.jpg);
   }
   #home_section .align-items-center{
     width: 82%;
   }
-  #home_section .order-lg-first{
+  #home_section .col-lg-5{
+    width: 43%;
+    flex: 0 0 43%;
+    max-width: 43%;
     padding-right: 16px;
     margin-left: 16px;
+  }
+  #home_section .col-lg-7{
+    width: 55%;
+    flex: 0 0 55%;
+    max-width: 55%;
   }
   #problem .col-lg-12{
     margin: 120px 0;
@@ -1548,15 +1559,21 @@ margin-right: 24px;
 
 @media(max-width: 1199px){
   #home_section>.container{
-    background-image: url(../../images/marry-banner-1024.svg);
+    background-image: url(../../images/marry-banner-1024.jpg);
   }
   #home_section .align-items-center{
-    width: 96%;
+    width: 90%;
   }
   #home_section .order-lg-first{
     padding-right: 0;
     margin-top: 0;
-    margin-left: 32px;
+    margin-left: 0;
+  }
+  #home_section .col-lg-7{
+    width: 56.5%;
+    flex: 0 0 56.5%;
+    max-width: 56.5%;
+    margin-top: 0;
   }
   .h21920{
     font-size: 28px !important;
@@ -1902,7 +1919,7 @@ margin-right: 24px;
 
 @media(max-width: 991px){
   #home_section>.container{
-    background-image: url(../../images/marry-banner-768.svg);
+    background-image: url(../../images/marry-banner-768.jpg);
     background-position: center;
   }
   #home_section .align-items-center{
@@ -1915,6 +1932,24 @@ margin-right: 24px;
     bottom: -8px;
     margin-top: 0;
     margin-left: 0;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #home_section .col-lg-7{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+    display: grid;
+    position: absolute;
+    top: 112px;
+    height: calc(100vh - 319px - 112px);
+  }
+  .detailimg img{
+    width: 70% !important;
+    margin: auto;
+    float: none;
   }
   #home_section h4{
     margin-bottom: 6px !important;
@@ -1947,9 +1982,6 @@ margin-right: 24px;
     flex:0 0 55% !important;
     padding: 0 !important;
   }
-  #home_section .col-lg-7{
-    margin-top: 0;
-  }
   #introduction .row>.col-lg-3{
     padding-right: 48px !important;
   }
@@ -1964,12 +1996,6 @@ margin-right: 24px;
   }
   .lightbox:hover{
     transform: scale(1.02) !important;
-  }
-  .detailimg{
-    padding: 0 0 0 24px !important;
-  }
-  .detailimg img{
-    float: right;
   }
   #problem{
     background-position: right center;
@@ -2530,41 +2556,19 @@ margin-right: 24px;
     flex: 0 0 100% !important;
     width: 100% !important;
   }
-  #home_section{
-    height: 100vh;
-  }
-  _::-webkit-full-page-media, _:future, :root #home_section{
-    height: 90vh;
-  }
   .section_banner{
     padding: 0 !important;
+  }
+  #home_section{
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
+  }
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-603.jpg);
   }
   #home_section .row{
     margin-right: 0;
     margin-left: 0;
-  }
-  #home_section .col-sm-12,#solve .col-sm-12{
-    max-width:100% !important;
-    flex: 0 0 100% !important;
-    width: 100% !important;
-  }
-  #home_section>.container{
-    background-image: url(../../images/marry-banner-603.svg);
-    background-position: center;
-  }
-  .detailimg{
-    padding: 74px 0 0 0 !important;
-    position: absolute;
-  }
-  .detailimg img{
-    width: 48% !important;
-    position: absolute;
-    left: 23%;
-  }
-  #home_section .col-lg-8{
-    padding:0 16px ;
-    position: absolute;
-    bottom: 2%;
   }
   .order-lg-first{
     height: 100%;
@@ -2586,7 +2590,7 @@ margin-right: 24px;
   .banner_text{
     padding: 0 16px;
     position: absolute;
-    bottom: 5px;
+    bottom: 3px;
   }
   #home_section h4{
     margin: 8px 0 12px 0 !important;
@@ -3124,6 +3128,11 @@ margin-right: 24px;
   #next .col-lg-12:nth-child(1){
     margin-bottom: 160px;
   }
+  #solve .col-sm-12{
+    max-width:100% !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
   #solve .align-items-center{
     margin: 32px 0 0 0;
   }
@@ -3477,11 +3486,12 @@ margin-right: 24px;
 }
 
 @media(max-width: 766px) and (min-width: 580px){
+  #home_section .col-lg-7{
+    top: 102px;
+    height: calc(100vh - 280px - 102px);
+  }
   .order-lg-first h2{
     margin: 0 0 20px 0;
-  }
-  .detailimg{
-    padding: 68px 0 0 0 !important;
   }
   .fs-carousel-titlecat{
     display: inline-block;
@@ -3500,12 +3510,8 @@ margin-right: 24px;
   .fs-carousel-titlecat span:nth-of-type(3){
     float: left;
   }
-  .detailimg{
-    top: 0.5%;
-  }
   .detailimg img{
-    width: 40% !important;
-    left: 26%;
+    width: 82% !important;
   }
   #introduction .col-sm-12:nth-child(odd){
     padding-left: 16px;
@@ -3631,23 +3637,18 @@ margin-right: 24px;
 
 @media(max-width: 475px) and (min-width: 320px){
   #home_section>.container{
-    background-image: url(../../images/marry-banner-414.svg);
+    background-image: url(../../images/marry-banner-414.jpg);
+    background-position: top center;
   }
-  .h21920, .onespan375no{
-    display: inline-block;
+  #home_section h4{
+    margin: 12px 0 !important;
   }
-  .h2768{
-    display: none;
+  #home_section .col-lg-7{
+    top: 80px;
+    height: calc(100vh - 301px - 80px);
   }
   .detailimg img{
-    width: 50% !important;
-    left: 22%;
-  }
-  .detailimg{
-    padding: 80px 0 0 0 !important;
-  }
-  .banner_text{
-    bottom: 8px;
+    width: 76% !important;
   }
   #introduction{
     background-image: url(../../images/marry-introduction-414.png);
@@ -3904,12 +3905,6 @@ margin-right: 24px;
 }
 
 @media(max-width: 409px) and (min-width: 320px){
-  #home_section>.container{
-    background-image: url(../../images/marry-banner-320.svg);
-  }
-  .banner_text{
-    bottom: 0;
-  }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
     left: 18%;
     width: 64%;
@@ -4024,8 +4019,12 @@ margin-right: 24px;
 }
 
 @media(max-width: 579px) and (min-width: 476px){
-  #home_section>.container{
-    background-image: url(../../images/marry-banner-533.svg);
+  #home_section .col-lg-7{
+    top: 80px;
+    height: calc(100vh - 271px - 80px);
+  }
+  .detailimg img{
+    width: 66% !important;
   }
   .banner_text{
     bottom: 0;
@@ -4047,12 +4046,6 @@ margin-right: 24px;
   #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     width: 48%;
     left: 26.5%;
-  }
-  .detailimg{
-    padding: 80px 0 0 0 !important;
-  }
-  #home_section .col-lg-8{
-    bottom: 2.5%;
   }
   #introduction{
     background-image:url(../../images/marry-introduction-533.png);
@@ -4330,13 +4323,10 @@ video{
 
 @media(max-width: 513px) and (min-width: 476px){
   #home_section>.container{
-    background-image: url(../../images/marry-banner-480.svg);
+    background-image: url(../../images/marry-banner-480.jpg);
   }
-  .h21920,.onespan375no{
-    display: inline-block;
-  }
-  .h2768,.fs-carousel-titlecat{
-    display: none;
+  #home_section .col-lg-7{
+    height: calc(100vh - 286px - 80px);
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
     left: 25%;
@@ -4346,18 +4336,11 @@ video{
     left: 24%;
     width: 54%;
   }
-  .detailimg{
-    padding: 88px 0 0 0 !important;
-  }
-  .detailimg img{
-    width: 50% !important;
-    left: 22%;
-  }
   .banner_text{
     bottom: 4px;
   }
   #home_section h4{
-    margin: 12px 0 16px 0 !important;
+    margin: 16px 0 !important;
   }
   #goal .container{
     padding-bottom: 96px;
@@ -4552,6 +4535,15 @@ video{
 }
 
 @media(max-width: 513px){
+  #home_section .h21920{
+    line-height: 1.4 !important;
+  }
+  .h21920,.onespan375no{
+    display: inline-block;
+  }
+  .h2768,.fs-carousel-titlecat{
+    display: none;
+  }
   #goal .col-lg-4{
     max-width: 100% !important;
     flex: 0 0 100% !important;
@@ -4563,5 +4555,115 @@ video{
   }
   #outcome>div{
     padding-bottom: 96px;
+  }
+}
+
+@media(max-width: 374px){
+  .banner_text{
+    bottom: 8px;
+  }
+  #home_section .h21920{
+    font-size: 22px !important;
+  }
+  .oneh4768,#home_section ul span{
+    font-size: 14px;
+  }
+  #home_section li{
+    margin: 8px 0 !important;
+  }
+  #home_section i{
+    font-size: 24px;
+    top: -5px;
+  }
+  #home_section .col-lg-7{
+    top: 70px;
+    height: calc(100vh - 274px - 70px);
+  }
+}
+
+@media(max-width: 340px){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-414-iphone.jpg);
+  }
+  .banner_text{
+    bottom: 5px;
+  }
+  #home_section .h21920{
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+  #home_section h4{
+    margin: 8px 0 !important;
+  }
+  #home_section li{
+    margin: 6px 0 !important;
+  }
+  #home_section .col-lg-7{
+    top: 56px;
+  }
+  .detailimg img{
+    width: 68% !important;
+  }
+}
+
+@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) and (orientation: portrait) { 
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-414-iphone.jpg);
+  }
+  #home_section .col-lg-7{
+    top: 84px;
+  }
+  .detailimg img{
+    width: 74% !important;
+  }
+}
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) and (orientation: portrait) { 
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-414-iphone.jpg);
+  }
+  .detailimg img{
+    width: 72% !important;
+  }
+  #home_section .h21920{
+    font-size: 22px !important;
+  }
+  .oneh4768,#home_section ul span{
+    font-size: 14px;
+  }
+  #home_section li{
+    margin: 8px 0 !important;
+  }
+  #home_section i{
+    font-size: 24px;
+    top: -5px;
+  }
+}
+
+@media only screen and (device-width : 360px) and (device-height : 640px) and (orientation: portrait){
+  #home_section>.container{
+    background-image: url(../../images/marry-banner-414-iphone.jpg);
+  }
+  .banner_text{
+    bottom: 5px;
+  }
+  #home_section .h21920{
+    font-size: 22px !important;
+  }
+  .oneh4768,#home_section ul span{
+    font-size: 14px;
+  }
+  #home_section h4,#home_section li{
+    margin: 8px 0 !important;
+  }
+  #home_section i{
+    font-size: 24px;
+    top: -5px;
+  }
+  #home_section .col-lg-7{
+    top: 70px;
+  }
+  .detailimg img{
+    width: 70% !important;
   }
 }

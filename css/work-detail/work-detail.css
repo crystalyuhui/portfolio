@@ -2872,13 +2872,10 @@ margin-right: 24px;
 
 @media(max-width: 766px) and (min-width: 580px){
   .detailimg img{
-    width: 29.5% !important;
+    width: 43% !important;
   }
   #home_section .col-lg-7{
     bottom: -4px;
-  }
-  #home_section .col-lg-5{
-    top: 60px;
   }
   .order-lg-first h2{
     margin: 0 0 20px 0;
