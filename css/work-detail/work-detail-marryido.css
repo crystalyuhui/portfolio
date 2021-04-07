@@ -1033,6 +1033,7 @@ line-height: 2;
   background-color: #2B3042;
 }
 img.mfp-img{
+  width: 100vw;
   max-width: 100%;
   max-height: 100% !important;
   padding: 40px;
@@ -1149,13 +1150,10 @@ img.mfp-img{
 .blue_bg, .v_royal_blue{
   background-color: none;
 }
-.por768{
-  display: none;
-}
 #portfolio,#next{
-  background-color: #FFFBFB;
+  background-color: #fffcfd;
 }
-#portfolio a,#next a{
+#portfolio a{
   transition: none !important ;
   display: inline-block;
 }
@@ -1211,10 +1209,14 @@ img.mfp-img{
 .title-h3 span{
   padding-right: 16px;
 }
-.videomargin{
-  margin-bottom: 64px !important
+.video{
+  display: inline-block;
+  margin: 0 auto;
 }
-.portfolio375{
+.video:hover{
+  cursor: zoom-in;
+}
+.portfolio375,.por768{
   display: none;
 }
 .otherp{
@@ -1295,11 +1297,23 @@ img.mfp-img{
 #next .col-lg-12:nth-child(1){
   margin-bottom: 192px;
 }
-#next a{
+#next video{
   margin-top: 22px;
+  cursor: zoom-in;
 }
-#next .mart200 a{
+#next .mart200 video{
   margin-bottom: 32px;
+}
+.mfp-iframe-holder .mfp-content{
+  max-width: 100vw;
+  overflow: hidden;
+}
+.mfp-iframe-scaler{
+  padding-top: 135%;
+}
+.mfp-iframe-scaler iframe{
+  padding: 40px;
+  background-color: #2B3042;
 }
 #next .col-lg-12:nth-child(2){
   margin: 4px 0 88px 0;
@@ -2454,12 +2468,6 @@ margin-right: 24px;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  .about-video-img-l{
-    margin-left: -64px;
-  }
-  .about-video-img-r{
-    margin-right: -66px;
-  }
   #portfolio .pt-100{
     margin: 96px 0 !important;
   }
@@ -2509,9 +2517,6 @@ margin-right: 24px;
   #next{
     background-image: url(../../images/marry-next-768.png);
     background-position: right top;
-  }
-  #next .about-video-img-l{
-    margin-left: 0;
   }
   #next img{
     left: 0%;
@@ -2591,6 +2596,7 @@ margin-right: 24px;
     padding: 0 16px;
     position: absolute;
     bottom: 3px;
+    z-index: 100;
   }
   #home_section h4{
     margin: 8px 0 12px 0 !important;
@@ -3245,16 +3251,6 @@ margin-right: 24px;
   }
   .extra-none{
     margin-bottom: 16px;
-  }
-  .about-video-img-l{
-    margin-left: 0;
-  }
-  .about-video-img-r{
-    margin-right: 0;
-  }
-  video{
-    width: 80%;
-    margin-left: 11%;
   }
   .title-h3{
     font-size: 20px;
@@ -4228,10 +4224,6 @@ margin-right: 24px;
 #portfolio a{
   width: 94%;
   margin: 56px 3% 32px 3% !important;
-}
-video{
-  width: 50%;
-  margin-left: 25%;
 }
 #portfolio .sec-title{
   margin-top: -24px;

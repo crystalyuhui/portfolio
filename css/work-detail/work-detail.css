@@ -3622,7 +3622,7 @@ margin-right: 24px;
 
 @media only screen and (device-width : 360px) and (device-height : 640px) and (orientation: portrait) { 
   .detailimg img{
-    width: 100% !important;
+    width: 38% !important;
   }
   .order-lg-first h2{
     font-size: 22px;
