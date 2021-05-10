@@ -1473,7 +1473,13 @@ button:focus {
 	margin-bottom: 2px;
 	padding: 10px 20px;
 }
-
+.mfp-close-btn-in .mfp-close {
+	font-size: 32px;
+	right: -50px;
+    top: 0px;
+	color: #fff;
+	width: auto;
+}
 /*===================================*
 10. END FAQ SECTION
 *===================================*/

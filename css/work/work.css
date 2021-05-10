@@ -285,6 +285,12 @@ nav .logo > a{
         opacity: 1;
         transition:none;
     }
+    .eltdf-btn.eltdf-btn-simple-other:hover .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+        width:88%;
+    }
+    .eltdf-btn.eltdf-btn-simple-other:active .eltdf-btn-cover,.eltdf-call-to-action-holder,.eltdf-call-to-action-holder.eltdf-normal-layout:not(.eltdf-content-in-grid) .eltdf-cta-inner,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-button-holder,.eltdf-call-to-action-holder.eltdf-simple-layout .eltdf-cta-text-holder{
+        width:88%;
+    }
 }
 
 @media (max-width: 850px){
