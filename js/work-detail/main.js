@@ -86,15 +86,6 @@ function port_load() {
 //PORTFOLIO GRIDS
 function PortfolioGrids() {
     var $container = $('.masonry');
-    $container.imagesLoaded( function() {   
-        $container.isotope({
-          layoutMode: 'packery',
-          itemSelector: '.grid-item',
-          gutter:0,
-          transitionDuration: "0.5s",
-          columnWidth: '.grid-item'
-        });
-    })
         $('.portfolio_filter ul li a').on("click", function(){
           $(".portfolio_filter ul li a").removeClass("select-cat");
           $(this).addClass("select-cat");        
@@ -348,12 +339,7 @@ function carousel_slider() {
 }
 
   // PORTFOLIO HOVER EFFECT
-function hovertrid () {
-  $(".grid-item").hover3d({
-      selector: "figure",
-      perspective: 3000,
-      shine: false
-  });
+function hovertrid () { 
 }
 
 
@@ -444,20 +430,7 @@ function typed () {
  
 //SLIDER
 function slider () {
-  $(".slider-images").vegas({
-    slides: [
-        { src: "img/slider-1.jpg" },
-        { src: "img/slider-2.jpg" },
-        { src: "img/slider-3.jpg" }
-    ],
-        animation: ['kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight'],
-        delay:5000,
-        shuffle:true
-    });
 }
-
-    
-
 }); // document read end 
 
 

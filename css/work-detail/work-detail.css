@@ -943,7 +943,7 @@ img.mfp-img{
 .v_royal_blue .tab-link{
   background-color: #337ab7;
 }
-.v_light_dark .tab-link.active, .v_light_dark .tab-link.active:hover, .v_light_dark .tab-link:hover, .v_royal_blue .tab-link.active, .v_royal_blue .tab-link.active:hover, .v_royal_blue .tab-link:hover{
+.v_light_dark .tab-link.active, .v_light_dark .tab-link.active:hover, .v_light_dark .tab-link:hover, .v_royal_blue .tab-link.active, .v_royal_blue .tab-link.active:focus,.v_royal_blue .tab-link.active:hover, .v_royal_blue .tab-link:hover{
   background-color: #222F62;
 }
 .blue_bg, .v_royal_blue{

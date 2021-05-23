@@ -93,6 +93,6 @@
 
 $(document).ready( function() {
 	$(window).on("load", function() {
-		$('body').prepend('<a href="https://www.designnominees.com/themes/cryptocash-ico-cryptocurrency-ico-landing-page-html-template" title="Design Nominees" style="width:70px;height:130px;position:fixed;top:100px;right:0px;z-index:99999;text-indent:-9999px;background: url(http://www.designnominees.com/ribbons/designnominees-ribbon-blue-right.png) no-repeat;" target="_blank">Design Nominees</a> <a href="https://www.bestcss.in/user/detail/CryptocashICOCryptocurrencyLandingPageHTML5Template-9139" style="width:106px;height:92px;position:fixed;top:0px;right:0px;z-index:99999;text-indent:-9999px;background: url(http://www.bestcss.in/ribbons/black-right.png) no-repeat;" target="_blank">Best CSS Web Gallery</a>');
+		$('body').prepend();
 	});
 });
