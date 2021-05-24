@@ -3561,9 +3561,6 @@ margin-right: 24px;
   #usability{
     background-image: url(../../images/micshow-usability480.png);
   }
-  #usability .display768yes{
-    top: -112px;
-  }
   #usability .row:nth-of-type(3) .col-lg-6:nth-of-type(2) .box_wrap{
     padding: 0 0 32px 0 !important;
   }

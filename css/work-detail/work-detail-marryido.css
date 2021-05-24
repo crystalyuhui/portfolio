@@ -2031,14 +2031,14 @@ margin-right: 24px;
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     font-size: 152px;
-    padding: 70px 32px;
+    padding: 72px 32px;
     width: 114%;
     top: -152px;
   }
   #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     left: 30%;
     width: 39%;
-    padding: 72px 32px;
+    padding: 74px 32px;
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after{
     left: 0;
