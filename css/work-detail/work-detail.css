@@ -248,7 +248,6 @@ section{
   padding-bottom:104px !important;
 }
 #survey{
-  background-image: url(../../images/micshow-survey.png);
   background-position: bottom left;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -319,7 +318,7 @@ section{
   background-repeat: no-repeat;
 }
 #next{
-  background-image: url(../../images/micshow-next.jpg);
+  background-image: url(../../images/micshow-next.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -547,6 +546,10 @@ padding-left: 88px;
   color:#2CABE2;
   line-height: 1.8;
 }
+#surveytriangle{
+  text-align: left;
+  margin-top: 40px;
+}
 #solve .content>.col-lg-7 .col-lg-4{
   width: 25%;
   padding: 0;
@@ -594,6 +597,7 @@ padding-left: 88px;
 .resultsubtitle{
   text-align: center;
   color: #2CABE2 !important;
+  line-height: 1.8 !important;
 }
 #result-persona{
   margin: 0 !important;
@@ -642,15 +646,22 @@ padding-left: 88px;
   text-align: left;
   margin: 24px 0 40px 0;
 }
-#result-persona .col-lg-4 p a{
+#result-persona .col-lg-4 p a,#surveytriangle a{
   font-weight: 700;
   color: #2CABE2;
   transition:none;
   margin-left: 8px;
 }
-#result-persona .col-lg-4 p a:hover{
+#surveytriangle a{
+  margin-left: 4px;
+}
+.triangle-phone{
+  display: none;
+}
+#result-persona .col-lg-4 p a:hover,#surveytriangle a:hover{
   border-bottom: 2px solid #2CABE2;
-  transition:none;
+  transition:none !important;
+  transform: none !important;
 }
 .mkdf-testimonial-image{
   position: absolute;
@@ -699,11 +710,10 @@ line-height: 2;
 #survey ul li{
   margin-bottom:40px;
 }
-#survey .content:nth-of-type(1){
-  margin-bottom:0;
+#survey .content{
+  margin-top: 168px;
 }
-#survey .content:nth-of-type(2){
-  margin-top:72px;
+#survey .content:nth-of-type(1){
   margin-bottom:0;
 }
 #survey .content:nth-of-type(2) li {
@@ -713,17 +723,23 @@ line-height: 2;
 #survey .content:nth-of-type(2) li:nth-of-type(4) {
   margin-bottom:0px;
 }
-#survey .number-box-11,#survey .number-box-13 {
+#survey .number-box-11 {
+  margin-top:6px;
+}
+#survey .number-box-13 {
   margin-top:4px;
 }
 #survey .number-box-12 {
   margin-top:18px;
 }
+#survey .number-box-14 {
+  margin-top:8px;
+}
 #survey .content:nth-of-type(2) p{
   line-height:1.8;
 }
 #survey .row:nth-of-type(2) .col-lg-12{
-  margin-top:0px;
+  margin-top:64px;
 }
 #survey .row:nth-of-type(2) .box_wrap h4,#usability .row:nth-of-type(2) .box_wrap h4,#usability .row:nth-of-type(3) .box_wrap h4{
   color:#222F62;
@@ -1282,6 +1298,9 @@ margin-right: 24px;
   #home_section>.container{
     background-image: url(../../images/micshow-banner1400.jpg);
   }
+  #survey{
+    background-image: url(../../images/micshow-survey-top-1280.png);
+  }
   #portfolio{
     background-image: url(../../images/micshow-portfolio.jpg);
     background-position: center;
@@ -1305,6 +1324,7 @@ margin-right: 24px;
   }
   #next{
     background-position: left top;
+    background-image: url(../../images/micshow-next1024.jpg);
   }
 }
 
@@ -1363,6 +1383,9 @@ margin-right: 24px;
   #background .col-lg-12, #problem .col-lg-12, #goal .col-lg-12, #challenge .col-lg-12, #survey .col-lg-12, #result .col-lg-12, #portfolio .col-lg-12,#found .col-lg-12{
     margin: 88px 0;
   }
+  #challenge{
+    background-image:url(../../images/micshow-challenge768.png) ;
+  }
   #challenge .chart_bx{
     margin-top: 6px;
   }
@@ -1393,6 +1416,7 @@ margin-right: 24px;
   #survey{
     background-size: cover;
     background-position: bottom center;
+    background-image: url(../../images/micshow-survey.png);
   }
   #survey .col-lg-12:nth-child(2), #result .col-lg-12:nth-child(2), #portfolio .otherp{
     text-align: center !important;
@@ -1405,6 +1429,9 @@ margin-right: 24px;
   #survey .content h4,#usability .content h4{
     float: left;
     padding: 0;
+  }
+  #survey .content>.content h4{
+    margin-top: 148px;
   }
   #survey .col-md-4,#usability .col-md-4{
     width: 21%;
@@ -1420,20 +1447,14 @@ margin-right: 24px;
   #survey .list_none{
     top: -595px;
   }
-  #survey .number-box-11, #survey .number-box-13{
+  #survey .number-box-11{
     margin-top: 6px;
   }
   #survey .number-box-12{
     margin-top: 22px;
   }
-  #survey .number-box-14{
-    margin-top: 4px;
-  }
   #survey .row:nth-of-type(2) .col-lg-12{
     margin-top: 264px;
-  }
-  #survey .chart_info_list li:nth-of-type(4) p{
-    padding-top: 4px;
   }
   #survey .col-lg-6 h4{
     width: 100%;
@@ -1573,7 +1594,6 @@ margin-right: 24px;
     margin-bottom: 30px;
   }
   #next{
-    background-image: url(../../images/micshow-next1024.jpg);
     padding-bottom: 56px !important;
   }
   #next .img{
@@ -1621,7 +1641,7 @@ margin-right: 24px;
     padding-right: 48px !important;
   }
   #introduction .row>.col-lg-3:nth-of-type(1){
-    margin-bottom: 48px;
+    margin-bottom: 72px;
   }
   #introduction .row>.col-lg-3:nth-of-type(2){
     margin-bottom: 48px;
@@ -1651,7 +1671,6 @@ margin-right: 24px;
     top: 44%;
   }
   #challenge{
-    background-image:url(../../images/micshow-challenge768.png) ;
     background-position: left center;
   }
   #challenge h3{
@@ -1740,22 +1759,19 @@ margin-right: 24px;
   }
   #survey{
     background-image: url(../../images/micshow-survey768.png);
-    background-position: right bottom;
     padding-bottom: 112px !important;
   }
   #survey .content>.content{
     top: 0;
+    z-index: -1;
   }
   #survey .content>.content h4{
-    margin-top: 128px;
+    margin-top: 184px;
   }
   #survey .content h4,#usability .content h4{
     text-align: center;
     margin-bottom: 16px;
-    margin-top: 128px;
-  }
-  #survey .content h4{
-    line-height: 4;
+    margin-top: 160px;
   }
   #survey .content,#usability .content{
     margin-top: 0;
@@ -1782,9 +1798,6 @@ margin-right: 24px;
     margin-top: 22px;
   }
   #survey .number-box-13{
-    margin-top: 8px;
-  }
-  #survey .number-box-14{
     margin-top: 4px;
   }
   #survey .align-items-center{
@@ -1931,11 +1944,11 @@ margin-right: 24px;
     height: 280px;
   }
   #survey .col-lg-12:nth-child(2), #result .col-lg-12:nth-child(2), #portfolio .otherp{
-    margin: 16px 0 0 0 !important;
+    margin: 0 !important;
   }
   #survey .content h4 strong{
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   #solve .solvebottom768{
     display: inline-block;
@@ -2016,7 +2029,7 @@ margin-right: 24px;
     margin-bottom: 48px;
   }
   #next{
-    background-image: url(../../images/micshow-next768.jpg);
+    background-image: url(../../images/micshow-next768.png);
   }
   #next .about-video-img-l{
     margin-left: 0;
@@ -2042,6 +2055,9 @@ margin-right: 24px;
   }
   .display768yes{
     display: inline-block;
+    top: -116px;
+  }
+  #usability .display768yes{
     top: -100px;
   }
   .display768yes1{
@@ -2058,11 +2074,14 @@ margin-right: 24px;
   }
   .display768yes4{
     display: inline-block;
-    top: -100px;
+    top: -88px;
   }
   .display768yes5{
     display: inline-block;
-    top: -114px;
+    top: -86px;
+  }
+  #usability .display768yes5{
+    top: -116px;
   }
 }
 
@@ -2358,8 +2377,16 @@ margin-right: 24px;
     display: inline-block;
   }
   #survey .content h4{
-    margin-top: 112px;
-    margin-bottom: 24px;
+    margin-top: 144px;
+  }
+  #result-persona .col-lg-4 p a{
+    margin-left: 0;
+  }
+  #surveytriangle a{
+    margin: 0 4px;
+  }
+  #survey .row:nth-last-child(1) h4{
+    margin-bottom: 32px;
   }
   #survey h4, #solve h4{
     font-size: 14px;
@@ -2370,10 +2397,13 @@ margin-right: 24px;
     margin-bottom: 32px;
   }
   .display768yes{
-    top: -112px;
+    top: -180px;
+  }
+  #survey .display768yes5{
+    top: -156px;
   }
   .display768yes4{
-    top: -88px;
+    top: -104px;
   }
   #survey .number-box-11{
     margin-top: 38px;
@@ -2398,14 +2428,17 @@ margin-right: 24px;
   #survey .row:nth-of-type(2) .col-lg-6:nth-of-type(1){
     margin-bottom: 56px;
   }
-  #survey .row:nth-of-type(2) h4{
-    margin-top: 136px;
-  }
   #survey .row:nth-of-type(2) .box_wrap h4{
     margin: 20px 0;
   }
   #survey .row:nth-of-type(2) .box_wrap h4{
     font-size: 16px;
+  }
+  .triangle{
+    display: none;
+  }
+  .triangle-phone{
+    display: inline-block;
   }
   #result{
     padding: 48px 16px 72px 16px !important;
@@ -2549,7 +2582,7 @@ margin-right: 24px;
   }
   #portfolio{
     padding: 0 16px !important;
-    background-image: url(../../images/micshow-portfolio414.jpg);
+    background-image: url(../../images/micshow-portfolio414.png);
   }
   #portfolio h3{
     margin: 104px 0 72px 0 !important;
@@ -2628,7 +2661,7 @@ margin-right: 24px;
     padding: 0 0 16px 0 !important;
   }
   #usability {
-  background-image: url(../../images/micshow-usability375.png);
+  background-image: url(../../images/micshow-usability480.png);
   padding: 56px 0;
   }
   #usability .col-lg-12:nth-child(1){
@@ -2685,7 +2718,7 @@ margin-right: 24px;
   }
   #next{
     padding: 0 0 96px 0 !important;
-    background-image: url(../../images/micshow-next603.jpg);
+    background-image: url(../../images/micshow-next603.png);
   }
   #next .col-lg-12:nth-child(2){
     margin: -16px 0 48px 0;
@@ -2791,7 +2824,7 @@ margin-right: 24px;
     margin: 0 8% !important;
   }
   #portfolio{
-    background-image: url(../../images/micshow-portfolio603.jpg);
+    background-image: url(../../images/micshow-portfolio603.png);
   }
   #portfolio .col-lg-5, #next .col-lg-5{
     max-width: 85% !important;
@@ -2809,7 +2842,7 @@ margin-right: 24px;
     text-align: center;
   }
   #usability{
-    background-image: url(../../images/micshow-usability603.png);
+    background-image: url(../../images/micshow-usability533.png);
   }
   #usability .number-box-11{
     margin-top: 6px;
@@ -2935,18 +2968,18 @@ margin-right: 24px;
     padding: 48px 16px 56px 16px !important;
   }
   #survey .col-lg-12:nth-child(2){
-    margin: 16px 0 32px 0 !important;
+    margin: 0 0 32px 0 !important;
   }
   #survey ul li{
     margin-bottom: 48px;
   }
-  #survey .number-box-11, #survey .number-box-14{
+  #survey .number-box-11,#survey .number-box-13{
     margin-top: 8px;
   }
   #survey .number-box-12{
     margin-top: 22px;
   }
-  #survey .number-box-13{
+  #survey .number-box-14{
     margin-top: 12px;
   }
   #competitive1920{
@@ -2956,15 +2989,21 @@ margin-right: 24px;
     display: none;
   }
   #survey .row:nth-of-type(2) .col-lg-5{
-    margin-top: 168px !important;
+    margin-top: 176px !important;
     margin-bottom: 40px;
   }
   #survey .col-lg-6 .box_wrap{
     padding: 0 !important;
   }
+  #survey .content>.content h4{
+    margin-top: 144px;
+  }
   .display768yes{
-    top: -88px;
+    top: -106px;
   } 
+  .display768yes4{
+    top: -78px;
+  }
   #survey .row:nth-of-type(2) .display768yes{
     top: -104px;
   }
@@ -3063,6 +3102,12 @@ margin-right: 24px;
   #found .box_wrap, #outcome .box_wrap{
     padding: 0 0 8px 0 !important;
   }
+  #usability {
+    background-image: url(../../images/micshow-usability603.png);
+  }
+  #usability .row:nth-of-type(3) h4{
+    margin-top: 88px;
+  }
   #usability li:nth-of-type(2) .number-box-p{
     padding-top: 4px;
     margin-bottom: 30px;
@@ -3079,11 +3124,14 @@ margin-right: 24px;
   #usability ul li:nth-of-type(5) p{
     padding-top: 26px;
   }
+  #usability .display768yes{
+    top: -82px;
+  }
   #usability .display768yes3{
-    top: -110px;
+    top: -104px;
   }
   #usability .display768yes5{
-    top: -102px;
+    top: -98px;
   }
   #outcome{
     background-position: center;
@@ -3121,6 +3169,21 @@ margin-right: 24px;
   #process .roadmap_list{
     padding: 0 21%;
   }
+  #survey .content>.content h4{
+    margin-top: 144px;
+  }
+  #survey .row:nth-last-child(1) h4{
+    margin-bottom: 68px;
+  }
+  .display768yes{
+    top: -130px;
+  }
+  .display768yes1{
+    top: -120px;
+  }
+  .display768yes4{
+    top: -80px;
+  }
   #usability{
     background-image: url(../../images/micshow-usability375.png);
   }
@@ -3130,6 +3193,12 @@ margin-right: 24px;
   }
   #usability .col-lg-7 .col-lg-6:nth-child(2) .box_wrap{
     padding: 0 0 48px 0 !important;
+  }
+  #usability .display768yes{
+    top: -112px;
+  }
+  #usability .display768yes5{
+    top: -128px;
   }
   #survey .number-box-12{
     margin-top: 60px;
@@ -3163,7 +3232,7 @@ margin-right: 24px;
     width: 288px;
   }
   #next{
-    background-image: url(../../images/micshow-next375.jpg);
+    background-image: url(../../images/micshow-next375.png);
   }
   #next .md-pt-30{
     margin: 112px 0 104px 0;
@@ -3207,6 +3276,12 @@ margin-right: 24px;
   #process .roadmap_list{
     padding: 0 24%;
   }
+  #survey{
+    background-image: url(../../images/micshow-survey414.png);
+  }
+  #survey .content>.content h4{
+    margin-top: 120px;
+  }
   #survey .number-box-11{
     margin-top: 26px;
     margin-bottom: 26px;
@@ -3215,13 +3290,22 @@ margin-right: 24px;
     margin-top: 48px;
   }
   #survey .number-box-13{
-    margin-top: 8px;
+    margin-top: 12px;
   }
   #survey .number-box-14{
-    margin-top: 24px;
+    margin-top: 6px;
+  }
+  #survey .display768yes{
+    top: -130px;
+  }
+  #survey .display768yes4{
+    top: -80px;
+  }
+  #survey .display768yes5{
+    top: -120px;
   }
   #result{
-    background-image: url(../../images/micshow-result414.png);
+    background-image: url(../../images/micshow-result480.png);
   }
   #result-important .col-lg-3>div{
     height: 240px;
@@ -3235,8 +3319,8 @@ margin-right: 24px;
   #solve .faq_content2 .card{
     height: 256px;
   }
-  #portfolio{
-    background-image: url(../../images/micshow-portfolio414.jpg);
+  .display768yes1{
+    top: -120px;
   }
   #portfolio .pt-100:nth-of-type(1){
     margin-top: 160px !important;
@@ -3256,9 +3340,6 @@ margin-right: 24px;
   #portfolio .pt-100:nth-of-type(5){
     margin-bottom: 96px !important;
   }
-  #usability{
-    background-image: url(../../images/micshow-usability414.png);
-  }
   #usability .number-box-11{
     margin-top: 6px;
   }
@@ -3267,6 +3348,12 @@ margin-right: 24px;
   }
   #usability .col-lg-7 .col-lg-6:nth-child(2) .box_wrap{
     padding: 0 0 48px 0 !important;
+  }
+  #usability .display768yes{
+    top: -110px;
+  }
+  #usability .display768yes5{
+    top: -128px;
   }
   #next .pt-100:nth-of-type(2) h4{
     margin: 40px 0 10px 0;
@@ -3307,7 +3394,7 @@ margin-right: 24px;
     margin-top: 8px;
   }
  #survey .number-box-14{
-   margin-top: 9px;
+   margin-top: 7px;
   }
   #survey .col-lg-12:nth-child(3)>.col-lg-7 img{
     width: 94%;
@@ -3315,27 +3402,26 @@ margin-right: 24px;
  #survey .chart_info_list li:nth-of-type(4) p{
    padding-bottom: 48px;
   }
-  #survey .content:nth-of-type(1){
-    margin-top: 64px;
-  }
   #survey .row:nth-of-type(1) .display768yes{
-    top: -112px;
+    top: -104px;
   }
-  #survey .row:nth-of-type(2) .display768yes{
-    top: -84px;
+  .display768yes4{
+    top:-78px;
   }
-  #survey .row:nth-of-type(2) h4{
-    margin-top: 104px;
+  #survey .display768yes5{
+    top:-94px;
   }
   #survey .row:nth-of-type(2) .col-lg-6:nth-of-type(1){
     margin-bottom: 0;
+  }
+  #survey .content>.content h4{
+    margin-top: 148px;
   }
   #survey .row:nth-of-type(2) .box_wrap{
     padding: 0 !important;
   }
  #result{
-  background-image: url(../../images/micshow-result603.png);
-  background-position: left center;
+  background-position: left top;
   }
   #result-persona{
     margin-top: 48px !important;
@@ -3393,16 +3479,13 @@ margin-right: 24px;
   margin-top: 0;
 }
 .display768yes2{
-  top: -144px;
+  top: -136px;
 }
 .tab_s2 .tab-link{
   padding: 10px;
 }
 .faq_content2 .card{
   height: 312px;
-}
-#portfolio{
-  background-image: url(../../images/micshow-portfolio603.jpg);
 }
 #portfolio .col-lg-6{
   margin-top: 40px;
@@ -3431,11 +3514,11 @@ margin-right: 24px;
   width: 85% !important;
   margin: 0 auto !important;
 }
-#usability{
-  background-image: url(../../images/micshow-usability533.png);
-}
 #usability .display768yes{
   top: -84px;
+}
+#usability .display768yes5{
+  top: -126px;
 }
 #usability .number-box-11, #usability .number-box-13{
   margin-top: 6px;
@@ -3500,6 +3583,10 @@ margin-right: 24px;
   }
   #survey{
     padding: 40px 16px 32px 16px !important;
+    background-image: url(../../images/micshow-survey480.png);
+  }
+  #survey .col-lg-12:nth-child(2){
+    margin-bottom: 16px !important;
   }
   #survey .number-box-11{
     margin-top: 28px;
@@ -3507,8 +3594,11 @@ margin-right: 24px;
   #survey .number-box-12{
     margin-top: 40px;
   }
-  .display768yes,#survey .row:nth-of-type(2) .display768yes{
-    top: -112px;
+  #survey .row:nth-of-type(1) .display768yes{
+    top: -130px;
+  }
+  #survey .row:nth-of-type(2) .display768yes{
+    top: -118px;
   }
   #survey .row:nth-of-type(2) .col-lg-6:nth-of-type(1){
     margin-bottom: 56px;
@@ -3523,8 +3613,8 @@ margin-right: 24px;
     width: 100%;
   }
   #result{
-    background-image: url(../../images/micshow-result414.png);
     background-position: left top;
+    background-image: url(../../images/micshow-result480.png);
   }
   #result-questionnaire, #result-journey, #result-important{
     margin-top: 64px !important;
@@ -3547,6 +3637,9 @@ margin-right: 24px;
   #ia .lightbox-gallery .image{
     margin-top: 16px;
   }
+  #portfolio{
+    background-image: url(../../images/micshow-portfolio603.png);
+  }
   #portfolio .sec-title{
     margin-top: 44px;
   }
@@ -3558,14 +3651,14 @@ margin-right: 24px;
     flex: 0 0 100% !important;
     width: 100% !important;
   }
-  #usability{
-    background-image: url(../../images/micshow-usability480.png);
-  }
   #usability .row:nth-of-type(3) .col-lg-6:nth-of-type(2) .box_wrap{
     padding: 0 0 32px 0 !important;
   }
   #usability .col-lg-4:nth-of-type(1),#usability .col-lg-4:nth-of-type(3){
     top: 0;
+  }
+  #usability .display768yes{
+    top: -110px;
   }
   #next .pt-100:nth-of-type(2){
     margin-top: 168px;

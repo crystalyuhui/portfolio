@@ -498,6 +498,7 @@ section{
 #next h3::after{
   content: "12";
   padding: 90px 74px;
+  left: -4px !important;
 }
 #background p,#problem p,#goal p,#challenge p{
   padding: 0;
@@ -722,6 +723,7 @@ padding-left: 88px;
   text-align: center;
   color: #f0b9bf !important;
   margin-bottom: 64px;
+  line-height: 1.8 !important;
 }
 #result-persona{
   margin: 0 !important;
@@ -1508,6 +1510,12 @@ margin-right: 24px;
   }
 }
 @media(min-width: 1400px){
+  #home_section>.container{
+    background-position: center;
+  }
+  #result{
+    background-image: url(../../images/marry-result-1920.png);
+  }
   #portfolio>div{
     background-image: url(../../images/marry-portfolio-bottom-1440.png);
   }
@@ -1562,11 +1570,11 @@ margin-right: 24px;
   #problem .col-lg-12{
     margin: 120px 0;
   }
-  #goal h3{
-    top: 235px;
-  }
   #challenge{
     background-image: url(../../images/marry-challenge-1280.png);
+  }
+  #process{
+    background-image: url(../../images/marry-processbg-1024.png);
   }
   #survey{
     background-image:url(../../images/marry-survey-top-1280.png) ;
@@ -1616,7 +1624,7 @@ margin-right: 24px;
     display: inline-block;
   }
   #introduction{
-    background-position: right center;
+    background-image: url(../../images/marry-introduction-1024.png);
   }
   #introduction_none{
     display: none;
@@ -1696,9 +1704,6 @@ margin-right: 24px;
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after{
     left: 0px;
   }
-  #process{
-    background-image: url(../../images/marry-processbg-1024.png);
-  }
   #process h3{
     padding-left: 56px;
   }
@@ -1732,8 +1737,11 @@ margin-right: 24px;
   .plus{
     line-height: 2.8 !important;
   }
-  #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #usability h3::after, #next h3::after,#outcome h3::after{
+  #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #usability h3::after, #outcome h3::after{
     left: 32%;
+  }
+  #next h3::after{
+    left: 31.5% !important;
   }
   #survey{
     background-size: cover;
@@ -2010,11 +2018,14 @@ margin-right: 24px;
     flex:0 0 55% !important;
     padding: 0 !important;
   }
+  #introduction{
+    background-position: right center;
+  }
   #introduction .row>.col-lg-3{
     padding-right: 48px !important;
   }
   #introduction .row>.col-lg-3:nth-of-type(1){
-    margin-bottom: 48px;
+    margin-bottom: 56px;
   }
   #introduction .row>.col-lg-3:nth-of-type(2){
     margin-bottom: 48px;
@@ -2032,13 +2043,16 @@ margin-right: 24px;
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     font-size: 152px;
     padding: 72px 32px;
-    width: 114%;
+    width: 116%;
     top: -152px;
   }
   #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
-    left: 30%;
-    width: 39%;
+    left: 29%;
+    width: 40%;
     padding: 74px 32px;
+  }
+  #next h3::after{
+    left: 28.5% !important;
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after{
     left: 0;
@@ -2686,7 +2700,7 @@ margin-right: 24px;
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after, #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after,#found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     font-size: 104px;
-    left: 30%;
+    left: 29.5%;
     width: 40%;
     padding: 63px;
     top: -134px;
@@ -2918,7 +2932,7 @@ margin-right: 24px;
     width: auto !important;
   }
   #stakeholders .display768yes{
-    top: -148px;
+    top: -174px;
   }
   #stakeholders .lightbox img{
     width: 68% !important; 
@@ -3171,7 +3185,7 @@ margin-right: 24px;
     margin-top: 80px;
   }
   #solve .col-lg-12:nth-child(2){
-    margin: 0 0 216px 0;
+    margin: 0 0 200px 0;
   }
   #solve .content>.col-lg-7 .col-lg-4{
     width: 100%;
@@ -3238,7 +3252,7 @@ margin-right: 24px;
     padding-bottom: 88px;
   }
   #portfolio{
-    background-size: 127%;
+    background-size: 129.5%;
   }
   #portfolio>div{
     padding: 0 16px;
@@ -3676,15 +3690,19 @@ margin-right: 24px;
     background-image: url(../../images/marry-introduction-414.png);
   }
   #background h3::after, #problem h3::after, #goal h3::after, #challenge h3::after, #process h3::after{
-    left: 21%;
+    left: 20.5%;
     width: 58%;
   }
   #survey h3::after, #result h3::after, #solve h3::after, #ia h3::after, #portfolio h3::after, #found h3::after, #usability h3::after, #next h3::after, #outcome h3::after{
     left: 19%;
     width: 63%;
   }
+  #next h3::after{
+    left: 18% !important;
+  }
   #problem{
     background-image: url(../../images/marry-problem-414.png);
+    background-position: center;
   }
   #goal .col-lg-12{
     margin: 120px 0 264px 0;
@@ -3722,7 +3740,7 @@ margin-right: 24px;
     margin-left: 0;
   }
   #survey{
-    background-image: url(../../images/marry-survey-top-414.png);
+    background-image: url(../../images/marry-survey-top-320.png);
   }
   #survey>div{
     background-image: url(../../images/marry-survey-bottom-414.png);
@@ -3738,11 +3756,14 @@ margin-right: 24px;
   #survey .lightboxp{
     margin-left: 0px;
   }
-  #survey .display768yes1,#survey .row:nth-of-type(1) .display768yes{
+ #survey .row:nth-of-type(1) .display768yes{
     top: -172px;
   }
+  #survey .display768yes1{
+    top: -150px;
+  }
   #survey .row:nth-of-type(3) .display768yes{
-    top: -178px;
+    top: -200px;
   }
   #survey .row:nth-of-type(2) .content h4{
     margin-bottom: 48px;
@@ -3916,7 +3937,10 @@ margin-right: 24px;
   }
   #outcome>div{
     padding-bottom: 96px;
-    background-color: rgba(217,217,241, 0.82);
+    background-color: rgba(217,217,241, 0.85);
+  }
+  #outcome .col-lg-12:nth-child(2){
+    margin-bottom: 112px;
   }
   #outcome .col-lg-4:nth-of-type(2){
     margin: 0;
@@ -3938,14 +3962,14 @@ margin-right: 24px;
     left: 15%;
     width: 70%;
   }
-  #challenge{
-    background-image: url(../../images/marry-challenge-320.png);
+  #next h3::after{
+    left: 14.5% !important;
+  }
+  #introduction{
+    background-image: url(../../images/marry-introduction-375.png);
   }
   #process h3{
     padding-left: 6px !important;
-  }
-  #survey{
-    background-image: url(../../images/marry-survey-top-320.png);
   }
   #survey>div{
     background-image: url(../../images/marry-survey-bottom-320.png);
@@ -3962,8 +3986,11 @@ margin-right: 24px;
   #survey .row:nth-of-type(1) .display768yes{
     top: -170px;
   }
-  #survey .display768yes1,#survey .row:nth-of-type(3) .display768yes{
+  #survey .display768yes1{
     top: -172px;
+  }
+  #survey .row:nth-of-type(3) .display768yes{
+    top: -198px;
   }
   #stakeholders .lightbox img{
     width: 100% !important;
@@ -3989,6 +4016,9 @@ margin-right: 24px;
   }
   #result-important .col-sm-12:nth-of-type(2), #result-important .col-sm-12:nth-of-type(3){
     margin-bottom: 68px !important;
+  }
+  #solve{
+    background-image: url(../../images/marry-solve-375.png);
   }
   #solve h3{
     padding-left: 0 !important;
@@ -4075,11 +4105,17 @@ margin-right: 24px;
     width: 48%;
     left: 26.5%;
   }
+  #next h3::after{
+    left: 25.5% !important;
+  }
   #introduction{
     background-image:url(../../images/marry-introduction-533.png);
   }
   #challenge{
     background-image: url(../../images/marry-challenge-533.png);
+  }
+  #problem{
+    background-image: url(../../images/marry-problem-533.png);
   }
   #goal .col-lg-4:nth-of-type(1){
     top: -20px;
@@ -4095,7 +4131,7 @@ margin-right: 24px;
     margin-left: 8%;
   }
   #survey{
-    background-image: url(../../images/marry-survey-533.png);
+    background-image: url(../../images/marry-survey-top-533.png);
   }
   #survey>div{
     background-image: url(../../images/marry-survey-bottom-533.png);
@@ -4119,7 +4155,7 @@ margin-right: 24px;
    margin-top: 9px;
   }
   #survey .row:nth-of-type(1) .display768yes{
-    top: -170px;
+    top: -146px;
   }
   #survey .row:nth-of-type(2) .display768yes{
     top: -112px;
@@ -4278,9 +4314,6 @@ margin-right: 24px;
   width: 85% !important;
   margin: 0 auto !important;
 }
-#usability{
-  background-image: url(../../images/marry-usability-533.png);
-}
 #usability .col-lg-4, #outcome .col-lg-4{
   max-width: 29% !important;
   flex: 0 0 29% !important;
@@ -4360,11 +4393,17 @@ margin-right: 24px;
     left: 24%;
     width: 54%;
   }
+  #next h3::after{
+    left: 23% !important;
+  }
   .banner_text{
     bottom: 4px;
   }
   #home_section h4{
     margin: 16px 0 !important;
+  }
+  #introduction{
+    background-image:url(../../images/marry-introduction-480.png);
   }
   #goal .container{
     padding-bottom: 96px;
@@ -4445,6 +4484,9 @@ margin-right: 24px;
   #stakeholders .display768yes{
     top: -172px;
   }
+  #survey .row:nth-of-type(1) .display768yes{
+    top: -170px;
+  }
   #result{
     background-image: url(../../images/marry-result-480.png);
   }
@@ -4495,7 +4537,7 @@ margin-right: 24px;
     padding-top: 188%;
   }
   #usability{
-    background-image: url(../../images/marry-usability-480.png);
+    background-image: url(../../images/marry-usability-414.png);
   }
   #usability .display768yes{
     top: -98px;
@@ -4537,7 +4579,7 @@ margin-right: 24px;
     padding-left: 0 !important;
   }
   #next{
-    background-image: url(../../images/marry-next-414.png);
+    background-image: url(../../images/marry-next-480.png);
   }
   #next .mart200 h4>strong:nth-of-type(2){
     position: absolute;
